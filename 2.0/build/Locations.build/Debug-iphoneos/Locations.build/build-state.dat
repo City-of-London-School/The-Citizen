@@ -1,1668 +1,0 @@
-TLocations
-v7
-r0
-t321304509.140449
-cCheck dependencies
-cCpResource build/Debug-iphoneos/Locations.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Info.plist Locations-Info.plist
-cCompileXIB /Users/hazz/Documents/Programming/Cocoa/Locations/MainWindow.xib
-cCompileXIB /Users/hazz/Documents/Programming/Cocoa/Locations/RootViewController.xib
-cCompileXIB /Users/hazz/Documents/Programming/Cocoa/Locations/MyTableViewCell.xib
-cCopyPNGFile /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/download_button.png download_button.png
-cCompileXIB /Users/hazz/Documents/Programming/Cocoa/Locations/ProgressCell.xib
-cProcessPCH /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bnspmophnrrefvcnlfnswlbzuxup/Locations_Prefix.pch.pth Locations_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-btudfdfznzhmhddezvyungtopnze/Locations_Prefix.pch.pth Locations_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cDataModelVersionCompile /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Locations.momd /Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/main.o /Users/hazz/Documents/Programming/Cocoa/Locations/main.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/LocationsAppDelegate.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/LocationsAppDelegate.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/RootViewController.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/DownloadPDF.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/DownloadPDF.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/MyNSURLConnectionDelegate.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyNSURLConnectionDelegate.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Event.o /Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld/Event.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/MyTableViewCell.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyTableViewCell.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/FileManager.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/ContentViewController.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ContentViewController.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/HMTiledView.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMTiledView.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/HMViewDelegate.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMViewDelegate.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/ProgressCell.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ProgressCell.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Locations normal armv6
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/main.o /Users/hazz/Documents/Programming/Cocoa/Locations/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/LocationsAppDelegate.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/LocationsAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/RootViewController.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/DownloadPDF.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/DownloadPDF.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/MyNSURLConnectionDelegate.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyNSURLConnectionDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Event.o /Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld/Event.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/MyTableViewCell.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyTableViewCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/FileManager.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/ContentViewController.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ContentViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/HMTiledView.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMTiledView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/HMViewDelegate.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/ProgressCell.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ProgressCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Locations normal armv7
-cCreateUniversalBinary /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Locations normal "armv6 armv7"
-cGenerateDSYMFile /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app.dSYM /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Locations
-cProcessProductPackaging "/Users/hazz/Library/MobileDevice/Provisioning Profiles/81B8112A-B1D8-46FC-B0BE-AE2B3BB4E16A.mobileprovision" /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/embedded.mobileprovision
-cTouch /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations.xcent
-cCodeSign /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
-c000000004C1BB8220000000000000110
-t1276885026
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
-c000000004C06E99F00000000000001A7
-t1275521439
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-c000000004C06E99F00000000000001E5
-t1275521439
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-c000000004C005A8900000000002B9960
-t1275091593
-s2857312
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
-c000000004C005A75000000000000046B
-t1275091573
-s1131
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C005A1C00000000003B4B70
-t1275091484
-s3885936
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
-c000000004C005A1C00000000000004FE
-t1275091484
-s1278
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004C00634300000000000A9960
-t1275093827
-s694624
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C005A45000000000036A640
-t1275091525
-s3581504
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C005A310000000000001355
-t1275091505
-s4949
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C005C74000000000000007D
-t1275092084
-s125
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C005D9100000000002215A0
-t1275092369
-s2233760
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C00642C000000000000098F
-t1275094060
-s2447
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0064A60000000002703220
-t1275094182
-s40907296
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/Availability.h
-c000000004B9F27C60000000000001A1A
-t1268721606
-s6682
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
-c000000004CC7DC9E0000000000000110
-t1288166558
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-c000000004CB3DFCF00000000000001A7
-t1286856655
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-c000000004CB3DFCF00000000000001E5
-t1286856655
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-c000000004CC10FA70000000000300DE0
-t1287720871
-s3149280
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
-c000000004CC10F8D000000000000046B
-t1287720845
-s1131
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC10EF500000000003532B0
-t1287720693
-s3486384
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
-c000000004CC10DCA00000000000004FE
-t1287720394
-s1278
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004CC11B5300000000000D96F0
-t1287723859
-s890608
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC10F4700000000003E1F20
-t1287720775
-s4071200
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC10F1C0000000000001466
-t1287720732
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004CC1111C00000000000000C4
-t1287721244
-s196
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004CC1127D0000000000267530
-t1287721597
-s2520368
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC11AE60000000000000AA1
-t1287723750
-s2721
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC11B750000000000C769F0
-t1287723893
-s13068784
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
-c000000004CB3FBB80000000000001ADD
-t1286863800
-s6877
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.h
-c000000004D74046E00000000000001D6
-t1299448942
-s470
-i<UIKit/UIKit.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m
-c000000004D767DD600000000000007EA
-t1299611094
-s2026
-i"ContentViewController.h"
-i"HMTiledView.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.h
-c000000004D767F3A00000000000002B2
-t1299611450
-s690
-i<Foundation/Foundation.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m
-c000000004D767F620000000000000E63
-t1299611490
-s3683
-i"DownloadPDF.h"
-i"MyNSURLConnectionDelegate.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.h
-c000000004D73F992000000000000055A
-t1299446162
-s1370
-i<UIKit/UIKit.h>
-i"DownloadPDF.h"
-i"Event.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m
-c000000004D767F6B0000000000001B07
-t1299611499
-s6919
-i"FileManager.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.h
-c000000004D7008F80000000000000172
-t1299187960
-s370
-i<UIKit/UIKit.h>
-i"HMViewDelegate.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m
-c000000004D72668D000000000000062D
-t1299342989
-s1581
-i"HMTiledView.h"
-i<QuartzCore/QuartzCore.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.h
-c000000004D4D6E9200000000000001A5
-t1296920210
-s421
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<CoreGraphics/CoreGraphics.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m
-c000000004D7267A00000000000000298
-t1299343264
-s664
-i"HMViewDelegate.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.h
-c000000004D2E2C5E00000000000003E3
-t1294871646
-s995
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m
-c000000004D32083D0000000000002061
-t1295124541
-s8289
-i"LocationsAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.h
-c000000004D73AC0800000000000006F5
-t1299426312
-s1781
-i<Foundation/Foundation.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m
-c000000004D73AC100000000000000E40
-t1299426320
-s3648
-i"MyNSURLConnectionDelegate.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.h
-c000000004D7259400000000000000255
-t1299339584
-s597
-i<UIKit/UIKit.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m
-c000000004D72597A0000000000000349
-t1299339642
-s841
-i"MyTableViewCell.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.h
-c000000004D767D6F0000000000000220
-t1299610991
-s544
-i<UIKit/UIKit.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m
-c000000004D73FE19000000000000031C
-t1299447321
-s796
-i"ProgressCell.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.h
-c000000004D73F99A00000000000004FD
-t1299446170
-s1277
-i<UIKit/UIKit.h>
-i"DownloadPDF.h"
-i"Event.h"
-i"FileManager.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m
-c000000004D7680330000000000001EF5
-t1299611699
-s7925
-i"RootViewController.h"
-i"MyTableViewCell.h"
-i"ContentViewController.h"
-i"ProgressCell.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld
-c000000004D2EF93600000000000000CC
-t1294924086
-s204
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.h
-c000000004D2EF936000000000000014D
-t1294924086
-s333
-i<CoreData/CoreData.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m
-c000000004D2EF93600000000000000EC
-t1294924086
-s236
-i"Event.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch
-c000000004D2E2C5F0000000000000167
-t1294871647
-s359
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/MainWindow.xib
-c000000004D2E2C5F0000000000005FFC
-t1294871647
-s24572
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/MyTableViewCell.xib
-c000000004D72596000000000000055FF
-t1299339616
-s22015
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/ProgressCell.xib
-c000000004D7367AC00000000000051AB
-t1299408812
-s20907
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/RootViewController.xib
-c000000004D2E2C5F0000000000004454
-t1294871647
-s17492
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app
-t1299611703
-s510
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app.dSYM
-t1299611703
-s102
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Info.plist
-t1299566465
-s830
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Locations
-t1299611703
-s175408
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Locations.momd
-t1299342719
-s136
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/MainWindow.nib
-t1299566467
-s2458
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/MyTableViewCell.nib
-t1299566468
-s4447
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/PkgInfo
-t1299566465
-s8
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/ProgressCell.nib
-t1299566468
-s3276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/ResourceRules.plist
-t1299566465
-s485
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/RootViewController.nib
-t1299566467
-s1518
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/download_button.png
-t1299342718
-s8592
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/embedded.mobileprovision
-t1299566474
-s7238
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/ContentViewController.o
-t1299611318
-s39768
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/DownloadPDF.o
-t1299611601
-s48688
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Event.o
-t1299566471
-s1544
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/FileManager.o
-t1299611601
-s35984
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/HMTiledView.o
-t1299566471
-s40152
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/HMViewDelegate.o
-t1299566471
-s6896
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Locations
-t1299611703
-s75448
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Locations.LinkFileList
-c000000004D73665A000000000000069B
-t1299408474
-s1691
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/LocationsAppDelegate.o
-t1299611601
-s59564
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/MyNSURLConnectionDelegate.o
-t1299566471
-s20968
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/MyTableViewCell.o
-t1299566471
-s37904
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/ProgressCell.o
-t1299611014
-s37208
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/RootViewController.o
-t1299611703
-s62432
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/main.o
-t1299566470
-s3032
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/ContentViewController.o
-t1299611318
-s39924
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/DownloadPDF.o
-t1299611602
-s48960
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Event.o
-t1299566472
-s1544
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/FileManager.o
-t1299611602
-s37272
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/HMTiledView.o
-t1299566473
-s39936
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/HMViewDelegate.o
-t1299566473
-s7028
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Locations
-t1299611703
-s83160
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Locations.LinkFileList
-c000000004D73665A000000000000069B
-t1299408474
-s1691
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/LocationsAppDelegate.o
-t1299611602
-s59836
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/MyNSURLConnectionDelegate.o
-t1299566472
-s21624
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/MyTableViewCell.o
-t1299566472
-s38264
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/ProgressCell.o
-t1299611014
-s37544
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/RootViewController.o
-t1299611703
-s62896
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/main.o
-t1299566471
-s3084
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/download_button.png
-c000000004C8FDC8000000000000020A9
-t1284496512
-s8361
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m
-c000000004D2E2C5F0000000000000173
-t1294871647
-s371
-i<UIKit/UIKit.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ContentViewController.h
-c000000004D74046E00000000000001D6
-t1299448942
-s470
-i<UIKit/UIKit.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ContentViewController.m
-c000000004D767DD600000000000007EA
-t1299611094
-s2026
-i"ContentViewController.h"
-i"HMTiledView.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/DownloadPDF.h
-c000000004D767F3A00000000000002B2
-t1299611450
-s690
-i<Foundation/Foundation.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/DownloadPDF.m
-c000000004D767F620000000000000E63
-t1299611490
-s3683
-i"DownloadPDF.h"
-i"MyNSURLConnectionDelegate.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.h
-c000000004D73F992000000000000055A
-t1299446162
-s1370
-i<UIKit/UIKit.h>
-i"DownloadPDF.h"
-i"Event.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m
-c000000004D767F6B0000000000001B07
-t1299611499
-s6919
-i"FileManager.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMTiledView.h
-c000000004D7008F80000000000000172
-t1299187960
-s370
-i<UIKit/UIKit.h>
-i"HMViewDelegate.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMTiledView.m
-c000000004D72668D000000000000062D
-t1299342989
-s1581
-i"HMTiledView.h"
-i<QuartzCore/QuartzCore.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMViewDelegate.h
-c000000004D4D6E9200000000000001A5
-t1296920210
-s421
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<CoreGraphics/CoreGraphics.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMViewDelegate.m
-c000000004D7267A00000000000000298
-t1299343264
-s664
-i"HMViewDelegate.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/LocationsAppDelegate.h
-c000000004D2E2C5E00000000000003E3
-t1294871646
-s995
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/LocationsAppDelegate.m
-c000000004D32083D0000000000002061
-t1295124541
-s8289
-i"LocationsAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyNSURLConnectionDelegate.h
-c000000004D73AC0800000000000006F5
-t1299426312
-s1781
-i<Foundation/Foundation.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyNSURLConnectionDelegate.m
-c000000004D73AC100000000000000E40
-t1299426320
-s3648
-i"MyNSURLConnectionDelegate.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyTableViewCell.h
-c000000004D7259400000000000000255
-t1299339584
-s597
-i<UIKit/UIKit.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyTableViewCell.m
-c000000004D72597A0000000000000349
-t1299339642
-s841
-i"MyTableViewCell.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ProgressCell.h
-c000000004D767D6F0000000000000220
-t1299610991
-s544
-i<UIKit/UIKit.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ProgressCell.m
-c000000004D73FE19000000000000031C
-t1299447321
-s796
-i"ProgressCell.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.h
-c000000004D73F99A00000000000004FD
-t1299446170
-s1277
-i<UIKit/UIKit.h>
-i"DownloadPDF.h"
-i"Event.h"
-i"FileManager.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m
-c000000004D7680330000000000001EF5
-t1299611699
-s7925
-i"RootViewController.h"
-i"MyTableViewCell.h"
-i"ContentViewController.h"
-i"ProgressCell.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld
-c000000004D2EF93600000000000000CC
-t1294924086
-s204
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld/Event.h
-c000000004D2EF936000000000000014D
-t1294924086
-s333
-i<CoreData/CoreData.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld/Event.m
-c000000004D2EF93600000000000000EC
-t1294924086
-s236
-i"Event.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch
-c000000004D2E2C5F0000000000000167
-t1294871647
-s359
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/MainWindow.xib
-c000000004D2E2C5F0000000000005FFC
-t1294871647
-s24572
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/MyTableViewCell.xib
-c000000004D72596000000000000055FF
-t1299339616
-s22015
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/ProgressCell.xib
-c000000004D7367AC00000000000051AB
-t1299408812
-s20907
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/RootViewController.xib
-c000000004D2E2C5F0000000000004454
-t1294871647
-s17492
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app
-t1299611703
-s510
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app.dSYM
-t1299611703
-s102
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Info.plist
-t1299566465
-s830
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Locations
-t1299611703
-s175408
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Locations.momd
-t1299342719
-s136
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/MainWindow.nib
-t1299566467
-s2458
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/MyTableViewCell.nib
-t1299566468
-s4447
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/PkgInfo
-t1299566465
-s8
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/ProgressCell.nib
-t1299566468
-s3276
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/ResourceRules.plist
-t1299566465
-s485
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/RootViewController.nib
-t1299566467
-s1518
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/download_button.png
-t1299342718
-s8592
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/embedded.mobileprovision
-t1299566474
-s7238
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations.xcent
-t1299566474
-s424
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/ContentViewController.o
-t1299611318
-s39768
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/DownloadPDF.o
-t1299611601
-s48688
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Event.o
-t1299566471
-s1544
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/FileManager.o
-t1299611601
-s35984
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/HMTiledView.o
-t1299566471
-s40152
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/HMViewDelegate.o
-t1299566471
-s6896
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Locations
-t1299611703
-s75448
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Locations.LinkFileList
-c000000004D73665A000000000000069B
-t1299408474
-s1691
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/LocationsAppDelegate.o
-t1299611601
-s59564
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/MyNSURLConnectionDelegate.o
-t1299566471
-s20968
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/MyTableViewCell.o
-t1299566471
-s37904
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/ProgressCell.o
-t1299611014
-s37208
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/RootViewController.o
-t1299611703
-s62432
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/main.o
-t1299566470
-s3032
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/ContentViewController.o
-t1299611318
-s39924
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/DownloadPDF.o
-t1299611602
-s48960
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Event.o
-t1299566472
-s1544
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/FileManager.o
-t1299611602
-s37272
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/HMTiledView.o
-t1299566473
-s39936
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/HMViewDelegate.o
-t1299566473
-s7028
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Locations
-t1299611703
-s83160
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Locations.LinkFileList
-c000000004D73665A000000000000069B
-t1299408474
-s1691
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/LocationsAppDelegate.o
-t1299611602
-s59836
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/MyNSURLConnectionDelegate.o
-t1299566472
-s21624
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/MyTableViewCell.o
-t1299566472
-s38264
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/ProgressCell.o
-t1299611014
-s37544
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/RootViewController.o
-t1299611703
-s62896
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/main.o
-t1299566471
-s3084
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/download_button.png
-c000000004C8FDC8000000000000020A9
-t1284496512
-s8361
-
-N/Users/hazz/Documents/Programming/Cocoa/Locations/main.m
-c000000004D2E2C5F0000000000000173
-t1294871647
-s371
-i<UIKit/UIKit.h>
-
-N/Users/hazz/Library/MobileDevice/Provisioning Profiles/81A442E1-79F2-49AD-A71C-4D29083DAA41.mobileprovision
-c000000004D2DE5260000000000001BF8
-t1294853414
-s7160
-
-N/Users/hazz/Library/MobileDevice/Provisioning Profiles/81B8112A-B1D8-46FC-B0BE-AE2B3BB4E16A.mobileprovision
-c000000004D7513000000000000001C46
-t1299518208
-s7238
-
-N/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bnspmophnrrefvcnlfnswlbzuxup/Locations_Prefix.pch.pth
-t1299566470
-s2943764
-
-N/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bqgmarcwtwmttadklgnpxtbnjfjd/Locations_Prefix.pch.pth
-t1299342719
-s2243148
-
-N/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-btudfdfznzhmhddezvyungtopnze/Locations_Prefix.pch.pth
-t1299566470
-s2943936
-
-N/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-esbhrdshzldobeedecfmxkchmrtj/Locations_Prefix.pch.pth
-t1299342719
-s2243312
-
-N/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch.pth
-t2
-s0
-
-N/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch.pth
-t2
-s0
-
-NLocations-Info.plist
-c000000004D2E2C5F000000000000038D
-t1294871647
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies321304509#321304509#0(0"0(0#1#0"8633698656#0"0#
-
-CCodeSign "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app"
-r0
-
-CCodeSign /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app
-s321304503.502955
-e321304503.813247
-r1
-xCodeSign
-x/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app
-lSLF07#2@43"CodeSign build/Debug-iphoneos/Locations.app321304503#321304503#0(0"0(0#0#84"/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app8633181760#703"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Harry Maclean (DY4D7A6K73)" --resource-rules=/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/ResourceRules.plist --entitlements /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations.xcent /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/ContentViewController.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/ContentViewController.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ContentViewController.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321304118.356941
-e321304118.596913
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/ContentViewController.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ContentViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@89"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ContentViewController.m321304118#321304118#0(0"0(0#0#81"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ContentViewController.m8624244640#1978"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv6 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bnspmophnrrefvcnlfnswlbzuxup/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ContentViewController.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/ContentViewController.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/DownloadPDF.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/DownloadPDF.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/DownloadPDF.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321304401.650909
-e321304401.824436
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/DownloadPDF.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/DownloadPDF.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@79"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/DownloadPDF.m321304401#321304401#0(0"0(0#0#71"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/DownloadPDF.m8632709984#1958"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv6 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bnspmophnrrefvcnlfnswlbzuxup/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/DownloadPDF.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/DownloadPDF.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Event.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Event.o /Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld/Event.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321259271.253555
-e321259271.341640
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Event.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld/Event.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@88"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld/Event.m321259271#321259271#0(0"0(0#0#80"/Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld/Event.m8609469184#1961"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv6 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bnspmophnrrefvcnlfnswlbzuxup/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld/Event.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Event.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/FileManager.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/FileManager.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321304401.714282
-e321304401.893614
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/FileManager.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m:234:9:{234:9-234:12}: warning: incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'
-o         return nil;
-o                ^~~
-oIn file included from /Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch:13:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:96:
-o/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h:90:17: note: instantiated from:
-o     #define nil NULL
-o                 ^
-oIn file included from /Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch:13:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:22:
-o/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h:45:14: note: instantiated from:
-o #define NULL ((void*)0)
-o              ^~~~~~~~~~
-o1 warning generated.
-lSLF07#2@79"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m321304401#321304401#0(1626"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m:234:9:{234:9-234:12}: warning: incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'         return nil;                ^~~In file included from /Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch:13:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:96:/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h:90:17: note: instantiated from:     #define nil NULL                 ^In file included from /Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch:13:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:22:/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h:45:14: note: instantiated from: #define NULL ((void*)0)              ^~~~~~~~~~1 warning generated.1(22@100"Incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'321304401#0#204#2(13@111"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h321304401#841#125#5(7@163"In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:96:321304401#677#164#0(6@137"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h309413104#96#0#96#0#0"0(7@171"In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:321304401#505#172#0(6@145"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h309413104#38#0#38#0#0"0(7@162"In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:321304401#342#163#0(6@137"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h309413532#6#0#6#0#0"0(7@96"In file included from /Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch:13:321304401#245#97#0(6@70"/Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch316564447#13#0#13#0#0"0(13@207"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h in /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h321304401#18446744073709551615#0#0(6@92"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h308556600#90#17#0#0#0"0(6@92"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h308556600#90#17#0#0#18"instantiated from:0(13@102"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h321304401#1439#116#0(6@83"/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h308206487#45#14#0#0#18"instantiated from:0(6@71"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m321304299#234#9#0#0#44"incompatible pointer to integer conversion *1(6@71"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m321304299#234#9#234#12#0#0#71"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m8621555424#1958"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv6 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bnspmophnrrefvcnlfnswlbzuxup/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/FileManager.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/HMTiledView.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/HMTiledView.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMTiledView.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321259271.541083
-e321259271.763822
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/HMTiledView.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMTiledView.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@79"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMTiledView.m321259271#321259271#0(0"0(0#0#71"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMTiledView.m8608162464#1958"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv6 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bnspmophnrrefvcnlfnswlbzuxup/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMTiledView.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/HMTiledView.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/HMViewDelegate.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/HMViewDelegate.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMViewDelegate.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321259271.569528
-e321259271.647938
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/HMViewDelegate.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMViewDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@82"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMViewDelegate.m321259271#321259271#0(0"0(0#0#74"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMViewDelegate.m8603340480#1964"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv6 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bnspmophnrrefvcnlfnswlbzuxup/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMViewDelegate.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/HMViewDelegate.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/LocationsAppDelegate.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/LocationsAppDelegate.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/LocationsAppDelegate.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321304401.450573
-e321304401.713880
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/LocationsAppDelegate.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/LocationsAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@88"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/LocationsAppDelegate.m321304401#321304401#0(0"0(0#0#80"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/LocationsAppDelegate.m8630909600#1976"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv6 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bnspmophnrrefvcnlfnswlbzuxup/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/LocationsAppDelegate.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/LocationsAppDelegate.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/MyNSURLConnectionDelegate.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/MyNSURLConnectionDelegate.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyNSURLConnectionDelegate.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321259271.119536
-e321259271.253223
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/MyNSURLConnectionDelegate.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyNSURLConnectionDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@93"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyNSURLConnectionDelegate.m321259271#321259271#0(0"0(0#0#85"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyNSURLConnectionDelegate.m8611364512#1986"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv6 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bnspmophnrrefvcnlfnswlbzuxup/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyNSURLConnectionDelegate.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/MyNSURLConnectionDelegate.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/MyTableViewCell.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/MyTableViewCell.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyTableViewCell.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321259271.258646
-e321259271.431702
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/MyTableViewCell.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyTableViewCell.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@83"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyTableViewCell.m321259271#321259271#0(0"0(0#0#75"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyTableViewCell.m8608501664#1966"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv6 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bnspmophnrrefvcnlfnswlbzuxup/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyTableViewCell.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/MyTableViewCell.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/ProgressCell.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/ProgressCell.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ProgressCell.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321303814.441514
-e321303814.595543
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/ProgressCell.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ProgressCell.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@80"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ProgressCell.m321303814#321303814#0(0"0(0#0#72"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ProgressCell.m8619946048#1960"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv6 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bnspmophnrrefvcnlfnswlbzuxup/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ProgressCell.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/ProgressCell.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/RootViewController.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/RootViewController.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321304503.055839
-e321304503.359808
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/RootViewController.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m:169:6: warning: 'UITableViewCell' may not respond to 'progressView'
-o                         [[[tableView cellForRowAtIndexPath:indexPath] progressView] setProgress:0];
-o                           ^
-o/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m:170:6: warning: 'UITableViewCell' may not respond to 'progressView'
-o                         [[[tableView cellForRowAtIndexPath:indexPath] progressView] setAlpha:1];
-o                           ^
-o2 warnings generated.
-lSLF07#2@86"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m321304503#321304503#0(573"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m:169:6: warning: 'UITableViewCell' may not respond to 'progressView'                         [[[tableView cellForRowAtIndexPath:indexPath] progressView] setProgress:0];                           ^/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m:170:6: warning: 'UITableViewCell' may not respond to 'progressView'                         [[[tableView cellForRowAtIndexPath:indexPath] progressView] setAlpha:1];                           ^2 warnings generated.2(22@51"'UITableViewCell' may not respond to 'progressView'321304503#0#147#0(6@78"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m321304499#169#6#0#0#22"* may not respond to *0(22@51"'UITableViewCell' may not respond to 'progressView'321304503#277#147#0(6@78"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m321304499#170#6#0#0#22"* may not respond to *0(0#0#78"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m8631180352#1972"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv6 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bnspmophnrrefvcnlfnswlbzuxup/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/RootViewController.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/main.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/main.o /Users/hazz/Documents/Programming/Cocoa/Locations/main.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321259270.266597
-e321259270.903587
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/main.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@64"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/main.m321259270#321259270#0(0"0(0#0#56"/Users/hazz/Documents/Programming/Cocoa/Locations/main.m8610602912#1936"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv6 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bnspmophnrrefvcnlfnswlbzuxup/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/main.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/ContentViewController.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/ContentViewController.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ContentViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321304118.691666
-e321304118.821730
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/ContentViewController.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ContentViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@89"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ContentViewController.m321304118#321304118#0(0"0(0#0#81"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ContentViewController.m8623194176#1978"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv7 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-btudfdfznzhmhddezvyungtopnze/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ContentViewController.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/ContentViewController.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/DownloadPDF.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/DownloadPDF.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/DownloadPDF.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321304402.007569
-e321304402.144479
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/DownloadPDF.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/DownloadPDF.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@79"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/DownloadPDF.m321304402#321304402#0(0"0(0#0#71"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/DownloadPDF.m8632836000#1958"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv7 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-btudfdfznzhmhddezvyungtopnze/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/DownloadPDF.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/DownloadPDF.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Event.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Event.o /Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld/Event.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321259272.720636
-e321259272.778935
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Event.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld/Event.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@88"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld/Event.m321259272#321259272#0(0"0(0#0#80"/Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld/Event.m8608471104#1961"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv7 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-btudfdfznzhmhddezvyungtopnze/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld/Event.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Event.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/FileManager.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/FileManager.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321304402.144894
-e321304402.281772
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/FileManager.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m:234:9:{234:9-234:12}: warning: incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'
-o         return nil;
-o                ^~~
-oIn file included from /Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch:13:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:96:
-o/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h:90:17: note: instantiated from:
-o     #define nil NULL
-o                 ^
-oIn file included from /Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch:13:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:22:
-o/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h:45:14: note: instantiated from:
-o #define NULL ((void*)0)
-o              ^~~~~~~~~~
-o1 warning generated.
-lSLF07#2@79"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m321304402#321304402#0(1626"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m:234:9:{234:9-234:12}: warning: incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'         return nil;                ^~~In file included from /Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch:13:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:96:/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h:90:17: note: instantiated from:     #define nil NULL                 ^In file included from /Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch:13:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:22:/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h:45:14: note: instantiated from: #define NULL ((void*)0)              ^~~~~~~~~~1 warning generated.1(22@100"Incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'321304402#0#204#2(13@111"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h321304402#841#125#5(7@163"In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:96:321304402#677#164#0(6@137"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h309413104#96#0#96#0#0"0(7@171"In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:321304402#505#172#0(6@145"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h309413104#38#0#38#0#0"0(7@162"In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:321304402#342#163#0(6@137"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h309413532#6#0#6#0#0"0(7@96"In file included from /Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch:13:321304402#245#97#0(6@70"/Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch316564447#13#0#13#0#0"0(13@207"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h in /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h321304402#18446744073709551615#0#0(6@92"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h308556600#90#17#0#0#0"0(6@92"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h308556600#90#17#0#0#18"instantiated from:0(13@102"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h321304402#1439#116#0(6@83"/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h308206487#45#14#0#0#18"instantiated from:0(6@71"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m321304299#234#9#0#0#44"incompatible pointer to integer conversion *1(6@71"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m321304299#234#9#234#12#0#0#71"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m8629668000#1958"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv7 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-btudfdfznzhmhddezvyungtopnze/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/FileManager.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/FileManager.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/HMTiledView.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/HMTiledView.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMTiledView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321259273.023706
-e321259273.220740
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/HMTiledView.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMTiledView.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@79"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMTiledView.m321259273#321259273#0(0"0(0#0#71"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMTiledView.m8611151104#1958"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv7 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-btudfdfznzhmhddezvyungtopnze/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMTiledView.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/HMTiledView.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/HMViewDelegate.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/HMViewDelegate.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321259273.085334
-e321259273.179878
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/HMViewDelegate.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMViewDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@82"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMViewDelegate.m321259273#321259273#0(0"0(0#0#74"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMViewDelegate.m8610337536#1964"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv7 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-btudfdfznzhmhddezvyungtopnze/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/HMViewDelegate.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/HMViewDelegate.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/LocationsAppDelegate.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/LocationsAppDelegate.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/LocationsAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321304401.825281
-e321304402.007456
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/LocationsAppDelegate.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/LocationsAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@88"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/LocationsAppDelegate.m321304401#321304402#0(0"0(0#0#80"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/LocationsAppDelegate.m8633288288#1976"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv7 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-btudfdfznzhmhddezvyungtopnze/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/LocationsAppDelegate.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/LocationsAppDelegate.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/MyNSURLConnectionDelegate.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/MyNSURLConnectionDelegate.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyNSURLConnectionDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321259272.685514
-e321259272.796130
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/MyNSURLConnectionDelegate.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyNSURLConnectionDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@93"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyNSURLConnectionDelegate.m321259272#321259272#0(0"0(0#0#85"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyNSURLConnectionDelegate.m8610085536#1986"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv7 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-btudfdfznzhmhddezvyungtopnze/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyNSURLConnectionDelegate.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/MyNSURLConnectionDelegate.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/MyTableViewCell.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/MyTableViewCell.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyTableViewCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321259272.779056
-e321259272.932222
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/MyTableViewCell.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyTableViewCell.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@83"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyTableViewCell.m321259272#321259272#0(0"0(0#0#75"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyTableViewCell.m8608174368#1966"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv7 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-btudfdfznzhmhddezvyungtopnze/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/MyTableViewCell.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/MyTableViewCell.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/ProgressCell.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/ProgressCell.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ProgressCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321303814.676866
-e321303814.784524
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/ProgressCell.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ProgressCell.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@80"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ProgressCell.m321303814#321303814#0(0"0(0#0#72"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ProgressCell.m8619580160#1960"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv7 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-btudfdfznzhmhddezvyungtopnze/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/ProgressCell.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/ProgressCell.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/RootViewController.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/RootViewController.o /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321304503.059630
-e321304503.350874
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/RootViewController.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m:169:6: warning: 'UITableViewCell' may not respond to 'progressView'
-o                         [[[tableView cellForRowAtIndexPath:indexPath] progressView] setProgress:0];
-o                           ^
-o/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m:170:6: warning: 'UITableViewCell' may not respond to 'progressView'
-o                         [[[tableView cellForRowAtIndexPath:indexPath] progressView] setAlpha:1];
-o                           ^
-o2 warnings generated.
-lSLF07#2@86"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m321304503#321304503#0(573"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m:169:6: warning: 'UITableViewCell' may not respond to 'progressView'                         [[[tableView cellForRowAtIndexPath:indexPath] progressView] setProgress:0];                           ^/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m:170:6: warning: 'UITableViewCell' may not respond to 'progressView'                         [[[tableView cellForRowAtIndexPath:indexPath] progressView] setAlpha:1];                           ^2 warnings generated.2(22@51"'UITableViewCell' may not respond to 'progressView'321304503#0#147#0(6@78"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m321304499#169#6#0#0#22"* may not respond to *0(22@51"'UITableViewCell' may not respond to 'progressView'321304503#277#147#0(6@78"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m321304499#170#6#0#0#22"* may not respond to *0(0#0#78"/Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m8633081504#1972"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv7 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-btudfdfznzhmhddezvyungtopnze/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/Classes/RootViewController.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/RootViewController.o0#
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/main.o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/main.o /Users/hazz/Documents/Programming/Cocoa/Locations/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321259271.764038
-e321259271.866512
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/main.o
-x/Users/hazz/Documents/Programming/Cocoa/Locations/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@64"Compile /Users/hazz/Documents/Programming/Cocoa/Locations/main.m321259271#321259271#0(0"0(0#0#56"/Users/hazz/Documents/Programming/Cocoa/Locations/main.m8610847072#1936"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv7 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-btudfdfznzhmhddezvyungtopnze/Locations_Prefix.pch -c /Users/hazz/Documents/Programming/Cocoa/Locations/main.m -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/main.o0#
-
-CCompileXIB "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/MainWindow.xib"
-r0
-
-CCompileXIB "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/MyTableViewCell.xib"
-r0
-
-CCompileXIB "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/ProgressCell.xib"
-r0
-
-CCompileXIB "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/RootViewController.xib"
-r0
-
-CCompileXIB /Users/hazz/Documents/Programming/Cocoa/Locations/MainWindow.xib
-s321259265.665177
-e321259268.053080
-r1
-xCompileXIB
-x/Users/hazz/Documents/Programming/Cocoa/Locations/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib321259265#321259269#0(0"0(0#0#64"/Users/hazz/Documents/Programming/Cocoa/Locations/MainWindow.xib8609843648#579"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/MainWindow.nib /Users/hazz/Documents/Programming/Cocoa/Locations/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCompileXIB /Users/hazz/Documents/Programming/Cocoa/Locations/MyTableViewCell.xib
-s321259268.053430
-e321259269.147050
-r1
-xCompileXIB
-x/Users/hazz/Documents/Programming/Cocoa/Locations/MyTableViewCell.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@30"CompileXIB MyTableViewCell.xib321259268#321259269#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#69"/Users/hazz/Documents/Programming/Cocoa/Locations/MyTableViewCell.xib8616392320#589"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/MyTableViewCell.nib /Users/hazz/Documents/Programming/Cocoa/Locations/MyTableViewCell.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCompileXIB /Users/hazz/Documents/Programming/Cocoa/Locations/ProgressCell.xib
-s321259268.054612
-e321259269.111914
-r1
-xCompileXIB
-x/Users/hazz/Documents/Programming/Cocoa/Locations/ProgressCell.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@27"CompileXIB ProgressCell.xib321259268#321259269#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#66"/Users/hazz/Documents/Programming/Cocoa/Locations/ProgressCell.xib8616410880#583"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/ProgressCell.nib /Users/hazz/Documents/Programming/Cocoa/Locations/ProgressCell.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCompileXIB /Users/hazz/Documents/Programming/Cocoa/Locations/RootViewController.xib
-s321259265.667107
-e321259268.053345
-r1
-xCompileXIB
-x/Users/hazz/Documents/Programming/Cocoa/Locations/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib321259265#321259269#0(0"0(0#0#72"/Users/hazz/Documents/Programming/Cocoa/Locations/RootViewController.xib8610853344#595"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/RootViewController.nib /Users/hazz/Documents/Programming/Cocoa/Locations/RootViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCopyPNGFile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/download_button.png" download_button.png
-r0
-
-CCopyPNGFile /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/download_button.png download_button.png
-s321035516.233392
-e321035518.286795
-r1
-xCopyPNGFile
-x/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/download_button.png
-xdownload_button.png
-lSLF07#2@86"CopyPNGFile build/Debug-iphoneos/Locations.app/download_button.png download_button.png321035516#321035518#0(0"0(0#0#69"/Users/hazz/Documents/Programming/Cocoa/Locations/download_button.png8646095232#613"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/hazz/Documents/Programming/Cocoa/Locations/download_button.png /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/download_button.png0#
-
-CCpResource build/Debug-iphoneos/Locations.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-s321035514.397611
-e321035514.559229
-r1
-xCpResource
-xbuild/Debug-iphoneos/Locations.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist321035514#321035514#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist8626444256#504"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app0#
-
-CCpResource build/Debug-iphoneos/Locations.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-s321259265.492228
-e321259265.665081
-r1
-xCpResource
-xbuild/Debug-iphoneos/Locations.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist321259265#321259265#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8307809061684012032#518"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app0#
-
-CCreateUniversalBinary "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Locations" normal "armv6 armv7"
-r0
-
-CCreateUniversalBinary /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Locations normal "armv6 armv7"
-s321304503.419780
-e321304503.425430
-r1
-xCreateUniversalBinary
-x/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Locations
-xnormal
-xarmv6 armv7
-lSLF07#2@87"CreateUniversalBinary build/Debug-iphoneos/Locations.app/Locations normal "armv6 armv7"321304503#321304503#0(0"0(0#0#61"/Users/hazz/Documents/Programming/Cocoa/Locations/armv6 armv78634044992#578"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Locations /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Locations -output /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Locations0#
-
-CDataModelVersionCompile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Locations.momd" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld"
-r0
-
-CDataModelVersionCompile /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Locations.momd /Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld
-s321035519.369664
-e321035519.890065
-r1
-xDataModelVersionCompile
-x/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Locations.momd
-x/Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld
-lSLF07#2@96"DataModelVersionCompile build/Debug-iphoneos/Locations.app/Locations.momd Locations.xcdatamodeld321035519#321035519#0(0"0(0#0#72"/Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld8626926368#382"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc /Users/hazz/Documents/Programming/Cocoa/Locations/Locations.xcdatamodeld /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Locations.momd0#
-
-CGenerateDSYMFile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app.dSYM" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Locations"
-r0
-
-CGenerateDSYMFile /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app.dSYM /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Locations
-s321304503.425548
-e321304503.499480
-r1
-xGenerateDSYMFile
-x/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app.dSYM
-x/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Locations
-lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/Locations.app.dSYM build/Debug-iphoneos/Locations.app/Locations321304503#321304503#0(0"0(0#0#94"/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Locations8633643200#401"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Locations -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app.dSYM0#
-
-CLd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Locations" normal armv6
-r0
-
-CLd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Locations" normal armv7
-r0
-
-CLd /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Locations normal armv6
-s321304503.359915
-e321304503.415472
-r1
-xLd
-x/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Locations
-xnormal
-xarmv6
-lSLF07#2@138"Link /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Locations321304503#321304503#0(0"0(0#0#0"8632028864#994"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -filelist /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Locations.LinkFileList -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework CoreLocation -framework QuartzCore -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv6/Locations0#
-
-CLd /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Locations normal armv7
-s321304503.351988
-e321304503.419638
-r1
-xLd
-x/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Locations
-xnormal
-xarmv7
-lSLF07#2@138"Link /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Locations321304503#321304503#0(0"0(0#0#0"8629708384#994"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -filelist /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Locations.LinkFileList -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework CoreLocation -framework QuartzCore -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Objects-normal/armv7/Locations0#
-
-CProcessInfoPlistFile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Info.plist" Locations-Info.plist
-r0
-
-CProcessInfoPlistFile /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Info.plist Locations-Info.plist
-s321259265.565834
-e321259265.633859
-r1
-xProcessInfoPlistFile
-x/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Info.plist
-xLocations-Info.plist
-lSLF07#2@28"Process Locations-Info.plist321259265#321259265#0(0"0(0#0#70"/Users/hazz/Documents/Programming/Cocoa/Locations/Locations-Info.plist8608642400#614"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Locations-Info.plist -genpkginfo /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/ResourceRules.plist -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/Info.plist0#
-
-CProcessPCH /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bnspmophnrrefvcnlfnswlbzuxup/Locations_Prefix.pch.pth Locations_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321259269.147241
-e321259270.266388
-r1
-xProcessPCH
-x/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bnspmophnrrefvcnlfnswlbzuxup/Locations_Prefix.pch.pth
-xLocations_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@31"Precompile Locations_Prefix.pch321259269#321259270#0(0"0(0#0#70"/Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch8612768064#1821"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv6 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -c /Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch -o /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bnspmophnrrefvcnlfnswlbzuxup/Locations_Prefix.pch.pth0#
-
-CProcessPCH /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bqgmarcwtwmttadklgnpxtbnjfjd/Locations_Prefix.pch.pth Locations_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321035518.320005
-e321035519.369542
-r1
-xProcessPCH
-x/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bqgmarcwtwmttadklgnpxtbnjfjd/Locations_Prefix.pch.pth
-xLocations_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@31"Precompile Locations_Prefix.pch321035518#321035519#0(0"0(0#0#70"/Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch8649344416#1821"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv6 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -c /Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch -o /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bqgmarcwtwmttadklgnpxtbnjfjd/Locations_Prefix.pch.pth0#
-
-CProcessPCH /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-btudfdfznzhmhddezvyungtopnze/Locations_Prefix.pch.pth Locations_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321259269.148363
-e321259270.235514
-r1
-xProcessPCH
-x/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-btudfdfznzhmhddezvyungtopnze/Locations_Prefix.pch.pth
-xLocations_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@31"Precompile Locations_Prefix.pch321259269#321259270#0(0"0(0#0#70"/Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch8612686144#1821"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv7 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -c /Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch -o /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-btudfdfznzhmhddezvyungtopnze/Locations_Prefix.pch.pth0#
-
-CProcessPCH /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-esbhrdshzldobeedecfmxkchmrtj/Locations_Prefix.pch.pth Locations_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321035518.321200
-e321035519.291449
-r1
-xProcessPCH
-x/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-esbhrdshzldobeedecfmxkchmrtj/Locations_Prefix.pch.pth
-xLocations_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@31"Precompile Locations_Prefix.pch321035518#321035519#0(0"0(0#0#70"/Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch8648246752#1821"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-generated-files.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-own-target-headers.hmap -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-all-target-headers.hmap -iquote /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations-project-headers.hmap -F/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/include -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources/armv7 -I/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/DerivedSources -c /Users/hazz/Documents/Programming/Cocoa/Locations/Locations_Prefix.pch -o /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-esbhrdshzldobeedecfmxkchmrtj/Locations_Prefix.pch.pth0#
-
-CProcessPCH /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch.pth Locations_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch.pth Locations_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessProductPackaging "/Users/hazz/Library/MobileDevice/Provisioning Profiles/81A442E1-79F2-49AD-A71C-4D29083DAA41.mobileprovision" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/embedded.mobileprovision"
-r0
-
-CProcessProductPackaging "/Users/hazz/Library/MobileDevice/Provisioning Profiles/81A442E1-79F2-49AD-A71C-4D29083DAA41.mobileprovision" /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/embedded.mobileprovision
-s321035525.721659
-e321035525.723976
-r1
-xProcessProductPackaging
-x/Users/hazz/Library/MobileDevice/Provisioning Profiles/81A442E1-79F2-49AD-A71C-4D29083DAA41.mobileprovision
-x/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/embedded.mobileprovision
-lSLF07#2@193"ProcessProductPackaging "/Users/hazz/Library/MobileDevice/Provisioning Profiles/81A442E1-79F2-49AD-A71C-4D29083DAA41.mobileprovision" build/Debug-iphoneos/Locations.app/embedded.mobileprovision321035525#321035525#0(0"0(0#0#109"/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/embedded.mobileprovision8643627968#446"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/hazz/Library/MobileDevice/Provisioning Profiles/81A442E1-79F2-49AD-A71C-4D29083DAA41.mobileprovision" -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/embedded.mobileprovision0#
-
-CProcessProductPackaging "/Users/hazz/Library/MobileDevice/Provisioning Profiles/81B8112A-B1D8-46FC-B0BE-AE2B3BB4E16A.mobileprovision" /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/embedded.mobileprovision
-s321259274.097399
-e321259274.121565
-r1
-xProcessProductPackaging
-x/Users/hazz/Library/MobileDevice/Provisioning Profiles/81B8112A-B1D8-46FC-B0BE-AE2B3BB4E16A.mobileprovision
-x/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/embedded.mobileprovision
-lSLF07#2@193"ProcessProductPackaging "/Users/hazz/Library/MobileDevice/Provisioning Profiles/81B8112A-B1D8-46FC-B0BE-AE2B3BB4E16A.mobileprovision" build/Debug-iphoneos/Locations.app/embedded.mobileprovision321259274#321259274#0(0"0(0#0#109"/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/embedded.mobileprovision8609444480#446"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/hazz/Library/MobileDevice/Provisioning Profiles/81B8112A-B1D8-46FC-B0BE-AE2B3BB4E16A.mobileprovision" -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations.xcent
-s321035525.736168
-e321035525.846740
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
-x/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations.xcent
-lSLF07#2@181"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist build/Locations.build/Debug-iphoneos/Locations.build/Locations.xcent321035525#321035525#0(0"0(0#0#118"/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations.xcent8625951264#460"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations.xcent0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/Locations.build/Locations.xcent"
-r0
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations.xcent
-s321259274.152833
-e321259274.194768
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-x/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations.xcent
-lSLF07#2@181"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Locations.build/Debug-iphoneos/Locations.build/Locations.xcent321259274#321259274#0(0"0(0#0#118"/Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations.xcent8602989664#460"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/hazz/Documents/Programming/Cocoa/Locations/build/Locations.build/Debug-iphoneos/Locations.build/Locations.xcent0#
-
-CTouch "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app"
-r0
-
-CTouch /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app
-s321304503.499699
-e321304503.502768
-r1
-xTouch
-x/Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app
-lSLF07#2@90"Touch /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app321304503#321304503#0(0"0(0#0#0"8633162016#288"    cd /Users/hazz/Documents/Programming/Cocoa/Locations    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/hazz/Documents/Programming/Cocoa/Locations/build/Debug-iphoneos/Locations.app0#
-
