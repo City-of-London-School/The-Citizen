@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* The_CitizenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* The_CitizenAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28D3F202112F7DC200FD0661 /* The_Citizen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28D3F201112F7DC200FD0661 /* The_Citizen.xcdatamodeld */; };
+		EF821F211326EB1F00F4BF85 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790E31326E53A000177BA /* RootViewController.m */; };
+		EF821F301326EB6C00F4BF85 /* ProgressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF821F2E1326EB6C00F4BF85 /* ProgressCell.m */; };
+		EF821F331326EB9A00F4BF85 /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790E51326E53A000177BA /* FileManager.m */; };
+		EF821F341326EB9D00F4BF85 /* DownloadPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790EA1326E53A000177BA /* DownloadPDF.m */; };
+		EF821F351326EBA000F4BF85 /* MyNSURLConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790E81326E53A000177BA /* MyNSURLConnectionDelegate.m */; };
+		EF84B25D1326F39C00B1BFAC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF84B25C1326F39C00B1BFAC /* Icon.png */; };
+		EFA790DE1326E4CA000177BA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA790DD1326E4CA000177BA /* QuartzCore.framework */; };
+		EFA790F21326E55A000177BA /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790ED1326E55A000177BA /* ContentViewController.m */; };
+		EFA790F31326E55A000177BA /* HMTiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790EF1326E55A000177BA /* HMTiledView.m */; };
+		EFA790F41326E55A000177BA /* HMViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790F11326E55A000177BA /* HMViewDelegate.m */; };
+		EFA790F61326E589000177BA /* ProgressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA790F51326E589000177BA /* ProgressCell.xib */; };
+		EFA791111326E64B000177BA /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA791101326E64B000177BA /* Event.m */; };
+		EFA791131326E669000177BA /* The_Citizen.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = EFA791121326E669000177BA /* The_Citizen.xcdatamodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* The_CitizenAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = The_CitizenAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* The_CitizenAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = The_CitizenAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* The Citizen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Citizen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28860BE40F44EE6400985440 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* The_Citizen_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = The_Citizen_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* The_Citizen-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "The_Citizen-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		EF821F2D1326EB6C00F4BF85 /* ProgressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressCell.h; sourceTree = "<group>"; };
+		EF821F2E1326EB6C00F4BF85 /* ProgressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressCell.m; sourceTree = "<group>"; };
+		EF84B25C1326F39C00B1BFAC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		EFA790DD1326E4CA000177BA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EFA790E21326E53A000177BA /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		EFA790E31326E53A000177BA /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EFA790E41326E53A000177BA /* FileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		EFA790E51326E53A000177BA /* FileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
+		EFA790E71326E53A000177BA /* MyNSURLConnectionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNSURLConnectionDelegate.h; sourceTree = "<group>"; };
+		EFA790E81326E53A000177BA /* MyNSURLConnectionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNSURLConnectionDelegate.m; sourceTree = "<group>"; };
+		EFA790E91326E53A000177BA /* DownloadPDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadPDF.h; sourceTree = "<group>"; };
+		EFA790EA1326E53A000177BA /* DownloadPDF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadPDF.m; sourceTree = "<group>"; };
+		EFA790EC1326E55A000177BA /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		EFA790ED1326E55A000177BA /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		EFA790EE1326E55A000177BA /* HMTiledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTiledView.h; sourceTree = "<group>"; };
+		EFA790EF1326E55A000177BA /* HMTiledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTiledView.m; sourceTree = "<group>"; };
+		EFA790F01326E55A000177BA /* HMViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMViewDelegate.h; sourceTree = "<group>"; };
+		EFA790F11326E55A000177BA /* HMViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMViewDelegate.m; sourceTree = "<group>"; };
+		EFA790F51326E589000177BA /* ProgressCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgressCell.xib; sourceTree = "<group>"; };
+		EFA7910F1326E64B000177BA /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		EFA791101326E64B000177BA /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		EFA791121326E669000177BA /* The_Citizen.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = The_Citizen.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */,
+				EFA790DE1326E4CA000177BA /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF821F2A1326EB6C00F4BF85 /* Subclasses */,
+				1D3623240D0F684500981E51 /* The_CitizenAppDelegate.h */,
+				1D3623250D0F684500981E51 /* The_CitizenAppDelegate.m */,
+				EFA790EB1326E55A000177BA /* Content View */,
+				EFA790E11326E53A000177BA /* List View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* The Citizen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* The_Citizen_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF84B25C1326F39C00B1BFAC /* Icon.png */,
+				28D3F201112F7DC200FD0661 /* The_Citizen.xcdatamodeld */,
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				EFA790F51326E589000177BA /* ProgressCell.xib */,
+				8D1107310486CEB800E47090 /* The_Citizen-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				28860BE40F44EE6400985440 /* CoreData.framework */,
+				EFA790DD1326E4CA000177BA /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF821F2A1326EB6C00F4BF85 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				EF821F2D1326EB6C00F4BF85 /* ProgressCell.h */,
+				EF821F2E1326EB6C00F4BF85 /* ProgressCell.m */,
+			);
+			name = Subclasses;
+			sourceTree = "<group>";
+		};
+		EFA790E11326E53A000177BA /* List View */ = {
+			isa = PBXGroup;
+			children = (
+				EFA790E61326E53A000177BA /* Downloading */,
+				EFA790E21326E53A000177BA /* RootViewController.h */,
+				EFA790E31326E53A000177BA /* RootViewController.m */,
+				EFA790E41326E53A000177BA /* FileManager.h */,
+				EFA790E51326E53A000177BA /* FileManager.m */,
+			);
+			name = "List View";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EFA790E61326E53A000177BA /* Downloading */ = {
+			isa = PBXGroup;
+			children = (
+				EFA790E71326E53A000177BA /* MyNSURLConnectionDelegate.h */,
+				EFA790E81326E53A000177BA /* MyNSURLConnectionDelegate.m */,
+				EFA790E91326E53A000177BA /* DownloadPDF.h */,
+				EFA790EA1326E53A000177BA /* DownloadPDF.m */,
+			);
+			name = Downloading;
+			sourceTree = "<group>";
+		};
+		EFA790EB1326E55A000177BA /* Content View */ = {
+			isa = PBXGroup;
+			children = (
+				EFA790EC1326E55A000177BA /* ContentViewController.h */,
+				EFA790ED1326E55A000177BA /* ContentViewController.m */,
+				EFA790EE1326E55A000177BA /* HMTiledView.h */,
+				EFA790EF1326E55A000177BA /* HMTiledView.m */,
+				EFA790F01326E55A000177BA /* HMViewDelegate.h */,
+				EFA790F11326E55A000177BA /* HMViewDelegate.m */,
+			);
+			name = "Content View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* The_Citizen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "The_Citizen" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = The_Citizen;
+			productName = "The Citizen";
+			productReference = 1D6058910D05DD3D006BFB54 /* The Citizen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "The Citizen" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* The_Citizen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				EFA790F61326E589000177BA /* ProgressCell.xib in Resources */,
+				EF84B25D1326F39C00B1BFAC /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF821F211326EB1F00F4BF85 /* RootViewController.m in Sources */,
+				EF821F331326EB9A00F4BF85 /* FileManager.m in Sources */,
+				EF821F341326EB9D00F4BF85 /* DownloadPDF.m in Sources */,
+				EF821F351326EBA000F4BF85 /* MyNSURLConnectionDelegate.m in Sources */,
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* The_CitizenAppDelegate.m in Sources */,
+				28D3F202112F7DC200FD0661 /* The_Citizen.xcdatamodeld in Sources */,
+				EFA790F21326E55A000177BA /* ContentViewController.m in Sources */,
+				EFA790F31326E55A000177BA /* HMTiledView.m in Sources */,
+				EFA790F41326E55A000177BA /* HMViewDelegate.m in Sources */,
+				EFA791111326E64B000177BA /* Event.m in Sources */,
+				EFA791131326E669000177BA /* The_Citizen.xcdatamodel in Sources */,
+				EF821F301326EB6C00F4BF85 /* ProgressCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = The_Citizen_Prefix.pch;
+				INFOPLIST_FILE = "The_Citizen-Info.plist";
+				PRODUCT_NAME = "The Citizen";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = The_Citizen_Prefix.pch;
+				INFOPLIST_FILE = "The_Citizen-Info.plist";
+				PRODUCT_NAME = "The Citizen";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Harry Maclean";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DAB6FD95-2B4A-4631-9FDF-6E70FDC927A0";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Harry Maclean";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DAB6FD95-2B4A-4631-9FDF-6E70FDC927A0";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "The_Citizen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "The Citizen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28D3F201112F7DC200FD0661 /* The_Citizen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFA7910F1326E64B000177BA /* Event.h */,
+				EFA791101326E64B000177BA /* Event.m */,
+				EFA791121326E669000177BA /* The_Citizen.xcdatamodel */,
+			);
+			currentVersion = EFA791121326E669000177BA /* The_Citizen.xcdatamodel */;
+			path = The_Citizen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,911 @@
+TThe_Citizen
+v7
+r0
+t321321397.733843
+cCheck dependencies
+cCpResource "build/Debug-iphoneos/The Citizen.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/Info.plist" The_Citizen-Info.plist
+cCompileXIB "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/MainWindow.xib"
+cCompileXIB "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/RootViewController.xib"
+cCompileXIB "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/ProgressCell.xib"
+cCopyPNGFile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/Icon.png" Icon.png
+cProcessPCH /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-abyrssbnaqooivcufumgkhhqgvej/The_Citizen_Prefix.pch.pth The_Citizen_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-gargmrzhlwwcbpcmybfjnlqnwssz/The_Citizen_Prefix.pch.pth The_Citizen_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cDataModelVersionCompile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/The_Citizen.momd" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld"
+cDataModelCompile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/The_Citizen.mom" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld/The_Citizen.xcdatamodel"
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/RootViewController.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/FileManager.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/DownloadPDF.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../DownloadPDF.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/MyNSURLConnectionDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../MyNSURLConnectionDelegate.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/main.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/main.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/The_CitizenAppDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/The_CitizenAppDelegate.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/ContentViewController.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ContentViewController.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/HMTiledView.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMTiledView.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/HMViewDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMViewDelegate.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/Event.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld/Event.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/ProgressCell.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ProgressCell.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/RootViewController.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/The Citizen" normal armv6
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/FileManager.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/DownloadPDF.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../DownloadPDF.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/MyNSURLConnectionDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../MyNSURLConnectionDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/main.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/The_CitizenAppDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/The_CitizenAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/ContentViewController.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ContentViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/HMTiledView.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMTiledView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/HMViewDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMViewDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/Event.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld/Event.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/ProgressCell.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ProgressCell.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/The Citizen" normal armv7
+cCreateUniversalBinary "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/The Citizen" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app.dSYM" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/The Citizen"
+cProcessProductPackaging "/Users/hazz/Library/MobileDevice/Provisioning Profiles/81A442E1-79F2-49AD-A71C-4D29083DAA41.mobileprovision" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/embedded.mobileprovision"
+cTouch "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen.xcent"
+cCodeSign "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC10FA70000000000300DE0
+t1287720871
+s3149280
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC10F8D000000000000046B
+t1287720845
+s1131
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
+c000000004CC10DCA00000000000004FE
+t1287720394
+s1278
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../DownloadPDF.m
+c000000004D767F620000000000000E63
+t1299611490
+s3683
+i"DownloadPDF.h"
+i"MyNSURLConnectionDelegate.h"
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m
+c000000004D76BB6A0000000000001B0B
+t1299626858
+s6923
+i"FileManager.h"
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../MyNSURLConnectionDelegate.m
+c000000004D73AC100000000000000E40
+t1299426320
+s3648
+i"MyNSURLConnectionDelegate.h"
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m
+c000000004D76B8640000000000001C29
+t1299626084
+s7209
+i"RootViewController.h"
+i"ContentViewController.h"
+i"ProgressCell.h"
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ContentViewController.h
+c000000004D74046E00000000000001D6
+t1299448942
+s470
+i<UIKit/UIKit.h>
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ContentViewController.m
+c000000004D767DD600000000000007EA
+t1299611094
+s2026
+i"ContentViewController.h"
+i"HMTiledView.h"
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMTiledView.h
+c000000004D7008F80000000000000172
+t1299187960
+s370
+i<UIKit/UIKit.h>
+i"HMViewDelegate.h"
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMTiledView.m
+c000000004D72668D000000000000062D
+t1299342989
+s1581
+i"HMTiledView.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMViewDelegate.h
+c000000004D4D6E9200000000000001A5
+t1296920210
+s421
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreGraphics/CoreGraphics.h>
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMViewDelegate.m
+c000000004D7267A00000000000000298
+t1299343264
+s664
+i"HMViewDelegate.h"
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ProgressCell.h
+c000000004D767D6F0000000000000220
+t1299610991
+s544
+i<UIKit/UIKit.h>
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ProgressCell.m
+c000000004D73FE19000000000000031C
+t1299447321
+s796
+i"ProgressCell.h"
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/The_CitizenAppDelegate.h
+c000000004D76AD3E00000000000003FB
+t1299623230
+s1019
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/The_CitizenAppDelegate.m
+c000000004D76BEF3000000000000211A
+t1299627763
+s8474
+i"The_CitizenAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/DownloadPDF.h
+c000000004D767F3A00000000000002B2
+t1299611450
+s690
+i<Foundation/Foundation.h>
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/FileManager.h
+c000000004D73F992000000000000055A
+t1299446162
+s1370
+i<UIKit/UIKit.h>
+i"DownloadPDF.h"
+i"Event.h"
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Icon.png
+c000000004C8E848D00000000000016B5
+t1284408461
+s5813
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/MainWindow.xib
+c000000004D76AD3E0000000000006004
+t1299623230
+s24580
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/MyNSURLConnectionDelegate.h
+c000000004D73AC0800000000000006F5
+t1299426312
+s1781
+i<Foundation/Foundation.h>
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/ProgressCell.xib
+c000000004D7367AC00000000000051AB
+t1299408812
+s20907
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/RootViewController.h
+c000000004D76B5A00000000000000364
+t1299625376
+s868
+i<UIKit/UIKit.h>
+i"DownloadPDF.h"
+i"Event.h"
+i"FileManager.h"
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/RootViewController.xib
+c000000004D76B26A0000000000004B35
+t1299624554
+s19253
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld
+c000000004D76AF0D00000000000000CC
+t1299623693
+s204
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld/Event.h
+c000000004D2EF936000000000000014D
+t1294924086
+s333
+i<CoreData/CoreData.h>
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld/Event.m
+c000000004D2EF93600000000000000EC
+t1294924086
+s236
+i"Event.h"
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld/The_Citizen.xcdatamodel
+c000000004D2EF90A0000000000000088
+t1294924042
+s136
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen_Prefix.pch
+c000000004D76AD3E000000000000016B
+t1299623230
+s363
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app
+t1299628597
+s510
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app.dSYM
+t1299628597
+s102
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/Icon.png
+t1299627125
+s7149
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/Info.plist
+t1299627162
+s867
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/MainWindow.nib
+t1299627163
+s2460
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/PkgInfo
+t1299627162
+s8
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/ProgressCell.nib
+t1299627163
+s3276
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/ResourceRules.plist
+t1299627124
+s485
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/RootViewController.nib
+t1299627163
+s1518
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/The Citizen
+t1299628597
+s164524
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/The_Citizen.mom
+t1299627126
+s1323
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/The_Citizen.momd
+t1299627126
+s136
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/embedded.mobileprovision
+t1299627184
+s7160
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/ContentViewController.o
+t1299628595
+s39952
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/DownloadPDF.o
+t1299628595
+s48992
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/Event.o
+t1299628596
+s1544
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/FileManager.o
+t1299628595
+s36232
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/HMTiledView.o
+t1299628596
+s40344
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/HMViewDelegate.o
+t1299628596
+s7088
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/MyNSURLConnectionDelegate.o
+t1299628595
+s21272
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/ProgressCell.o
+t1299628596
+s37400
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/RootViewController.o
+t1299628595
+s61068
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/The Citizen
+t1299628596
+s74892
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/The Citizen.LinkFileList
+c000000004D76C22F00000000000007DD
+t1299628591
+s2013
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/The_CitizenAppDelegate.o
+t1299628595
+s60648
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/main.o
+t1299628595
+s3184
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/ContentViewController.o
+t1299628596
+s40116
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/DownloadPDF.o
+t1299628596
+s49264
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/Event.o
+t1299628597
+s1544
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/FileManager.o
+t1299628596
+s37504
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/HMTiledView.o
+t1299628597
+s40128
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/HMViewDelegate.o
+t1299628597
+s7212
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/MyNSURLConnectionDelegate.o
+t1299628596
+s21944
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/ProgressCell.o
+t1299628597
+s37736
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/RootViewController.o
+t1299628596
+s61536
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/The Citizen
+t1299628597
+s82604
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/The Citizen.LinkFileList
+c000000004D76C22F00000000000007DD
+t1299628591
+s2013
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/The_CitizenAppDelegate.o
+t1299628596
+s61000
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/main.o
+t1299628596
+s3236
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen.xcent
+t1299628597
+s418
+
+N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/main.m
+c000000004D76AD3E0000000000000175
+t1299623230
+s373
+i<UIKit/UIKit.h>
+
+N/Users/hazz/Library/MobileDevice/Provisioning Profiles/81A442E1-79F2-49AD-A71C-4D29083DAA41.mobileprovision
+c000000004D2DE5260000000000001BF8
+t1294853414
+s7160
+
+N/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-abyrssbnaqooivcufumgkhhqgvej/The_Citizen_Prefix.pch.pth
+t1299627164
+s2943924
+
+N/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-gargmrzhlwwcbpcmybfjnlqnwssz/The_Citizen_Prefix.pch.pth
+t1299627163
+s2944096
+
+NThe_Citizen-Info.plist
+c000000004D76BC3F0000000000000373
+t1299627071
+s883
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321321391#321321391#0(0"0(0#1#0"8628361728#0"0#
+
+CCodeSign "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app"
+s321321397.355774
+e321321397.733796
+r1
+xCodeSign
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app
+lSLF07#2@47"CodeSign "build/Debug-iphoneos/The Citizen.app"321321397#321321397#0(0"0(0#0#124"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app8626392256#873"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Harry Maclean (DY4D7A6K73)" "--resource-rules=/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/ResourceRules.plist" --entitlements "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen.xcent" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/ContentViewController.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ContentViewController.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321395.722081
+e321321395.830073
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/ContentViewController.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ContentViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@127"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ContentViewController.m321321395#321321395#0(0"0(0#0#119"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ContentViewController.m8599725888#2458"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-abyrssbnaqooivcufumgkhhqgvej/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ContentViewController.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/ContentViewController.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/DownloadPDF.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../DownloadPDF.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321395.570835
+e321321395.690145
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/DownloadPDF.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../DownloadPDF.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@120"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../DownloadPDF.m321321395#321321395#0(0"0(0#0#112"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../DownloadPDF.m8625660512#2441"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-abyrssbnaqooivcufumgkhhqgvej/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../DownloadPDF.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/DownloadPDF.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/Event.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld/Event.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321396.049088
+e321321396.106269
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/Event.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld/Event.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@128"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld/Event.m321321396#321321396#0(0"0(0#0#120"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld/Event.m8629419296#2443"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-abyrssbnaqooivcufumgkhhqgvej/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld/Event.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/Event.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/FileManager.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321391.941914
+e321321395.569842
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/FileManager.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m:234:9:{234:9-234:12}: warning: incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'
+o         return nil;
+o                ^~~
+oIn file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen_Prefix.pch:13:
+oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:
+oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:96:
+o/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h:90:17: note: instantiated from:
+o     #define nil NULL
+o                 ^
+oIn file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen_Prefix.pch:13:
+oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:22:
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h:45:14: note: instantiated from:
+o #define NULL ((void*)0)
+o              ^~~~~~~~~~
+o1 warning generated.
+lSLF07#2@120"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m321321391#321321395#0(1747"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m:234:9:{234:9-234:12}: warning: incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'         return nil;                ^~~In file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen_Prefix.pch:13:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:96:/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h:90:17: note: instantiated from:     #define nil NULL                 ^In file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen_Prefix.pch:13:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:22:/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h:45:14: note: instantiated from: #define NULL ((void*)0)              ^~~~~~~~~~1 warning generated.1(22@100"Incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'321321394#0#245#2(13@111"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h321321394#922#125#5(7@163"In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:96:321321394#758#164#0(6@137"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h309413104#96#0#96#0#0"0(7@171"In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:321321394#586#172#0(6@145"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h309413104#38#0#38#0#0"0(7@162"In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:321321394#423#163#0(6@137"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h309413532#6#0#6#0#0"0(7@136"In file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen_Prefix.pch:13:321321394#286#137#0(6@110"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen_Prefix.pch321316030#13#0#13#0#0"0(13@207"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h in /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h321321394#18446744073709551615#0#0(6@92"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h308556600#90#17#0#0#0"0(6@92"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h308556600#90#17#0#0#18"instantiated from:0(13@102"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h321321394#1560#116#0(6@83"/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h308206487#45#14#0#0#18"instantiated from:0(6@112"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m321319658#234#9#0#0#44"incompatible pointer to integer conversion *1(6@112"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m321319658#234#9#234#12#0#0#112"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m8609652512#2441"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-abyrssbnaqooivcufumgkhhqgvej/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/FileManager.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/HMTiledView.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMTiledView.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321395.830199
+e321321396.136347
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/HMTiledView.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMTiledView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@117"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMTiledView.m321321395#321321396#0(0"0(0#0#109"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMTiledView.m8627043136#2438"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-abyrssbnaqooivcufumgkhhqgvej/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMTiledView.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/HMTiledView.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/HMViewDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMViewDelegate.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321395.844569
+e321321396.048923
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/HMViewDelegate.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMViewDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@120"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMViewDelegate.m321321395#321321396#0(0"0(0#0#112"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMViewDelegate.m8630041792#2444"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-abyrssbnaqooivcufumgkhhqgvej/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMViewDelegate.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/HMViewDelegate.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/MyNSURLConnectionDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../MyNSURLConnectionDelegate.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321395.573767
+e321321395.667230
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/MyNSURLConnectionDelegate.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../MyNSURLConnectionDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@134"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../MyNSURLConnectionDelegate.m321321395#321321395#0(0"0(0#0#126"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../MyNSURLConnectionDelegate.m8617548448#2469"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-abyrssbnaqooivcufumgkhhqgvej/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../MyNSURLConnectionDelegate.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/MyNSURLConnectionDelegate.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/ProgressCell.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ProgressCell.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321396.106389
+e321321396.210004
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/ProgressCell.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ProgressCell.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@118"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ProgressCell.m321321396#321321396#0(0"0(0#0#110"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ProgressCell.m8626320384#2440"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-abyrssbnaqooivcufumgkhhqgvej/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ProgressCell.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/ProgressCell.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/RootViewController.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321391.939102
+e321321395.573656
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/RootViewController.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m:165:7: warning: 'UITableViewCell' may not respond to 'progressView'
+o                                 [[[tableView cellForRowAtIndexPath:indexPath] progressView] setProgress:0];
+o                                   ^
+o/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m:166:7: warning: 'UITableViewCell' may not respond to 'progressView'
+o                                 [[[tableView cellForRowAtIndexPath:indexPath] progressView] setAlpha:1];
+o                                   ^
+o2 warnings generated.
+lSLF07#2@127"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m321321391#321321395#0(687"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m:165:7: warning: 'UITableViewCell' may not respond to 'progressView'                                 [[[tableView cellForRowAtIndexPath:indexPath] progressView] setProgress:0];                                   ^/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m:166:7: warning: 'UITableViewCell' may not respond to 'progressView'                                 [[[tableView cellForRowAtIndexPath:indexPath] progressView] setAlpha:1];                                   ^2 warnings generated.2(22@51"'UITableViewCell' may not respond to 'progressView'321321394#0#188#0(6@119"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m321318884#165#7#0#0#22"* may not respond to *0(22@51"'UITableViewCell' may not respond to 'progressView'321321394#334#188#0(6@119"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m321318884#166#7#0#0#22"* may not respond to *0(0#0#119"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m8617623840#2455"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-abyrssbnaqooivcufumgkhhqgvej/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/RootViewController.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/The_CitizenAppDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/The_CitizenAppDelegate.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321395.690271
+e321321395.844449
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/The_CitizenAppDelegate.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/The_CitizenAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@128"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/The_CitizenAppDelegate.m321321395#321321395#0(0"0(0#0#120"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/The_CitizenAppDelegate.m8625921568#2460"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-abyrssbnaqooivcufumgkhhqgvej/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/The_CitizenAppDelegate.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/The_CitizenAppDelegate.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/main.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/main.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321395.667365
+e321321395.721954
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/main.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@102"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/main.m321321395#321321395#0(0"0(0#0#94"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/main.m8628087904#2416"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-abyrssbnaqooivcufumgkhhqgvej/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/main.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/main.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/ContentViewController.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ContentViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321396.820800
+e321321396.997772
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/ContentViewController.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ContentViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@127"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ContentViewController.m321321396#321321396#0(0"0(0#0#119"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ContentViewController.m8626308704#2458"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-gargmrzhlwwcbpcmybfjnlqnwssz/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ContentViewController.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/ContentViewController.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/DownloadPDF.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../DownloadPDF.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321396.589232
+e321321396.761878
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/DownloadPDF.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../DownloadPDF.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@120"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../DownloadPDF.m321321396#321321396#0(0"0(0#0#112"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../DownloadPDF.m8627505024#2441"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-gargmrzhlwwcbpcmybfjnlqnwssz/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../DownloadPDF.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/DownloadPDF.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/Event.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld/Event.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321397.015754
+e321321397.077016
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/Event.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld/Event.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@128"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld/Event.m321321397#321321397#0(0"0(0#0#120"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld/Event.m8627205376#2443"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-gargmrzhlwwcbpcmybfjnlqnwssz/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld/Event.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/Event.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/FileManager.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321396.398797
+e321321396.635466
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/FileManager.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m:234:9:{234:9-234:12}: warning: incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'
+o         return nil;
+o                ^~~
+oIn file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen_Prefix.pch:13:
+oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:
+oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:96:
+o/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h:90:17: note: instantiated from:
+o     #define nil NULL
+o                 ^
+oIn file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen_Prefix.pch:13:
+oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:22:
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h:45:14: note: instantiated from:
+o #define NULL ((void*)0)
+o              ^~~~~~~~~~
+o1 warning generated.
+lSLF07#2@120"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m321321396#321321396#0(1747"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m:234:9:{234:9-234:12}: warning: incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'         return nil;                ^~~In file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen_Prefix.pch:13:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:96:/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h:90:17: note: instantiated from:     #define nil NULL                 ^In file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen_Prefix.pch:13:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:22:/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h:45:14: note: instantiated from: #define NULL ((void*)0)              ^~~~~~~~~~1 warning generated.1(22@100"Incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'321321396#0#245#2(13@111"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h321321396#922#125#5(7@163"In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:96:321321396#758#164#0(6@137"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h309413104#96#0#96#0#0"0(7@171"In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:321321396#586#172#0(6@145"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h309413104#38#0#38#0#0"0(7@162"In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:321321396#423#163#0(6@137"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h309413532#6#0#6#0#0"0(7@136"In file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen_Prefix.pch:13:321321396#286#137#0(6@110"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen_Prefix.pch321316030#13#0#13#0#0"0(13@207"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h in /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h321321396#18446744073709551615#0#0(6@92"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h308556600#90#17#0#0#0"0(6@92"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h308556600#90#17#0#0#18"instantiated from:0(13@102"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h321321396#1560#116#0(6@83"/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h308206487#45#14#0#0#18"instantiated from:0(6@112"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m321319658#234#9#0#0#44"incompatible pointer to integer conversion *1(6@112"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m321319658#234#9#234#12#0#0#112"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m8630614496#2441"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-gargmrzhlwwcbpcmybfjnlqnwssz/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../FileManager.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/FileManager.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/HMTiledView.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMTiledView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321396.896815
+e321321397.015636
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/HMTiledView.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMTiledView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@117"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMTiledView.m321321396#321321397#0(0"0(0#0#109"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMTiledView.m8631094080#2438"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-gargmrzhlwwcbpcmybfjnlqnwssz/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMTiledView.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/HMTiledView.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/HMViewDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMViewDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321396.997910
+e321321397.090874
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/HMViewDelegate.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMViewDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@120"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMViewDelegate.m321321396#321321397#0(0"0(0#0#112"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMViewDelegate.m8629415232#2444"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-gargmrzhlwwcbpcmybfjnlqnwssz/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/HMViewDelegate.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/HMViewDelegate.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/MyNSURLConnectionDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../MyNSURLConnectionDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321396.635594
+e321321396.749013
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/MyNSURLConnectionDelegate.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../MyNSURLConnectionDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@134"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../MyNSURLConnectionDelegate.m321321396#321321396#0(0"0(0#0#126"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../MyNSURLConnectionDelegate.m8631263552#2469"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-gargmrzhlwwcbpcmybfjnlqnwssz/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../MyNSURLConnectionDelegate.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/MyNSURLConnectionDelegate.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/ProgressCell.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ProgressCell.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321397.077300
+e321321397.166646
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/ProgressCell.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ProgressCell.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@118"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ProgressCell.m321321397#321321397#0(0"0(0#0#110"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ProgressCell.m8625868960#2440"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-gargmrzhlwwcbpcmybfjnlqnwssz/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/ProgressCell.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/ProgressCell.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/RootViewController.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321396.136535
+e321321396.589116
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/RootViewController.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m:165:7: warning: 'UITableViewCell' may not respond to 'progressView'
+o                                 [[[tableView cellForRowAtIndexPath:indexPath] progressView] setProgress:0];
+o                                   ^
+o/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m:166:7: warning: 'UITableViewCell' may not respond to 'progressView'
+o                                 [[[tableView cellForRowAtIndexPath:indexPath] progressView] setAlpha:1];
+o                                   ^
+o2 warnings generated.
+lSLF07#2@127"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m321321396#321321396#0(687"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m:165:7: warning: 'UITableViewCell' may not respond to 'progressView'                                 [[[tableView cellForRowAtIndexPath:indexPath] progressView] setProgress:0];                                   ^/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m:166:7: warning: 'UITableViewCell' may not respond to 'progressView'                                 [[[tableView cellForRowAtIndexPath:indexPath] progressView] setAlpha:1];                                   ^2 warnings generated.2(22@51"'UITableViewCell' may not respond to 'progressView'321321396#0#188#0(6@119"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m321318884#165#7#0#0#22"* may not respond to *0(22@51"'UITableViewCell' may not respond to 'progressView'321321396#334#188#0(6@119"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m321318884#166#7#0#0#22"* may not respond to *0(0#0#119"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m8625415136#2455"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-gargmrzhlwwcbpcmybfjnlqnwssz/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/../RootViewController.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/RootViewController.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/The_CitizenAppDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/The_CitizenAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321396.762004
+e321321396.896692
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/The_CitizenAppDelegate.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/The_CitizenAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@128"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/The_CitizenAppDelegate.m321321396#321321396#0(0"0(0#0#120"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/The_CitizenAppDelegate.m8621719168#2460"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-gargmrzhlwwcbpcmybfjnlqnwssz/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/Classes/The_CitizenAppDelegate.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/The_CitizenAppDelegate.o"0#
+
+CCompileC "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/main.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s321321396.749132
+e321321396.820670
+r1
+xCompileC
+xbuild/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/main.o
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@102"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/main.m321321396#321321396#0(0"0(0#0#94"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/main.m8628424672#2416"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-gargmrzhlwwcbpcmybfjnlqnwssz/The_Citizen_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/main.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/ProgressCell.xib"
+r0
+
+CCompileXIB "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/RootViewController.xib"
+r0
+
+CCopyPNGFile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/Icon.png" Icon.png
+r0
+
+CCpResource "build/Debug-iphoneos/The Citizen.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/The Citizen" normal "armv6 armv7"
+s321321397.219339
+e321321397.223956
+r1
+xCreateUniversalBinary
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/The Citizen
+xnormal
+xarmv6 armv7
+lSLF07#2@93"CreateUniversalBinary "build/Debug-iphoneos/The Citizen.app/The Citizen" normal "armv6 armv7"321321397#321321397#0(0"0(0#0#99"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/armv6 armv78629925920#754"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/The Citizen" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/The Citizen" -output "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/The Citizen"0#
+
+CDataModelCompile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/The_Citizen.mom" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld/The_Citizen.xcdatamodel"
+r0
+
+CDataModelVersionCompile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/The_Citizen.momd" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/The_Citizen.xcdatamodeld"
+r0
+
+CGenerateDSYMFile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app.dSYM" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/The Citizen"
+s321321397.224087
+e321321397.288974
+r1
+xGenerateDSYMFile
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app.dSYM
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/The Citizen
+lSLF07#2@111"GenerateDSYMFile "build/Debug-iphoneos/The Citizen.app.dSYM" "build/Debug-iphoneos/The Citizen.app/The Citizen"321321397#321321397#0(0"0(0#0#136"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/The Citizen8629429120#527"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/The Citizen" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app.dSYM"0#
+
+CLd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/The Citizen" normal armv6
+s321321396.210118
+e321321396.398653
+r1
+xLd
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/The Citizen
+xnormal
+xarmv6
+lSLF07#2@182"Link /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/The Citizen321321396#321321396#0(0"0(0#0#0"8621551520#1182"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" -filelist "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/The Citizen.LinkFileList" -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework QuartzCore -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv6/The Citizen"0#
+
+CLd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/The Citizen" normal armv7
+s321321397.166761
+e321321397.219209
+r1
+xLd
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/The Citizen
+xnormal
+xarmv7
+lSLF07#2@182"Link /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/The Citizen321321397#321321397#0(0"0(0#0#0"8631688288#1182"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos" -filelist "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/The Citizen.LinkFileList" -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework QuartzCore -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/Objects-normal/armv7/The Citizen"0#
+
+CProcessInfoPlistFile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/Info.plist" The_Citizen-Info.plist
+r0
+
+CProcessPCH /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-abyrssbnaqooivcufumgkhhqgvej/The_Citizen_Prefix.pch.pth The_Citizen_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/The_Citizen_Prefix-gargmrzhlwwcbpcmybfjnlqnwssz/The_Citizen_Prefix.pch.pth The_Citizen_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessProductPackaging "/Users/hazz/Library/MobileDevice/Provisioning Profiles/81A442E1-79F2-49AD-A71C-4D29083DAA41.mobileprovision" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app/embedded.mobileprovision"
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen.xcent"
+s321321397.293187
+e321321397.355670
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen.xcent
+lSLF07#2@189"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen.xcent"321321397#321321397#0(0"0(0#0#162"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen.xcent8626126304#546"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/The Citizen.build/Debug-iphoneos/The_Citizen.build/The Citizen.xcent"0#
+
+CTouch "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app"
+s321321397.289133
+e321321397.293069
+r1
+xTouch
+x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app
+lSLF07#2@130"Touch /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app321321397#321321397#0(0"0(0#0#0"8627373600#370"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The Citizen/The Citizen/build/Debug-iphoneos/The Citizen.app"0#
+
