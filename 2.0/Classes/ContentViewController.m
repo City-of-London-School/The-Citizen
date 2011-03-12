@@ -43,6 +43,7 @@
 		int width = frame.size.width;
 		HMTiledView * aView = [[HMTiledView alloc] initWithFrame:CGRectMake(i*(width+PADDING), 0.0, 320.0, frame.size.height)];
 		aView.page = CGPDFDocumentGetPage(pdf, i+1);
+		CGPDFPageRetain(aView.page);
 		[self.view addSubview:aView];
 		[aView release];
 	}
