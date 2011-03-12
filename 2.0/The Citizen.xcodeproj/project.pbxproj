@@ -283,8 +283,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Harry Maclean (DY4D7A6K73)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harry Maclean (DY4D7A6K73)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -292,8 +290,6 @@
 				GCC_PREFIX_HEADER = The_Citizen_Prefix.pch;
 				INFOPLIST_FILE = "The_Citizen-Info.plist";
 				PRODUCT_NAME = "The Citizen";
-				PROVISIONING_PROFILE = "81B8112A-B1D8-46FC-B0BE-AE2B3BB4E16A";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "81B8112A-B1D8-46FC-B0BE-AE2B3BB4E16A";
 			};
 			name = Debug;
 		};
@@ -314,7 +310,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Harry Maclean";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Harry Maclean";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -322,7 +317,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "DAB6FD95-2B4A-4631-9FDF-6E70FDC927A0";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DAB6FD95-2B4A-4631-9FDF-6E70FDC927A0";
 				SDKROOT = iphoneos;
 			};
