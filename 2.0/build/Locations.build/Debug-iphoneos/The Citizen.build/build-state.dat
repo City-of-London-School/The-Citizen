@@ -1,1247 +1,0 @@
-TThe Citizen
-v7
-r0
-t321318142.912454
-cCheck dependencies
-cCpResource build/Debug-iphoneos/Locations.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-cProcessInfoPlistFile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Info.plist" The_Citizen-Info.plist
-cCompileXIB "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/MainWindow.xib"
-cCompileXIB "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/RootViewController.xib"
-cCompileXIB "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/MyTableViewCell.xib"
-cCopyPNGFile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/download_button.png" download_button.png
-cCompileXIB "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/ProgressCell.xib"
-cProcessPCH /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch.pth Locations_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch.pth Locations_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cDataModelVersionCompile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Locations.momd" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld"
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/main.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/LocationsAppDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/RootViewController.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/DownloadPDF.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/MyNSURLConnectionDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/Event.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/MyTableViewCell.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/FileManager.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/ContentViewController.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/HMTiledView.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/HMViewDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/ProgressCell.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/Locations" normal armv6
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/main.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/LocationsAppDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/RootViewController.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/DownloadPDF.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/MyNSURLConnectionDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/Event.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/MyTableViewCell.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/FileManager.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/ContentViewController.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/HMTiledView.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/HMViewDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/ProgressCell.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/Locations" normal armv7
-cCreateUniversalBinary "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Locations" normal "armv6 armv7"
-cGenerateDSYMFile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app.dSYM" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Locations"
-cProcessProductPackaging "/Users/hazz/Library/MobileDevice/Provisioning Profiles/DAB6FD95-2B4A-4631-9FDF-6E70FDC927A0.mobileprovision" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/embedded.mobileprovision"
-cTouch "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app"
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations.xcent"
-cCodeSign "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app"
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
-c000000004CC7DC9E0000000000000110
-t1288166558
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-c000000004CB3DFCF00000000000001A7
-t1286856655
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-c000000004CB3DFCF00000000000001E5
-t1286856655
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-c000000004CC10FA70000000000300DE0
-t1287720871
-s3149280
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
-c000000004CC10F8D000000000000046B
-t1287720845
-s1131
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC10EF500000000003532B0
-t1287720693
-s3486384
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
-c000000004CC10DCA00000000000004FE
-t1287720394
-s1278
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004CC11B5300000000000D96F0
-t1287723859
-s890608
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC10F4700000000003E1F20
-t1287720775
-s4071200
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC10F1C0000000000001466
-t1287720732
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004CC1111C00000000000000C4
-t1287721244
-s196
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004CC1127D0000000000267530
-t1287721597
-s2520368
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC11AE60000000000000AA1
-t1287723750
-s2721
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC11B750000000000C769F0
-t1287723893
-s13068784
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
-c000000004CB3FBB80000000000001ADD
-t1286863800
-s6877
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.h
-c000000004D74046E00000000000001D6
-t1299448942
-s470
-i<UIKit/UIKit.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m
-c000000004D767DD600000000000007EA
-t1299611094
-s2026
-i"ContentViewController.h"
-i"HMTiledView.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.h
-c000000004D767F3A00000000000002B2
-t1299611450
-s690
-i<Foundation/Foundation.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m
-c000000004D767F620000000000000E63
-t1299611490
-s3683
-i"DownloadPDF.h"
-i"MyNSURLConnectionDelegate.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.h
-c000000004D73F992000000000000055A
-t1299446162
-s1370
-i<UIKit/UIKit.h>
-i"DownloadPDF.h"
-i"Event.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m
-c000000004D767F6B0000000000001B07
-t1299611499
-s6919
-i"FileManager.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.h
-c000000004D7008F80000000000000172
-t1299187960
-s370
-i<UIKit/UIKit.h>
-i"HMViewDelegate.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m
-c000000004D72668D000000000000062D
-t1299342989
-s1581
-i"HMTiledView.h"
-i<QuartzCore/QuartzCore.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.h
-c000000004D4D6E9200000000000001A5
-t1296920210
-s421
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<CoreGraphics/CoreGraphics.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m
-c000000004D7267A00000000000000298
-t1299343264
-s664
-i"HMViewDelegate.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.h
-c000000004D2E2C5E00000000000003E3
-t1294871646
-s995
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m
-c000000004D32083D0000000000002061
-t1295124541
-s8289
-i"LocationsAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.h
-c000000004D73AC0800000000000006F5
-t1299426312
-s1781
-i<Foundation/Foundation.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m
-c000000004D73AC100000000000000E40
-t1299426320
-s3648
-i"MyNSURLConnectionDelegate.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.h
-c000000004D7259400000000000000255
-t1299339584
-s597
-i<UIKit/UIKit.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m
-c000000004D72597A0000000000000349
-t1299339642
-s841
-i"MyTableViewCell.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.h
-c000000004D767D6F0000000000000220
-t1299610991
-s544
-i<UIKit/UIKit.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m
-c000000004D73FE19000000000000031C
-t1299447321
-s796
-i"ProgressCell.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.h
-c000000004D73F99A00000000000004FD
-t1299446170
-s1277
-i<UIKit/UIKit.h>
-i"DownloadPDF.h"
-i"Event.h"
-i"FileManager.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m
-c000000004D7680330000000000001EF5
-t1299611699
-s7925
-i"RootViewController.h"
-i"MyTableViewCell.h"
-i"ContentViewController.h"
-i"ProgressCell.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld
-c000000004D2EF93600000000000000CC
-t1294924086
-s204
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.h
-c000000004D2EF936000000000000014D
-t1294924086
-s333
-i<CoreData/CoreData.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m
-c000000004D2EF93600000000000000EC
-t1294924086
-s236
-i"Event.h"
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch
-c000000004D2E2C5F0000000000000167
-t1294871647
-s359
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/MainWindow.xib
-c000000004D2E2C5F0000000000005FFC
-t1294871647
-s24572
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/MyTableViewCell.xib
-c000000004D72596000000000000055FF
-t1299339616
-s22015
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/ProgressCell.xib
-c000000004D7367AC00000000000051AB
-t1299408812
-s20907
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/RootViewController.xib
-c000000004D2E2C5F0000000000004454
-t1294871647
-s17492
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app
-t1299623194
-s510
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app.dSYM
-t1299623194
-s102
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Info.plist
-t1299623187
-s805
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Locations
-t1299623193
-s165564
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Locations.momd
-t1299342719
-s136
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/MainWindow.nib
-t1299566467
-s2458
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/MyTableViewCell.nib
-t1299566468
-s4447
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/PkgInfo
-t1299623187
-s8
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/ProgressCell.nib
-t1299566468
-s3276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/ResourceRules.plist
-t1299566465
-s485
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/RootViewController.nib
-t1299566467
-s1518
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/download_button.png
-t1299342718
-s8592
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/embedded.mobileprovision
-t1299566474
-s7238
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations.xcent
-t1299623194
-s419
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/ContentViewController.o
-t1299623190
-s39832
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/DownloadPDF.o
-t1299623190
-s48768
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/Event.o
-t1299623190
-s1544
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/FileManager.o
-t1299623190
-s36048
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/HMTiledView.o
-t1299623190
-s40224
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/HMViewDelegate.o
-t1299623190
-s6968
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/Locations
-t1299623192
-s75932
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/Locations.LinkFileList
-c000000004D76AD13000000000000075B
-t1299623187
-s1883
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/LocationsAppDelegate.o
-t1299623190
-s59628
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/MyNSURLConnectionDelegate.o
-t1299623190
-s21032
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/MyTableViewCell.o
-t1299623190
-s37976
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/ProgressCell.o
-t1299623190
-s37280
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/RootViewController.o
-t1299623190
-s62504
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/main.o
-t1299623190
-s3088
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/ContentViewController.o
-t1299623192
-s39996
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/DownloadPDF.o
-t1299623192
-s49024
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/Event.o
-t1299623192
-s1544
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/FileManager.o
-t1299623192
-s37336
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/HMTiledView.o
-t1299623192
-s40008
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/HMViewDelegate.o
-t1299623192
-s7092
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/Locations
-t1299623193
-s83644
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/Locations.LinkFileList
-c000000004D76AD13000000000000075B
-t1299623187
-s1883
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/LocationsAppDelegate.o
-t1299623191
-s59916
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/MyNSURLConnectionDelegate.o
-t1299623192
-s21704
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/MyTableViewCell.o
-t1299623192
-s38336
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/ProgressCell.o
-t1299623192
-s37616
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/RootViewController.o
-t1299623191
-s62968
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/main.o
-t1299623190
-s3140
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv6/ContentViewController.plist
-t1299623193
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv6/DownloadPDF.plist
-t1299623193
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv6/Event.plist
-t1299623193
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv6/FileManager.plist
-t1299623193
-s36560
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv6/HMTiledView.plist
-t1299623193
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv6/HMViewDelegate.plist
-t1299623193
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv6/LocationsAppDelegate.plist
-t1299623192
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv6/MyNSURLConnectionDelegate.plist
-t1299623193
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv6/MyTableViewCell.plist
-t1299623193
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv6/ProgressCell.plist
-t1299623193
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv6/RootViewController.plist
-t1299623192
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv6/main.plist
-t1299623192
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/ContentViewController.plist
-t1299623194
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/DownloadPDF.plist
-t1299623193
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/Event.plist
-t1299623194
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/FileManager.plist
-t1299623194
-s36560
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/HMTiledView.plist
-t1299623194
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/HMViewDelegate.plist
-t1299623194
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/LocationsAppDelegate.plist
-t1299623193
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/MyNSURLConnectionDelegate.plist
-t1299623194
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/MyTableViewCell.plist
-t1299623194
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/ProgressCell.plist
-t1299623194
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/RootViewController.plist
-t1299623193
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/main.plist
-t1299623193
-s276
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/download_button.png
-c000000004C8FDC8000000000000020A9
-t1284496512
-s8361
-
-N/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m
-c000000004D2E2C5F0000000000000173
-t1294871647
-s371
-i<UIKit/UIKit.h>
-
-N/Users/hazz/Library/MobileDevice/Provisioning Profiles/81A442E1-79F2-49AD-A71C-4D29083DAA41.mobileprovision
-c000000004D2DE5260000000000001BF8
-t1294853414
-s7160
-
-N/Users/hazz/Library/MobileDevice/Provisioning Profiles/DAB6FD95-2B4A-4631-9FDF-6E70FDC927A0.mobileprovision
-c000000004C9A2FF70000000000001BA3
-t1285173239
-s7075
-
-N/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bpxybtfwbyuwpudtywhiswczkhun/Locations_Prefix.pch.pth
-t1299623189
-s2943292
-
-N/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-elostecodgtyvjemkvbpzygrelcm/Locations_Prefix.pch.pth
-t1299623189
-s2943480
-
-N/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch.pth
-t1299623188
-s2943816
-
-N/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch.pth
-t1299623188
-s2943988
-
-NLocations-Info.plist
-c000000004D2E2C5F000000000000038D
-t1294871647
-s909
-
-NThe_Citizen-Info.plist
-c000000004D76AD050000000000000363
-t1299623173
-s867
-
-CAnalyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m"
-s321315994.129123
-e321315994.238791
-r1
-xAnalyze
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m
-lSLF07#2@103"Analyze /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m321315994#321315994#0(0"0(0#0#95"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m8613975520#2148"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-elostecodgtyvjemkvbpzygrelcm/Locations_Prefix.pch --analyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/ContentViewController.plist"0#
-
-CAnalyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m"
-s321315993.919384
-e321315993.977647
-r1
-xAnalyze
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m
-lSLF07#2@93"Analyze /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m321315993#321315993#0(0"0(0#0#85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m8611183008#2128"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-elostecodgtyvjemkvbpzygrelcm/Locations_Prefix.pch --analyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/DownloadPDF.plist"0#
-
-CAnalyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m"
-s321315994.054904
-e321315994.162830
-r1
-xAnalyze
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m
-o/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m:111:18: warning: Potential leak of an object allocated on line 111 and stored into 'localFileList'
-o         localFileList = [temp copy];
-o                         ^
-o/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m:119:26: warning: Potential leak of an object allocated on line 119 and stored into 'temp'
-o         NSMutableArray * temp = [[NSMutableArray alloc] init];
-o                                 ^
-o/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m:125:9: warning: Potential leak of an object allocated on line 125
-o         return [temp copy];
-o                ^
-o/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m:170:25: warning: Potential leak of an object allocated on line 170 and stored into 'newEvents'
-o                 NSArray * newEvents = [temp copy];
-o                                       ^
-o4 warnings generated.
-lSLF07#2@93"Analyze /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321315994#321315994#0(1020"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m:111:18: warning: Potential leak of an object allocated on line 111 and stored into 'localFileList'         localFileList = [temp copy];                         ^/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m:119:26: warning: Potential leak of an object allocated on line 119 and stored into 'temp'         NSMutableArray * temp = [[NSMutableArray alloc] init];                                 ^/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m:125:9: warning: Potential leak of an object allocated on line 125         return [temp copy];                ^/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m:170:25: warning: Potential leak of an object allocated on line 170 and stored into 'newEvents'                 NSArray * newEvents = [temp copy];                                       ^4 warnings generated.4(0@81"Potential leak of an object allocated on line 111 and stored into 'localFileList'321315994#18446744073709551615#0#9(17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#103#2#103#2#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#104#2#104#2#17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#104#2#104#2#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#107#2#107#2#17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#107#2#107#2#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#108#2#108#2#17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#108#2#108#2#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#111#2#111#2#17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#111#2#111#2#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#111#18#111#28#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#111#18#0#0#0"1(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#111#18#111#28#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#111#18#111#28#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#113#2#113#7#21@92"Object returned to caller as an owning reference (single retain count transferred to caller)321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#113#2#0#0#0"2(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#113#2#113#21#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#113#9#113#21#92"Object returned to caller as an owning reference (single retain count transferred to caller)21@288"Object allocated on line 111 and stored into 'localFileList' is returned from a method whose name ('localFileList') does not contain 'copy' or otherwise starts with 'new' or 'alloc'.  This violates the naming convention rules given in the Memory Management Guide for Cocoa (object leaked)321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#113#2#0#0#0"1(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#113#2#113#7#288"Object allocated on line 111 and stored into 'localFileList' is returned from a method whose name ('localFileList') does not contain 'copy' or otherwise starts with 'new' or 'alloc'.  This violates the naming convention rules given in the Memory Management Guide for Cocoa (object leaked)6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#113#2#0#0#36"Memory (Core Foundation/Objective-C)0(23"Leak of returned object0@49"Potential leak of an object allocated on line 125321315994#18446744073709551615#0#8(17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#117#2#117#2#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#120#2#120#2#17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#120#2#120#2#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#124#2#124#2#17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#124#2#124#2#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#125#2#125#2#17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#125#2#125#2#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#125#9#125#19#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#125#9#0#0#0"1(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#125#9#125#19#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#125#9#125#19#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#125#2#125#7#21@92"Object returned to caller as an owning reference (single retain count transferred to caller)321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#125#2#0#0#0"2(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#125#2#125#19#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#125#9#125#19#92"Object returned to caller as an owning reference (single retain count transferred to caller)21@257"Object allocated on line 125 is returned from a method whose name ('remoteFileList') does not contain 'copy' or otherwise starts with 'new' or 'alloc'.  This violates the naming convention rules given in the Memory Management Guide for Cocoa (object leaked)321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#125#2#0#0#0"1(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#125#2#125#7#257"Object allocated on line 125 is returned from a method whose name ('remoteFileList') does not contain 'copy' or otherwise starts with 'new' or 'alloc'.  This violates the naming convention rules given in the Memory Management Guide for Cocoa (object leaked)6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#125#2#0#0#36"Memory (Core Foundation/Objective-C)0(23"Leak of returned object0@72"Potential leak of an object allocated on line 119 and stored into 'temp'321315994#18446744073709551615#0#7(17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#117#2#117#2#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#119#2#119#2#17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#119#2#119#2#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#119#26#119#54#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#119#26#0#0#0"1(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#119#26#119#54#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#119#26#119#54#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#120#2#120#2#17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#120#2#120#2#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#124#2#124#2#17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#124#2#124#2#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#126#1#126#1#21@137"Object allocated on line 119 and stored into 'temp' is no longer referenced after this point and has a retain count of +1 (object leaked)321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#126#1#0#0#0"1(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#126#1#126#1#137"Object allocated on line 119 and stored into 'temp' is no longer referenced after this point and has a retain count of +1 (object leaked)6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#126#1#0#0#36"Memory (Core Foundation/Objective-C)0(23"Leak of returned object0@77"Potential leak of an object allocated on line 170 and stored into 'newEvents'321315994#18446744073709551615#0#9(17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#153#2#153#2#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#154#2#154#2#17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#154#2#154#2#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#158#3#158#3#17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#158#3#158#3#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#159#3#159#3#17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#159#3#159#3#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#170#3#170#3#17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#170#3#170#3#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#170#25#170#35#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#170#25#0#0#0"1(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#170#25#170#35#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#0"0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#0#0#0#0#1(3@6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#170#25#170#35#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#172#3#172#8#21@92"Object returned to caller as an owning reference (single retain count transferred to caller)321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#172#3#0#0#0"2(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#172#3#172#18#6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#172#10#172#18#92"Object returned to caller as an owning reference (single retain count transferred to caller)21@284"Object allocated on line 170 and stored into 'newEvents' is returned from a method whose name ('findNewEvents') does not contain 'copy' or otherwise starts with 'new' or 'alloc'.  This violates the naming convention rules given in the Memory Management Guide for Cocoa (object leaked)321315994#18446744073709551615#0#0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#172#3#0#0#0"1(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#172#3#172#8#284"Object allocated on line 170 and stored into 'newEvents' is returned from a method whose name ('findNewEvents') does not contain 'copy' or otherwise starts with 'new' or 'alloc'.  This violates the naming convention rules given in the Memory Management Guide for Cocoa (object leaked)6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#172#3#0#0#36"Memory (Core Foundation/Objective-C)0(23"Leak of returned object0#0#85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m8607027616#2128"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-elostecodgtyvjemkvbpzygrelcm/Locations_Prefix.pch --analyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/FileManager.plist"0#
-
-CAnalyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m"
-s321315994.163046
-e321315994.245420
-r1
-xAnalyze
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m
-lSLF07#2@93"Analyze /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m321315994#321315994#0(0"0(0#0#85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m8611793568#2128"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-elostecodgtyvjemkvbpzygrelcm/Locations_Prefix.pch --analyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/HMTiledView.plist"0#
-
-CAnalyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m"
-s321315994.238905
-e321315994.311346
-r1
-xAnalyze
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m
-lSLF07#2@96"Analyze /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m321315994#321315994#0(0"0(0#0#88"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m8614238336#2134"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-elostecodgtyvjemkvbpzygrelcm/Locations_Prefix.pch --analyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/HMViewDelegate.plist"0#
-
-CAnalyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m"
-s321315993.853689
-e321315993.919269
-r1
-xAnalyze
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m
-lSLF07#2@102"Analyze /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m321315993#321315993#0(0"0(0#0#94"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m8614360416#2146"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-elostecodgtyvjemkvbpzygrelcm/Locations_Prefix.pch --analyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/LocationsAppDelegate.plist"0#
-
-CAnalyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m"
-s321315993.977877
-e321315994.054811
-r1
-xAnalyze
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m
-lSLF07#2@107"Analyze /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m321315993#321315994#0(0"0(0#0#99"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m8609918080#2156"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-elostecodgtyvjemkvbpzygrelcm/Locations_Prefix.pch --analyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/MyNSURLConnectionDelegate.plist"0#
-
-CAnalyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m"
-s321315994.051844
-e321315994.129017
-r1
-xAnalyze
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m
-lSLF07#2@97"Analyze /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m321315994#321315994#0(0"0(0#0#89"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m8608983840#2136"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-elostecodgtyvjemkvbpzygrelcm/Locations_Prefix.pch --analyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/MyTableViewCell.plist"0#
-
-CAnalyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m"
-s321315994.245528
-e321315994.307748
-r1
-xAnalyze
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m
-lSLF07#2@94"Analyze /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m321315994#321315994#0(0"0(0#0#86"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m8613259552#2130"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-elostecodgtyvjemkvbpzygrelcm/Locations_Prefix.pch --analyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/ProgressCell.plist"0#
-
-CAnalyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m"
-s321315993.898626
-e321315993.993132
-r1
-xAnalyze
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m
-lSLF07#2@100"Analyze /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m321315993#321315994#0(0"0(0#0#92"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m8613403488#2142"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-elostecodgtyvjemkvbpzygrelcm/Locations_Prefix.pch --analyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/RootViewController.plist"0#
-
-CAnalyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m"
-s321315993.993396
-e321315994.051725
-r1
-xAnalyze
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m
-lSLF07#2@102"Analyze /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m321315993#321315994#0(0"0(0#0#94"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m8609145600#2131"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-elostecodgtyvjemkvbpzygrelcm/Locations_Prefix.pch --analyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/Event.plist"0#
-
-CAnalyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m"
-s321315993.808979
-e321315993.898516
-r1
-xAnalyze
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m
-lSLF07#2@78"Analyze /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m321315993#321315993#0(0"0(0#0#70"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m8609843296#2106"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-elostecodgtyvjemkvbpzygrelcm/Locations_Prefix.pch --analyze "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/StaticAnalyzer/normal/armv7/main.plist"0#
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies321318142#321318142#0(107"[BWARN]warning: 'The Validate Built Product build setting was not enabled when building for Distribution.'1(22@99"warning: 'The Validate Built Product build setting was not enabled when building for Distribution.'321318142#18446744073709551615#0#0(1@0"0(0#1#0"8634388960#0"0#
-
-CCodeSign "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app"
-s321318142.454590
-e321318142.912413
-r0
-xCodeSign
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app
-o/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app: object file format invalid or unsuitable
-lSLF07#2@43"CodeSign build/Debug-iphoneos/Locations.app321318142#321318142#0(191"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app: object file format invalid or unsuitableCommand /usr/bin/codesign failed with exit code 11(4@49"Command /usr/bin/codesign failed with exit code 1321318142#18446744073709551615#0#0(1@0"0(0#0#98"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app8618959712#759"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: Harry Maclean" "--resource-rules=/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/ResourceRules.plist" --entitlements "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations.xcent" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app"1#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/ContentViewController.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315990.617010
-e321315990.741527
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/ContentViewController.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@103"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m321315990#321315990#0(0"0(0#0#95"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m8609321024#2168"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/ContentViewController.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/DownloadPDF.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315990.223591
-e321315990.409571
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/DownloadPDF.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@93"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m321315990#321315990#0(0"0(0#0#85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m8615823744#2148"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/DownloadPDF.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/Event.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315990.468169
-e321315990.517925
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/Event.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@102"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m321315990#321315990#0(0"0(0#0#94"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m8614487200#2151"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/Event.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/FileManager.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315990.518052
-e321315990.666214
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/FileManager.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m:234:9:{234:9-234:12}: warning: incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'
-o         return nil;
-o                ^~~
-oIn file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch:13:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:96:
-o/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h:90:17: note: instantiated from:
-o     #define nil NULL
-o                 ^
-oIn file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch:13:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:22:
-o/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h:45:14: note: instantiated from:
-o #define NULL ((void*)0)
-o              ^~~~~~~~~~
-o1 warning generated.
-lSLF07#2@93"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321315990#321315990#0(1668"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m:234:9:{234:9-234:12}: warning: incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'         return nil;                ^~~In file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch:13:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:96:/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h:90:17: note: instantiated from:     #define nil NULL                 ^In file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch:13:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:22:/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h:45:14: note: instantiated from: #define NULL ((void*)0)              ^~~~~~~~~~1 warning generated.1(22@100"Incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'321315990#0#218#2(13@111"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h321315990#869#125#5(7@163"In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:96:321315990#705#164#0(6@137"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h309413104#96#0#96#0#0"0(7@171"In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:321315990#533#172#0(6@145"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h309413104#38#0#38#0#0"0(7@162"In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:321315990#370#163#0(6@137"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h309413532#6#0#6#0#0"0(7@110"In file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch:13:321315990#259#111#0(6@84"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch316564447#13#0#13#0#0"0(13@207"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h in /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h321315990#18446744073709551615#0#0(6@92"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h308556600#90#17#0#0#0"0(6@92"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h308556600#90#17#0#0#18"instantiated from:0(13@102"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h321315990#1481#116#0(6@83"/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h308206487#45#14#0#0#18"instantiated from:0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#234#9#0#0#44"incompatible pointer to integer conversion *1(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#234#9#234#12#0#0#85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m8613810240#2148"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/FileManager.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/HMTiledView.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315990.666337
-e321315990.803233
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/HMTiledView.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@93"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m321315990#321315990#0(0"0(0#0#85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m8609855008#2148"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/HMTiledView.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/HMViewDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315990.741654
-e321315990.841614
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/HMViewDelegate.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@96"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m321315990#321315990#0(0"0(0#0#88"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m8611898528#2154"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/HMViewDelegate.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/LocationsAppDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315989.663990
-e321315990.223459
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/LocationsAppDelegate.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@102"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m321315989#321315990#0(0"0(0#0#94"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m8616696608#2166"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/LocationsAppDelegate.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/MyNSURLConnectionDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315990.409690
-e321315990.493181
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/MyNSURLConnectionDelegate.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@107"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m321315990#321315990#0(0"0(0#0#99"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m8609744608#2176"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/MyNSURLConnectionDelegate.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/MyTableViewCell.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315990.493314
-e321315990.616879
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/MyTableViewCell.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@97"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m321315990#321315990#0(0"0(0#0#89"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m8609217888#2156"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/MyTableViewCell.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/ProgressCell.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315990.803364
-e321315990.915169
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/ProgressCell.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@94"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m321315990#321315990#0(0"0(0#0#86"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m8614396288#2150"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/ProgressCell.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/RootViewController.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315990.165615
-e321315990.468042
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/RootViewController.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m:169:6: warning: 'UITableViewCell' may not respond to 'progressView'
-o                         [[[tableView cellForRowAtIndexPath:indexPath] progressView] setProgress:0];
-o                           ^
-o/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m:170:6: warning: 'UITableViewCell' may not respond to 'progressView'
-o                         [[[tableView cellForRowAtIndexPath:indexPath] progressView] setAlpha:1];
-o                           ^
-o2 warnings generated.
-lSLF07#2@100"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m321315990#321315990#0(601"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m:169:6: warning: 'UITableViewCell' may not respond to 'progressView'                         [[[tableView cellForRowAtIndexPath:indexPath] progressView] setProgress:0];                           ^/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m:170:6: warning: 'UITableViewCell' may not respond to 'progressView'                         [[[tableView cellForRowAtIndexPath:indexPath] progressView] setAlpha:1];                           ^2 warnings generated.2(22@51"'UITableViewCell' may not respond to 'progressView'321315990#0#161#0(6@92"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m321304499#169#6#0#0#22"* may not respond to *0(22@51"'UITableViewCell' may not respond to 'progressView'321315990#291#161#0(6@92"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m321304499#170#6#0#0#22"* may not respond to *0(0#0#92"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m8613850048#2162"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/RootViewController.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/main.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315989.662628
-e321315990.165468
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/main.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@78"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m321315989#321315990#0(0"0(0#0#70"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m8606489184#2126"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/main.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/ContentViewController.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315992.403091
-e321315992.540572
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/ContentViewController.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@103"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m321315992#321315992#0(0"0(0#0#95"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m8609919264#2168"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ContentViewController.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/ContentViewController.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/DownloadPDF.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315992.085725
-e321315992.271396
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/DownloadPDF.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@93"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m321315992#321315992#0(0"0(0#0#85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m8614291008#2148"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/DownloadPDF.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/DownloadPDF.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/Event.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315992.222401
-e321315992.280419
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/Event.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@102"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m321315992#321315992#0(0"0(0#0#94"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m8609411328#2151"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld/Event.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/Event.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/FileManager.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315992.280547
-e321315992.443730
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/FileManager.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m:234:9:{234:9-234:12}: warning: incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'
-o         return nil;
-o                ^~~
-oIn file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch:13:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:96:
-o/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h:90:17: note: instantiated from:
-o     #define nil NULL
-o                 ^
-oIn file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch:13:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
-oIn file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:22:
-o/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h:45:14: note: instantiated from:
-o #define NULL ((void*)0)
-o              ^~~~~~~~~~
-o1 warning generated.
-lSLF07#2@93"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321315992#321315992#0(1668"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m:234:9:{234:9-234:12}: warning: incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'         return nil;                ^~~In file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch:13:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:96:/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h:90:17: note: instantiated from:     #define nil NULL                 ^In file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch:13:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:22:/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h:45:14: note: instantiated from: #define NULL ((void*)0)              ^~~~~~~~~~1 warning generated.1(22@100"Incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'321315992#0#218#2(13@111"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h321315992#869#125#5(7@163"In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:96:321315992#705#164#0(6@137"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h309413104#96#0#96#0#0"0(7@171"In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:321315992#533#172#0(6@145"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h309413104#38#0#38#0#0"0(7@162"In file included from /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:321315992#370#163#0(6@137"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h309413532#6#0#6#0#0"0(7@110"In file included from /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch:13:321315992#259#111#0(6@84"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch316564447#13#0#13#0#0"0(13@207"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h in /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h321315992#18446744073709551615#0#0(6@92"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h308556600#90#17#0#0#0"0(6@92"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/MacTypes.h308556600#90#17#0#0#18"instantiated from:0(13@102"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h321315992#1481#116#0(6@83"/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/clang/1.6/include/stddef.h308206487#45#14#0#0#18"instantiated from:0(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#234#9#0#0#44"incompatible pointer to integer conversion *1(6@85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m321304299#234#9#234#12#0#0#85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m8613918240#2148"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/FileManager.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/FileManager.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/HMTiledView.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315992.443933
-e321315992.570920
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/HMTiledView.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@93"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m321315992#321315992#0(0"0(0#0#85"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m8609364384#2148"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMTiledView.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/HMTiledView.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/HMViewDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315992.540702
-e321315992.613708
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/HMViewDelegate.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@96"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m321315992#321315992#0(0"0(0#0#88"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m8607633664#2154"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/HMViewDelegate.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/HMViewDelegate.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/LocationsAppDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315990.920590
-e321315991.411370
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/LocationsAppDelegate.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@102"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m321315990#321315991#0(0"0(0#0#94"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m8613720480#2166"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/LocationsAppDelegate.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/LocationsAppDelegate.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/MyNSURLConnectionDelegate.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315992.120407
-e321315992.222273
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/MyNSURLConnectionDelegate.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@107"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m321315992#321315992#0(0"0(0#0#99"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m8609983392#2176"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyNSURLConnectionDelegate.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/MyNSURLConnectionDelegate.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/MyTableViewCell.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315992.271523
-e321315992.402952
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/MyTableViewCell.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@97"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m321315992#321315992#0(0"0(0#0#89"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m8614365344#2156"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/MyTableViewCell.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/MyTableViewCell.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/ProgressCell.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315992.571058
-e321315992.756735
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/ProgressCell.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@94"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m321315992#321315992#0(0"0(0#0#86"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m8614351040#2150"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/ProgressCell.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/ProgressCell.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/RootViewController.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315991.411588
-e321315992.085565
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/RootViewController.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m:169:6: warning: 'UITableViewCell' may not respond to 'progressView'
-o                         [[[tableView cellForRowAtIndexPath:indexPath] progressView] setProgress:0];
-o                           ^
-o/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m:170:6: warning: 'UITableViewCell' may not respond to 'progressView'
-o                         [[[tableView cellForRowAtIndexPath:indexPath] progressView] setAlpha:1];
-o                           ^
-o2 warnings generated.
-lSLF07#2@100"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m321315991#321315992#0(601"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m:169:6: warning: 'UITableViewCell' may not respond to 'progressView'                         [[[tableView cellForRowAtIndexPath:indexPath] progressView] setProgress:0];                           ^/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m:170:6: warning: 'UITableViewCell' may not respond to 'progressView'                         [[[tableView cellForRowAtIndexPath:indexPath] progressView] setAlpha:1];                           ^2 warnings generated.2(22@51"'UITableViewCell' may not respond to 'progressView'321315991#0#161#0(6@92"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m321304499#169#6#0#0#22"* may not respond to *0(22@51"'UITableViewCell' may not respond to 'progressView'321315991#291#161#0(6@92"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m321304499#170#6#0#0#22"* may not respond to *0(0#0#92"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m8614194784#2162"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Classes/RootViewController.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/RootViewController.o"0#
-
-CCompileC "build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/main.o" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315990.841748
-e321315990.920446
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/main.o
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@78"Compile /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m321315990#321315990#0(0"0(0#0#70"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m8614620640#2126"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -include /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/main.m" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/main.o"0#
-
-CCompileXIB "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/MainWindow.xib"
-r0
-
-CCompileXIB "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/MyTableViewCell.xib"
-r0
-
-CCompileXIB "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/ProgressCell.xib"
-r0
-
-CCompileXIB "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/RootViewController.xib"
-r0
-
-CCopyPNGFile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/download_button.png" download_button.png
-r0
-
-CCpResource build/Debug-iphoneos/Locations.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-r0
-
-CCreateUniversalBinary "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Locations" normal "armv6 armv7"
-s321315993.432520
-e321315993.548295
-r1
-xCreateUniversalBinary
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Locations
-xnormal
-xarmv6 armv7
-lSLF07#2@87"CreateUniversalBinary build/Debug-iphoneos/Locations.app/Locations normal "armv6 armv7"321315993#321315993#0(0"0(0#0#75"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/armv6 armv78609300000#646"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/Locations" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/Locations" -output "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Locations"0#
-
-CDataModelVersionCompile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Locations.momd" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations.xcdatamodeld"
-r0
-
-CGenerateDSYMFile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app.dSYM" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Locations"
-s321315994.307883
-e321315994.629613
-r1
-xGenerateDSYMFile
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app.dSYM
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Locations
-lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/Locations.app.dSYM build/Debug-iphoneos/Locations.app/Locations321315994#321315994#0(0"0(0#0#108"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Locations8611331264#449"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Locations" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app.dSYM"0#
-
-CLd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/Locations" normal armv6
-s321315990.915405
-e321315992.120232
-r1
-xLd
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/Locations
-xnormal
-xarmv6
-lSLF07#2@154"Link /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/Locations321315990#321315992#0(0"0(0#0#0"8606769728#1078"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" -filelist "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/Locations.LinkFileList" -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework CoreLocation -framework QuartzCore -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv6/Locations"0#
-
-CLd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/Locations" normal armv7
-s321315992.756845
-e321315993.432400
-r1
-xLd
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/Locations
-xnormal
-xarmv7
-lSLF07#2@154"Link /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/Locations321315992#321315993#0(0"0(0#0#0"8613819200#1078"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" -filelist "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/Locations.LinkFileList" -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework CoreLocation -framework QuartzCore -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Objects-normal/armv7/Locations"0#
-
-CProcessInfoPlistFile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Info.plist" Locations-Info.plist
-r0
-
-CProcessInfoPlistFile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Info.plist" The_Citizen-Info.plist
-s321315987.599637
-e321315987.658977
-r1
-xProcessInfoPlistFile
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Info.plist
-xThe_Citizen-Info.plist
-lSLF07#2@30"Process The_Citizen-Info.plist321315987#321315987#0(0"0(0#0#86"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/The_Citizen-Info.plist6066188605215831040#680"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility The_Citizen-Info.plist -genpkginfo "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/ResourceRules.plist" -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/Info.plist"0#
-
-CProcessPCH /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bpxybtfwbyuwpudtywhiswczkhun/Locations_Prefix.pch.pth Locations_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
-s321315988.754629
-e321315989.442562
-r1
-xProcessPCH
-x/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bpxybtfwbyuwpudtywhiswczkhun/Locations_Prefix.pch.pth
-xLocations_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.analyzer
-lSLF07#2@31"Precompile Locations_Prefix.pch321315988#321315989#0(0"0(0#0#84"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch8611355104#1955"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch" -o /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-bpxybtfwbyuwpudtywhiswczkhun/Locations_Prefix.pch.pth0#
-
-CProcessPCH /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-elostecodgtyvjemkvbpzygrelcm/Locations_Prefix.pch.pth Locations_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
-s321315989.377765
-e321315989.662420
-r1
-xProcessPCH
-x/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-elostecodgtyvjemkvbpzygrelcm/Locations_Prefix.pch.pth
-xLocations_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.analyzer
-lSLF07#2@31"Precompile Locations_Prefix.pch321315989#321315989#0(0"0(0#0#84"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch8613711424#1955"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch" -o /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-elostecodgtyvjemkvbpzygrelcm/Locations_Prefix.pch.pth0#
-
-CProcessPCH /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch.pth Locations_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315987.659780
-e321315989.377564
-r1
-xProcessPCH
-x/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch.pth
-xLocations_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@31"Precompile Locations_Prefix.pch321315987#321315989#0(0"0(0#0#84"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch8616921184#1993"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv6" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch" -o /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gdvwopfrhucoqogffjnycfbxravz/Locations_Prefix.pch.pth0#
-
-CProcessPCH /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch.pth Locations_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s321315987.681462
-e321315988.754451
-r1
-xProcessPCH
-x/var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch.pth
-xLocations_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@31"Precompile Locations_Prefix.pch321315987#321315988#0(0"0(0#0#84"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch8614410816#1993"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-generated-files.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-own-target-headers.hmap" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-all-target-headers.hmap" -iquote "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations-project-headers.hmap" "-F/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/include" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources/armv7" "-I/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/DerivedSources" -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/Locations_Prefix.pch" -o /var/folders/jy/jy-g9Ma6HCiH6gwELFc4Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-gramfdnnnqtmenbthtkemgjrmamt/Locations_Prefix.pch.pth0#
-
-CProcessProductPackaging "/Users/hazz/Library/MobileDevice/Provisioning Profiles/81A442E1-79F2-49AD-A71C-4D29083DAA41.mobileprovision" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/embedded.mobileprovision"
-r0
-
-CProcessProductPackaging "/Users/hazz/Library/MobileDevice/Provisioning Profiles/DAB6FD95-2B4A-4631-9FDF-6E70FDC927A0.mobileprovision" "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app/embedded.mobileprovision"
-r0
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations.xcent"
-s321315994.693458
-e321315994.749518
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations.xcent
-lSLF07#2@185"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "build/Locations.build/Debug-iphoneos/The Citizen.build/Locations.xcent"321315994#321315994#0(0"0(0#0#134"/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations.xcent8609167264#494"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Locations.build/Debug-iphoneos/The Citizen.build/Locations.xcent"0#
-
-CTouch "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app"
-s321315994.629782
-e321315994.693300
-r1
-xTouch
-x/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app
-lSLF07#2@104"Touch /Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app321315994#321315994#0(0"0(0#0#0"8609300704#320"    cd "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/hazz/Documents/Programming/Cocoa/Citizen/The Citizen/2.0/build/Debug-iphoneos/Locations.app"0#
-
