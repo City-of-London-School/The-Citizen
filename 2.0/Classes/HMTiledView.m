@@ -16,6 +16,7 @@
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
         // Initialization code
+		self.backgroundColor = [UIColor grayColor];
     }
     return self;
 }
@@ -28,8 +29,10 @@
 	delegate.page = page;
 	CATiledLayer * subLayer = [CATiledLayer layer];
 	subLayer.delegate = delegate;
-	subLayer.tileSize = CGSizeMake(200.0, 200.0);
-	subLayer.levelsOfDetail = 15;
+	int w = (int)self.bounds.size.width;
+	int h = (int)self.bounds.size.height;
+	subLayer.tileSize = CGSizeMake(w*2, h*2);
+	subLayer.levelsOfDetail = 3;
 	subLayer.levelsOfDetailBias = 3;
 	int width = self.bounds.size.width;
 	int height = self.bounds.size.height;
@@ -45,7 +48,8 @@
 	UIScrollView * scrollView = [[UIScrollView alloc] initWithFrame:viewFrame];
 	scrollView.delegate = (id)self;
 	scrollView.contentSize = subLayer.frame.size;
-	scrollView.maximumZoomScale = 32;
+	scrollView.maximumZoomScale = 6;
+	scrollView.bouncesZoom = NO;
 	scrollView.zoomScale = 1;
 	[scrollView addSubview:myContentView];
 	[self addSubview:scrollView];
