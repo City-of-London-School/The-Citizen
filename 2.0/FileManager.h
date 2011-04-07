@@ -11,8 +11,9 @@
 #import "Event.h"
 
 @protocol FileManagerDelegate <NSObject>
-- (void)updateTableView;
 - (void)eventWasAdded:(NSIndexPath *)indexPath;
+@optional
+- (void)updateTableView;
 - (void)downloadAtIndex:(int)index hasProgressedBy:(NSNumber *)amount;
 @end
 
@@ -36,8 +37,9 @@
 - (NSArray *)findNewEvents;
 - (Event *)findEvent:(NSString *)pdfPath;
 - (void)addNewEvents:(NSArray *)newEvents;
-- (void)setup;
+- (void)setup:(NSString *)context; // 'year' for year controller, 'current' for most recent, 'all' for all (legacy)
 - (void)downloadFileList;
+- (Event *)mostRecentEvent;
 
 - (NSArray *)reverseArray:(NSArray *)arr;
 - (int)findIndexOfEventWithFilename:(NSString *)filename;

@@ -15,6 +15,7 @@
 
 @property (nonatomic, retain) NSString * pdfPath;
 @property (nonatomic, retain) NSNumber * existsLocally;
+@property (nonatomic, retain) NSDate * date;
 
 @end
 

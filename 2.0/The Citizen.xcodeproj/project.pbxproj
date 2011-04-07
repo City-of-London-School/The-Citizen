@@ -16,6 +16,8 @@
 		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28D3F202112F7DC200FD0661 /* The_Citizen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28D3F201112F7DC200FD0661 /* The_Citizen.xcdatamodeld */; };
+		EF4CD0FF132D6FD7008ACB8C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CD0FD132D6FD4008ACB8C /* HomeViewController.m */; };
+		EF4CD100132D6FD7008ACB8C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4CD0FE132D6FD5008ACB8C /* HomeViewController.xib */; };
 		EF821F211326EB1F00F4BF85 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790E31326E53A000177BA /* RootViewController.m */; };
 		EF821F301326EB6C00F4BF85 /* ProgressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF821F2E1326EB6C00F4BF85 /* ProgressCell.m */; };
 		EF821F331326EB9A00F4BF85 /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790E51326E53A000177BA /* FileManager.m */; };
@@ -47,6 +49,9 @@
 		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* The_Citizen-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "The_Citizen-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		EF4CD0FC132D6FD4008ACB8C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Classes/HomeViewController.h; sourceTree = "<group>"; };
+		EF4CD0FD132D6FD4008ACB8C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Classes/HomeViewController.m; sourceTree = "<group>"; };
+		EF4CD0FE132D6FD5008ACB8C /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = Classes/HomeViewController.xib; sourceTree = "<group>"; };
 		EF821F2D1326EB6C00F4BF85 /* ProgressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressCell.h; sourceTree = "<group>"; };
 		EF821F2E1326EB6C00F4BF85 /* ProgressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressCell.m; sourceTree = "<group>"; };
 		EF84B25C1326F39C00B1BFAC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -113,9 +118,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				EFE4B5F1132C58D900FC1485 /* Default@2x.png */,
-				EFE4B5EF132C571C00FC1485 /* Default.png */,
-				EFE4B5ED132C56EF00FC1485 /* crest_london_114.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -137,8 +139,12 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EFE4B5F1132C58D900FC1485 /* Default@2x.png */,
+				EFE4B5EF132C571C00FC1485 /* Default.png */,
+				EFE4B5ED132C56EF00FC1485 /* crest_london_114.png */,
 				EF84B25C1326F39C00B1BFAC /* Icon.png */,
 				28D3F201112F7DC200FD0661 /* The_Citizen.xcdatamodeld */,
+				EF4CD0FE132D6FD5008ACB8C /* HomeViewController.xib */,
 				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				EFA790F51326E589000177BA /* ProgressCell.xib */,
@@ -176,6 +182,8 @@
 				EFA790E31326E53A000177BA /* RootViewController.m */,
 				EFA790E41326E53A000177BA /* FileManager.h */,
 				EFA790E51326E53A000177BA /* FileManager.m */,
+				EF4CD0FC132D6FD4008ACB8C /* HomeViewController.h */,
+				EF4CD0FD132D6FD4008ACB8C /* HomeViewController.m */,
 			);
 			name = "List View";
 			path = ..;
@@ -262,6 +270,7 @@
 				EFE4B5EE132C56EF00FC1485 /* crest_london_114.png in Resources */,
 				EFE4B5F0132C571C00FC1485 /* Default.png in Resources */,
 				EFE4B5F2132C58D900FC1485 /* Default@2x.png in Resources */,
+				EF4CD100132D6FD7008ACB8C /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +294,7 @@
 				EFA791111326E64B000177BA /* Event.m in Sources */,
 				EFA791131326E669000177BA /* The_Citizen.xcdatamodel in Sources */,
 				EF821F301326EB6C00F4BF85 /* ProgressCell.m in Sources */,
+				EF4CD0FF132D6FD7008ACB8C /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

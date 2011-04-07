@@ -8,6 +8,7 @@
 
 #import "The_CitizenAppDelegate.h"
 #import "RootViewController.h"
+#import "HomeViewController.h"
 
 
 @implementation The_CitizenAppDelegate
@@ -21,8 +22,11 @@
 
 - (void)awakeFromNib {    
     
-    RootViewController *rootViewController = (RootViewController *)[navigationController topViewController];
-    rootViewController.managedObjectContext = self.managedObjectContext;
+//    RootViewController *rootViewController = (RootViewController *)[navigationController topViewController];
+//    rootViewController.managedObjectContext = self.managedObjectContext;
+	
+	HomeViewController * homeViewController = (HomeViewController *)[navigationController topViewController];
+	homeViewController.managedObjectContext = self.managedObjectContext;
 }
 
 

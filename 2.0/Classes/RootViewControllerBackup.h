@@ -19,7 +19,6 @@
 	DownloadPDF * downloadManager;
 	NSDictionary * downloadProgress;
 	BOOL downloadInProgress;
-	BOOL shouldLoadMostRecent;
 }
 
 @property (nonatomic, retain) NSManagedObjectContext * managedObjectContext;

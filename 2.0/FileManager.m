@@ -12,11 +12,11 @@
 @implementation FileManager
 @synthesize eventsArray, managedObjectContext, delegate;
 
-- (void)setup {
+- (void)setup:(NSString *)context {
 	NSFetchRequest * request = [[NSFetchRequest alloc] init];
 	NSEntityDescription * entity = [NSEntityDescription entityForName:@"Event" inManagedObjectContext:managedObjectContext];
 	[request setEntity:entity];
-	NSSortDescriptor * sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"pdfPath" ascending:NO];
+	NSSortDescriptor * sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"date" ascending:NO];
 	NSArray * sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptor, nil];
 	[request setSortDescriptors:sortDescriptors];
 	[sortDescriptors release];
@@ -135,6 +135,14 @@
 	[event setPdfPath:filename];
 	[event setExistsLocally:[NSNumber numberWithBool:NO]];
 	
+	NSString * dateString = [filename stringByReplacingOccurrencesOfString:@"citizen" withString:@""];
+	NSDateFormatter * dateFormatter = [[NSDateFormatter alloc] init];
+	[dateFormatter setDateFormat:@"yyyy-MM-dd"];
+	NSDate * date = [dateFormatter dateFromString:dateString];
+	NSLog(@"%@", date);
+	[event setDate:date];
+
+	
 	NSError * error = nil;
 	if (![managedObjectContext save:&error]) {
 		// Handle error
@@ -200,6 +208,13 @@
 
 - (void)downloadEvent:(Event *)event{
 	[downloadManager downloadFile:[event.pdfPath stringByAppendingFormat:@".pdf"]];
+}
+
+- (Event *)mostRecentEvent {
+	NSArray * events = [self eventsArray];
+	Event * anEvent = [events objectAtIndex:0];
+	NSLog(@"%@", anEvent.date);
+	return anEvent;
 }
 
 #pragma mark -
