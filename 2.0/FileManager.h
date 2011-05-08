@@ -44,6 +44,9 @@
 - (NSArray *)reverseArray:(NSArray *)arr;
 - (int)findIndexOfEventWithFilename:(NSString *)filename;
 
+// Clean up DB by removing duplicate and null entries.
+- (void)cleanDB;
+
 @property (nonatomic, retain) NSManagedObjectContext * managedObjectContext;
 @property (assign) id <FileManagerDelegate> delegate;
 @property (nonatomic, retain) NSMutableArray * eventsArray;

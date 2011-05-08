@@ -34,11 +34,14 @@
 	
 	downloadManager = [[DownloadPDF alloc] init];
 	[downloadManager setDownloadPDFDelegate:(id<DownloadPDFDelegate>)self];
-	if ([DownloadPDF connectedToInternet]) {
-		[self downloadFileList];
-	}
-	else {
-		[DownloadPDF showNetworkError];
+	if (![context isEqualToString:@"do_not_autodownload"]) {
+		[self cleanDB];
+		if ([DownloadPDF connectedToInternet]) {
+			[self downloadFileList];
+		}
+		else {
+			[DownloadPDF showNetworkError];
+		}
 	}
 
 }
@@ -125,6 +128,18 @@
 	return (NSArray *)temp;
 }
 
+- (void)cleanDB {
+	Event *prevEvent = nil;
+	for (Event *event in self.eventsArray) {
+		NSLog(@"Event: %@", event.pdfPath);
+		if (prevEvent && [prevEvent.pdfPath isEqualToString:event.pdfPath] || event.pdfPath == nil || [event.pdfPath isEqualToString:@""] || event.date == nil) {
+			NSLog(@"deleting %@", event.pdfPath);
+			[managedObjectContext deleteObject:event];
+		}
+		prevEvent = event;
+	}
+}
+
 #pragma mark -
 #pragma mark Event
 
@@ -167,7 +182,7 @@
 		for (NSString * str in [self remoteFileList]) {
 			BOOL exists = NO;
 			for (NSString * filename in localFileList) {
-				if (filename == str) {
+				if ([filename isEqualToString:str]) {
 					exists = YES;
 				}
 			}

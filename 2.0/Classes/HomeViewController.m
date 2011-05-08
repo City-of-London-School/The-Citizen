@@ -48,7 +48,7 @@
 	fileManager = [[FileManager alloc] init];
 	fileManager.managedObjectContext = self.managedObjectContext;
 	[fileManager setDelegate:self];
-	[fileManager setup:@""];
+	[fileManager setup:@"do_not_autodownload"];
 }
 
 - (void)viewDidUnload

@@ -55,6 +55,7 @@
 		EF821F2D1326EB6C00F4BF85 /* ProgressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressCell.h; sourceTree = "<group>"; };
 		EF821F2E1326EB6C00F4BF85 /* ProgressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressCell.m; sourceTree = "<group>"; };
 		EF84B25C1326F39C00B1BFAC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		EF873E6B13773CC000217DF8 /* The_Citizen Date.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "The_Citizen Date.xcdatamodel"; sourceTree = "<group>"; };
 		EFA790DD1326E4CA000177BA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EFA790E21326E53A000177BA /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		EFA790E31326E53A000177BA /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
@@ -399,8 +400,9 @@
 				EFA7910F1326E64B000177BA /* Event.h */,
 				EFA791101326E64B000177BA /* Event.m */,
 				EFA791121326E669000177BA /* The_Citizen.xcdatamodel */,
+				EF873E6B13773CC000217DF8 /* The_Citizen Date.xcdatamodel */,
 			);
-			currentVersion = EFA791121326E669000177BA /* The_Citizen.xcdatamodel */;
+			currentVersion = EF873E6B13773CC000217DF8 /* The_Citizen Date.xcdatamodel */;
 			path = The_Citizen.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
