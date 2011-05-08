@@ -25,17 +25,17 @@
 	NSError * error = nil;
 	NSMutableArray * mutableFetchResults = [[managedObjectContext executeFetchRequest:request error:&error] mutableCopy];
 	if (mutableFetchResults == nil) {
-		// Handle the error.
 		NSLog(@"fetch error: %@", [error description]);
 	}
 	[self setEventsArray:mutableFetchResults];
 	[mutableFetchResults release];
 	[request release];
-	
+	if ([context isEqualToString:@"do_not_autodownload"]) {
+		[self cleanDB];
+	}
 	downloadManager = [[DownloadPDF alloc] init];
 	[downloadManager setDownloadPDFDelegate:(id<DownloadPDFDelegate>)self];
 	if (![context isEqualToString:@"do_not_autodownload"]) {
-		[self cleanDB];
 		if ([DownloadPDF connectedToInternet]) {
 			[self downloadFileList];
 		}
