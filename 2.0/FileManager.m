@@ -140,6 +140,94 @@
 	}
 }
 
+-(NSArray *)nestedArray {
+	NSArray *years = [[self years] copy];
+	NSDateFormatter * dateFormatter = [[NSDateFormatter alloc] init];
+	NSMutableArray *result = [[NSMutableArray alloc] init];
+	for (NSString * year in years) {
+		[dateFormatter setDateFormat:@"yyyy"];
+		NSDate *startDate = [dateFormatter dateFromString:year];
+		NSLog(@"date from string %@ = %@", year, startDate);
+		NSDateComponents *components = [[NSDateComponents alloc] init];
+		components.month = 11;
+		components.day = 30;
+		NSDate *endDate = [[NSCalendar currentCalendar] dateByAddingComponents:components toDate:startDate options:0];
+		[components release];
+		NSArray *events = [self fetchEventsFromDate:startDate toDate:endDate];
+		NSArray *months = [self monthsForEvents:events];
+		[dateFormatter setDateFormat:@"yyyy-MM"];
+		NSMutableArray * monthResult = [[NSMutableArray alloc] init];
+		for (NSString * month in months) {
+			startDate = [dateFormatter dateFromString:[year stringByAppendingFormat:@"-%@", month]];
+			NSRange daysRange = [[NSCalendar currentCalendar] rangeOfUnit:NSDayCalendarUnit inUnit:NSMonthCalendarUnit forDate:startDate];
+			NSDateComponents *components = [[NSDateComponents alloc] init];
+			components.day = daysRange.length;
+			NSDate *endDate = [[NSCalendar currentCalendar] dateByAddingComponents:components toDate:startDate options:0];
+			[components release];
+			NSArray *events = [self fetchEventsFromDate:startDate toDate:endDate];
+			NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:month, @"month", events, @"array", nil];
+			[monthResult addObject:dict];
+		}
+		[result addObject:[NSDictionary dictionaryWithObjectsAndKeys:year, @"year", monthResult, @"array", nil]];
+	}
+	return result;
+}
+
+- (NSArray *)fetchEventsFromDate:(NSDate *)startDate toDate:(NSDate *)endDate {
+	NSLog(@"startDate: %@ endDate: %@", startDate, endDate);
+	NSPredicate *predicate = [NSPredicate predicateWithFormat:@"(date >= %@) AND (date <= %@)", startDate, endDate];
+	NSFetchRequest *request = [[[NSFetchRequest alloc] init] autorelease];
+	[request setEntity:[NSEntityDescription entityForName:@"Event" inManagedObjectContext:managedObjectContext]];
+	[request setPredicate:predicate];
+	NSSortDescriptor * sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"date" ascending:NO];
+	NSArray * sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptor, nil];
+	[request setSortDescriptors:sortDescriptors];
+	NSError *error = nil;
+	return [managedObjectContext executeFetchRequest:request error:&error];
+}
+/*
+ NSPredicate *predicate = [NSPredicate predicateWithFormat:@"(date >= %@) AND (date <= %@)", startDate, endDate];
+ NSFetchRequest *request = [[[NSFetchRequest alloc] init] autorelease];
+ [request setEntity:[NSEntityDescription entityForName:@"Event" inManagedObjectContext:managedObjectContext]];
+ [request setPredicate:predicate];
+ 
+ NSError *error = nil;
+ NSArray *results = [moc executeFetchRequest:request error:&error];
+ */
+- (NSArray *)years {
+	NSMutableArray * arr = [[NSMutableArray alloc] init];
+	NSString * str;
+	for (Event * event in eventsArray) {
+		str = [[event.date description] substringToIndex:4];
+		if (![self string:str existsInArray:arr]) {
+			[arr addObject:str];
+		}
+	}
+	return arr;
+}
+
+- (NSArray *)monthsForEvents:(NSArray *)events {
+	NSMutableArray * arr = [[NSMutableArray alloc] init];
+	NSString * str;
+	for (Event * event in events) {
+		str = [[event.date description] substringWithRange:NSMakeRange(5,2)];
+		NSLog(@"month: %@", str);
+		if (![self string:str existsInArray:arr]) {
+			[arr addObject:str];
+		}
+	}
+	return arr;
+}
+
+- (BOOL)string:(NSString *)string existsInArray:(NSArray *)array {
+	for (NSString * str in array) {
+		if ([str isEqualToString:string]) {
+			return YES;
+		}
+	}
+	return NO;
+}
+
 #pragma mark -
 #pragma mark Event
 

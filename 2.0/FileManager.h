@@ -47,6 +47,13 @@
 // Clean up DB by removing duplicate and null entries.
 - (void)cleanDB;
 
+// sort arrays for year/month
+- (NSArray *)nestedArray;
+- (NSArray *)years;
+- (NSArray *)monthsForEvents:(NSArray *)events;
+- (BOOL)string:(NSString *)string existsInArray:(NSArray *)array;
+- (NSArray *)fetchEventsFromDate:(NSDate *)startDate toDate:(NSDate *)endDate;
+
 @property (nonatomic, retain) NSManagedObjectContext * managedObjectContext;
 @property (assign) id <FileManagerDelegate> delegate;
 @property (nonatomic, retain) NSMutableArray * eventsArray;

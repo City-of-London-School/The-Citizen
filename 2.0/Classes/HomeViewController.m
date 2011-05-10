@@ -10,6 +10,7 @@
 #import "RootViewController.h"
 #import "ContentViewController.h"
 #import "ProgressCell.h"
+#import "YearViewController.h"
 
 
 @implementation HomeViewController
@@ -179,10 +180,15 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
 	if (indexPath.row == 1) {
-		RootViewController * rootViewController = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
-		rootViewController.managedObjectContext = self.managedObjectContext;
-		[self.navigationController pushViewController:rootViewController animated:YES];
-		[rootViewController release];
+//		RootViewController * rootViewController = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
+//		rootViewController.managedObjectContext = self.managedObjectContext;
+//		[self.navigationController pushViewController:rootViewController animated:YES];
+//		[rootViewController release];
+		YearViewController *yearViewController = [[YearViewController alloc] initWithNibName:@"YearViewController" bundle:nil];
+		yearViewController.managedObjectContext = self.managedObjectContext;
+		yearViewController.nestedArray = [fileManager nestedArray];
+		[self.navigationController pushViewController:yearViewController animated:YES];
+		[yearViewController release];
 	}
 	else {
 		[tableView deselectRowAtIndexPath:indexPath animated:YES];
