@@ -41,6 +41,7 @@
 {
     [super viewDidLoad];
 	self.title = @"Years";
+	showError = YES;
 	
 	fileManager = [[FileManager alloc] init];
 	fileManager.managedObjectContext = self.managedObjectContext;
@@ -52,7 +53,8 @@
 	if ([DownloadPDF connectedToInternet]) {
 		[fileManager updateTable];
 	}
-	else {
+	else if (showError) {
+		showError = NO;
 		[DownloadPDF showNetworkError];
 	}
 }
@@ -172,6 +174,17 @@
 	monthViewController.nestedArray = self.nestedArray;
 	[self.navigationController pushViewController:monthViewController animated:YES];
 	[monthViewController release];
+}
+
+- (void)updateTable:(NSArray *)array {
+	self.nestedArray = array;
+	[self.tableView reloadData];
+}
+
+#pragma mark - File Manager Delegate
+
+- (void)eventWasAdded:(NSIndexPath *)indexPath {
+	[self updateTable:[fileManager nestedArray]];
 }
 
 @end

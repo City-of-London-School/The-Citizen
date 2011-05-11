@@ -28,9 +28,7 @@
 	context = saveFilename;
 	NSString * pdfURL = [@"http://www.clsb.org.uk/downloads/citizen/" stringByAppendingString:filename];
 	request = [NSURLRequest requestWithURL:[NSURL URLWithString:pdfURL] cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:60.0];
-	MyNSURLConnectionDelegate* delegate = [[[MyNSURLConnectionDelegate alloc] initWithTarget:self
-																					  action:@selector(handleResultOrError:withContext:)
-																					 context:context] autorelease];
+	MyNSURLConnectionDelegate* delegate = [[[MyNSURLConnectionDelegate alloc] initWithTarget:self action:@selector(handleResultOrError:withContext:) context:context] autorelease];
 	NSURLConnection* conn = [NSURLConnection connectionWithRequest:request delegate:delegate];
 	[conn start];
 	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];

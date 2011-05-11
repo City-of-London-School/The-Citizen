@@ -43,7 +43,7 @@
 	fileManager = [[FileManager alloc] init];
 	fileManager.managedObjectContext = self.managedObjectContext;
 	[fileManager setDelegate:self];
-//	[fileManager setup:@""];
+	[fileManager setup:@"do_not_autodownload"];
 }
 
 - (void)viewDidUnload
@@ -113,19 +113,20 @@
     cell.progressView.alpha = 0;
 	cell.textLabel.backgroundColor = [UIColor whiteColor];
 	cell.textLabel.opaque = YES;
-	cell.textLabel.font = [UIFont fontWithName:@"Helvetica" size:14.0]; 
+	cell.textLabel.font = [UIFont fontWithName:@"Helvetica" size:20.0];
 	cell.textLabel.alpha = 1;
 	
 	Event * event = [[[[[nestedArray objectAtIndex:yearIndex] objectForKey:@"array"] objectAtIndex:monthIndex] objectForKey:@"array"] objectAtIndex:indexPath.row];
     
 	NSDateFormatter * df = [[NSDateFormatter alloc] init];
-	[df setDateFormat:@"dd MMMM, yyyy"];
+	[df setDateFormat:@"dd MMMM"];
 	NSString * stringLabel = [df stringFromDate:event.date];
 	
 	cell.textLabel.text = stringLabel;
 	cell.textLabel.textColor = [UIColor lightGrayColor];
 	if ([event.existsLocally boolValue]) {
 		cell.textLabel.textColor = [UIColor blackColor];
+
 	}
 	if ([[downloadProgress objectForKey:@"index"] floatValue] == indexPath.row) {
 		[cell incrementProgressBarByAmount:[[downloadProgress objectForKey:@"amount"] floatValue]];
@@ -225,10 +226,13 @@
 }
 
 - (void)eventWasAdded:(NSIndexPath *)indexPath {
-	[self.tableView beginUpdates];
-	[self.tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-	[self.tableView endUpdates];
-	[self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] atScrollPosition:UITableViewScrollPositionTop animated:YES];
+//	[self.tableView beginUpdates];
+//	[self.tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+//	[self.tableView endUpdates];
+//	[self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] atScrollPosition:UITableViewScrollPositionTop animated:YES];
+	self.nestedArray = [fileManager nestedArray];
+	[self.tableView reloadData];
+	[super updateTable:nestedArray];
 }
 
 - (void)downloadAtIndex:(int)index hasProgressedBy:(NSNumber *)amount {

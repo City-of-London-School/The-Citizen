@@ -19,6 +19,8 @@
 	int index;
 }
 
+- (void)updateTable:(NSArray *)array;
+
 @property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, retain) FileManager *fileManager;
 @property (nonatomic, retain) NSArray *nestedArray;

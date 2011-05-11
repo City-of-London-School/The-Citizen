@@ -16,7 +16,10 @@
     NSManagedObjectContext * managedObjectContext;
 	FileManager * fileManager;
 	NSArray *nestedArray;
+	BOOL showError;
 }
+
+- (void)updateTable:(NSArray *)array;
 
 @property (nonatomic, retain) NSManagedObjectContext * managedObjectContext;
 @property (nonatomic, retain) FileManager * fileManager;

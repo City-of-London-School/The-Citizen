@@ -25,10 +25,12 @@
 	DownloadPDF * downloadManager;
 	
 	int indexOfCurrentlyDownloadingFile;
+	NSMutableArray *indexes;
 }
 
 - (void)deleteEventAtIndexPath:(NSIndexPath *)indexPath;
 - (void)downloadEvent:(Event *)event;
+- (void)downloadEvent:(Event *)event withIndex:(int)index;
 - (void)addEvent:(NSString *)filename;
 - (void)fileWasDownloaded:(NSString *)filename;
 - (void)updateTable;
@@ -43,6 +45,9 @@
 
 - (NSArray *)reverseArray:(NSArray *)arr;
 - (int)findIndexOfEventWithFilename:(NSString *)filename;
+- (NSIndexPath *)findIndexPathOfEvent:(Event *)event;
+- (Event *)eventAtIndexPath:(NSIndexPath *)indexPath;
+- (NSIndexPath *)indexPathForEventWithFilename:(NSString *)filename;
 
 // Clean up DB by removing duplicate and null entries.
 - (void)cleanDB;

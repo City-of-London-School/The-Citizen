@@ -13,6 +13,7 @@
 @synthesize eventsArray, managedObjectContext, delegate;
 
 - (void)setup:(NSString *)context {
+	indexes = [[NSMutableArray alloc] init];
 	NSFetchRequest * request = [[NSFetchRequest alloc] init];
 	NSEntityDescription * entity = [NSEntityDescription entityForName:@"Event" inManagedObjectContext:managedObjectContext];
 	[request setEntity:entity];
@@ -53,7 +54,7 @@
 #pragma mark -
 #pragma mark DownloadPDF Delegate 
 
-- (void)fileWasDownloaded:(NSString *)filename {
+- (void)fileWasDownloaded:(NSString *)filename{
 	NSLog(@"fileWasDownloaded");
 	if (filename == @"files.txt") {
 		[self updateTable];
@@ -66,21 +67,34 @@
 		if (![managedObjectContext save:&error]) {
 			NSLog(@"error saving context: %@", [error description]);
 		}
+		for (NSDictionary *dict in indexes) {
+			if ([[dict objectForKey:@"filename"] isEqualToString:filename]) {
+				[indexes removeObject:dict];
+			}
+		}
 		[delegate updateTableView]; // delegate calls [self.tableView reloadData]
 	}
 	
 }
 
 - (void)fileDownload:(NSString *)filename hasProgressedBy:(NSNumber *)amount {
-	NSString * remoteFile = [[self remoteFileList] objectAtIndex:indexOfCurrentlyDownloadingFile];
-	if ([remoteFile isEqualToString:filename]) {
-		[delegate downloadAtIndex:indexOfCurrentlyDownloadingFile hasProgressedBy:amount];
+//	if (![index length] == 0) {
+//		NSLog(@"index length: %i", [index length]);
+//		NSString * remoteFile = [[self eventAtIndexPath:index] pdfPath];
+////	if ([[remoteFile stringByAppendingString:@".pdf"] isEqualToString:filename]) {
+//		[delegate downloadAtIndex:indexOfCurrentlyDownloadingFile hasProgressedBy:amount];
+//	}
+//	else {
+//		index = [self indexPathForEventWithFilename:filename];
+//		[delegate downloadAtIndex:[index indexAtPosition:2] hasProgressedBy:amount];
+//	}
+	
+	filename = [[filename componentsSeparatedByString:@".pdf"] objectAtIndex:0];
+	NSIndexPath *indexPath = [self indexPathForEventWithFilename:filename];
+	if (!indexPath) {
+		NSLog(@"could not find index path for event with filename %@", filename);
 	}
-	else {
-		int index = [self findIndexOfEventWithFilename:filename];
-		indexOfCurrentlyDownloadingFile = index;
-		[delegate downloadAtIndex:index hasProgressedBy:amount];
-	}
+	[delegate downloadAtIndex:[indexPath indexAtPosition:2] hasProgressedBy:amount];
 }
 
 #pragma mark -
@@ -131,7 +145,6 @@
 - (void)cleanDB {
 	Event *prevEvent = nil;
 	for (Event *event in self.eventsArray) {
-		NSLog(@"Event: %@", event.pdfPath);
 		if (prevEvent && [prevEvent.pdfPath isEqualToString:event.pdfPath] || event.pdfPath == nil || [event.pdfPath isEqualToString:@""] || event.date == nil) {
 			NSLog(@"deleting %@", event.pdfPath);
 			[managedObjectContext deleteObject:event];
@@ -147,7 +160,6 @@
 	for (NSString * year in years) {
 		[dateFormatter setDateFormat:@"yyyy"];
 		NSDate *startDate = [dateFormatter dateFromString:year];
-		NSLog(@"date from string %@ = %@", year, startDate);
 		NSDateComponents *components = [[NSDateComponents alloc] init];
 		components.month = 11;
 		components.day = 30;
@@ -161,7 +173,7 @@
 			startDate = [dateFormatter dateFromString:[year stringByAppendingFormat:@"-%@", month]];
 			NSRange daysRange = [[NSCalendar currentCalendar] rangeOfUnit:NSDayCalendarUnit inUnit:NSMonthCalendarUnit forDate:startDate];
 			NSDateComponents *components = [[NSDateComponents alloc] init];
-			components.day = daysRange.length;
+			components.day = daysRange.length-1;
 			NSDate *endDate = [[NSCalendar currentCalendar] dateByAddingComponents:components toDate:startDate options:0];
 			[components release];
 			NSArray *events = [self fetchEventsFromDate:startDate toDate:endDate];
@@ -174,7 +186,6 @@
 }
 
 - (NSArray *)fetchEventsFromDate:(NSDate *)startDate toDate:(NSDate *)endDate {
-	NSLog(@"startDate: %@ endDate: %@", startDate, endDate);
 	NSPredicate *predicate = [NSPredicate predicateWithFormat:@"(date >= %@) AND (date <= %@)", startDate, endDate];
 	NSFetchRequest *request = [[[NSFetchRequest alloc] init] autorelease];
 	[request setEntity:[NSEntityDescription entityForName:@"Event" inManagedObjectContext:managedObjectContext]];
@@ -199,7 +210,7 @@
 	NSString * str;
 	for (Event * event in eventsArray) {
 		str = [[event.date description] substringToIndex:4];
-		if (![self string:str existsInArray:arr]) {
+		if (![self string:str existsInArray:arr] && str) {
 			[arr addObject:str];
 		}
 	}
@@ -211,7 +222,6 @@
 	NSString * str;
 	for (Event * event in events) {
 		str = [[event.date description] substringWithRange:NSMakeRange(5,2)];
-		NSLog(@"month: %@", str);
 		if (![self string:str existsInArray:arr]) {
 			[arr addObject:str];
 		}
@@ -310,6 +320,9 @@
 }
 
 - (void)downloadEvent:(Event *)event{
+	NSIndexPath *indexPath = [self findIndexPathOfEvent:event];
+	NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:indexPath, @"index", event.pdfPath, @"filename", nil];
+	[indexes addObject:dict];
 	[downloadManager downloadFile:[event.pdfPath stringByAppendingFormat:@".pdf"]];
 }
 
@@ -318,6 +331,10 @@
 	Event * anEvent = [events objectAtIndex:0];
 	NSLog(@"%@", anEvent.date);
 	return anEvent;
+}
+
+- (void)downloadEvent:(Event *)event withIndex:(int)index {
+	[downloadManager downloadFile:[event.pdfPath stringByAppendingFormat:@".pdf"]];
 }
 
 #pragma mark -
@@ -341,12 +358,80 @@
 	return TRUE;
 }
 
+- (Event *)eventAtIndexPath:(NSIndexPath *)indexPath {
+	NSUInteger node1 = [indexPath indexAtPosition:0];
+	NSUInteger node2 = [indexPath indexAtPosition:1];
+	NSUInteger node3 = [indexPath indexAtPosition:2];
+	NSLog(@"node1: %i node2: %i node3: %i", node1, node2, node3);
+	if (node1 && node2 && node3) {
+		return [[[[[eventsArray objectAtIndex:node1] objectForKey:@"array"] objectAtIndex:node2] objectForKey:@"array"] objectAtIndex:node3];
+	}
+	else {
+		return nil;
+	}
+}
+
+//- (int)findIndexOfEventWithFilename:(NSString *)filename {
+//	filename = [filename stringByDeletingPathExtension];
+//	NSArray * remoteFileList = [self reverseArray:[self remoteFileList]];
+//	for (int i = 0; i < [remoteFileList count]; i++) {
+//		if ([filename isEqualToString:[remoteFileList objectAtIndex:i]]) {
+//			return i;
+//		}
+//	}
+//	return nil;
+//}
+
 - (int)findIndexOfEventWithFilename:(NSString *)filename {
-	filename = [filename stringByDeletingPathExtension];
-	NSArray * remoteFileList = [self reverseArray:[self remoteFileList]];
-	for (int i = 0; i < [remoteFileList count]; i++) {
-		if ([filename isEqualToString:[remoteFileList objectAtIndex:i]]) {
-			return i;
+	NSArray *nestedArray = [self nestedArray];
+	for (NSDictionary *yearDict in nestedArray) {
+		for (NSDictionary *monthDict in [yearDict objectForKey:@"array"]) {
+			for (int i = 0; i < [[monthDict objectForKey:@"array"] count]; i++) {
+				if ([filename isEqualToString:[[[[monthDict objectForKey:@"array"] objectAtIndex:i] pdfPath] stringByAppendingString:@".pdf"]]) {
+					return i;
+				}
+			}
+		}
+	}
+	return nil;
+}
+
+- (NSIndexPath *)findIndexPathOfEvent:(Event *)event {
+	NSArray *arr = [self nestedArray];
+	for (int i = 0; i < [arr count]; i++) {
+		for (int j = 0; j < [[[arr objectAtIndex:i] objectForKey:@"array"] count]; j++) {
+			for (int k = 0; k < [[[[[arr objectAtIndex:i] objectForKey:@"array"] objectAtIndex:j] objectForKey:@"array"] count]; k++) {
+				if ([event.pdfPath isEqualToString:[[[[[[arr objectAtIndex:i] objectForKey:@"array"] objectAtIndex:j] objectForKey:@"array"] objectAtIndex:k] pdfPath]]) {
+					NSUInteger indexArr[] = {i, j, k};
+					return [NSIndexPath indexPathWithIndexes:indexArr length:3];
+				}
+			}
+		}
+	}
+	return nil;
+
+}
+
+//- (NSIndexPath *)indexPathForEventWithFilename:(NSString *)filename {
+//	NSArray *arr = [self nestedArray];
+//	for (int i = 0; i < [arr count]; i++) {
+//		for (int j = 0; j < [[[arr objectAtIndex:i] objectForKey:@"array"] count]; j++) {
+//			for (int k = 0; k < [[[[[arr objectAtIndex:i] objectForKey:@"array"] objectAtIndex:j] objectForKey:@"array"] count]; k++) {
+//				if ([filename isEqualToString:[[[[[[[arr objectAtIndex:i] objectForKey:@"array"] objectAtIndex:j] objectForKey:@"array"] objectAtIndex:k] pdfPath] stringByAppendingString:@".pdf"]]) {
+//					NSUInteger indexes[] = {i, j, k};
+//					return [NSIndexPath indexPathWithIndexes:indexes length:3];
+//				}
+//			}
+//		}
+//	}
+//	return nil;
+//}
+
+- (NSIndexPath *)indexPathForEventWithFilename:(NSString *)filename {
+	for (NSDictionary *dict in indexes) {
+		NSLog(@"dict filename: %@ filename: %@", [dict objectForKey:@"filname"], filename);
+		if ([[dict objectForKey:@"filename"] isEqualToString:filename]) {
+			return [dict objectForKey:@"index"];
 		}
 	}
 	return nil;

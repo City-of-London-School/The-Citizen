@@ -116,8 +116,14 @@
     }
     
     // Configure the cell...
-	cell.textLabel.text = [[[[nestedArray objectAtIndex:index] objectForKey:@"array"] objectAtIndex:indexPath.row] objectForKey:@"month"];
-    
+	NSDateFormatter * dateFormatter = [[NSDateFormatter alloc] init];
+	[dateFormatter setDateFormat:@"MM"];
+	NSString *dateNum = [[[[nestedArray objectAtIndex:index] objectForKey:@"array"] objectAtIndex:indexPath.row] objectForKey:@"month"];
+	NSDate * monthDate = [dateFormatter dateFromString:dateNum];
+	[dateFormatter setDateFormat:@"MMMM"];
+	cell.textLabel.text = [dateFormatter stringFromDate:monthDate];
+	[dateFormatter release];
+	
     return cell;
 }
 
@@ -171,6 +177,12 @@
 	dayViewController.nestedArray = self.nestedArray;
 	[self.navigationController pushViewController:dayViewController animated:YES];
 	[dayViewController release];
+}
+
+- (void)updateTable:(NSArray *)array {
+	self.nestedArray = array;
+	[self.tableView reloadData];
+	[super updateTable:array];
 }
 
 @end
