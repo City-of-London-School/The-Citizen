@@ -351,6 +351,7 @@
 				PRODUCT_NAME = "The Citizen";
 				PROVISIONING_PROFILE = "81B8112A-B1D8-46FC-B0BE-AE2B3BB4E16A";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "81B8112A-B1D8-46FC-B0BE-AE2B3BB4E16A";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -363,6 +364,7 @@
 				GCC_PREFIX_HEADER = The_Citizen_Prefix.pch;
 				INFOPLIST_FILE = "The_Citizen-Info.plist";
 				PRODUCT_NAME = "The Citizen";
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

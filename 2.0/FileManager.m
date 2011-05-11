@@ -253,6 +253,10 @@
 	[dateFormatter setDateFormat:@"yyyy-MM-dd"];
 	NSDate * date = [dateFormatter dateFromString:dateString];
 	NSLog(@"%@", date);
+	if (!date) {
+		NSLog(@"invalid date: %@", dateString);
+		return;
+	}
 	[event setDate:date];
 
 	
