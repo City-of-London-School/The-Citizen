@@ -36,7 +36,7 @@
 	}
 	downloadManager = [[DownloadPDF alloc] init];
 	[downloadManager setDownloadPDFDelegate:(id<DownloadPDFDelegate>)self];
-	if (![context isEqualToString:@"do_not_autodownload"]) {
+	if ([context isEqualToString:@"do_not_autodownload"]) {
 		if ([DownloadPDF connectedToInternet]) {
 			[self downloadFileList];
 		}
