@@ -18,7 +18,6 @@
 		28D3F202112F7DC200FD0661 /* The_Citizen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28D3F201112F7DC200FD0661 /* The_Citizen.xcdatamodeld */; };
 		EF089B7E137894E70099CEEA /* DayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF089B7C137894E70099CEEA /* DayViewController.m */; };
 		EF089B7F137894E70099CEEA /* DayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF089B7D137894E70099CEEA /* DayViewController.xib */; };
-		EF2BB7671379E40E00BF5188 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF2BB7661379E40E00BF5188 /* notes.txt */; };
 		EF4CD0FF132D6FD7008ACB8C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CD0FD132D6FD4008ACB8C /* HomeViewController.m */; };
 		EF4CD100132D6FD7008ACB8C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4CD0FE132D6FD5008ACB8C /* HomeViewController.xib */; };
 		EF821F211326EB1F00F4BF85 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790E31326E53A000177BA /* RootViewController.m */; };
@@ -34,6 +33,8 @@
 		EFA790F61326E589000177BA /* ProgressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA790F51326E589000177BA /* ProgressCell.xib */; };
 		EFA791111326E64B000177BA /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA791101326E64B000177BA /* Event.m */; };
 		EFA791131326E669000177BA /* The_Citizen.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = EFA791121326E669000177BA /* The_Citizen.xcdatamodel */; };
+		EFAC3A27137C7A2C005C28F4 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAC3A25137C7A2C005C28F4 /* HomeController.m */; };
+		EFAC3A28137C7A2C005C28F4 /* HomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFAC3A26137C7A2C005C28F4 /* HomeController.xib */; };
 		EFC7502D13787BEB00CBF71B /* YearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7502B13787BEB00CBF71B /* YearViewController.m */; };
 		EFC7502E13787BEB00CBF71B /* YearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFC7502C13787BEB00CBF71B /* YearViewController.xib */; };
 		EFC7503213788FCB00CBF71B /* MonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7503013788FCB00CBF71B /* MonthViewController.m */; };
@@ -86,6 +87,9 @@
 		EFA7910F1326E64B000177BA /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 		EFA791101326E64B000177BA /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		EFA791121326E669000177BA /* The_Citizen.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = The_Citizen.xcdatamodel; sourceTree = "<group>"; };
+		EFAC3A24137C7A2C005C28F4 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeController.h; path = Classes/HomeController.h; sourceTree = "<group>"; };
+		EFAC3A25137C7A2C005C28F4 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeController.m; path = Classes/HomeController.m; sourceTree = "<group>"; };
+		EFAC3A26137C7A2C005C28F4 /* HomeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeController.xib; path = Classes/HomeController.xib; sourceTree = "<group>"; };
 		EFC7502A13787BEB00CBF71B /* YearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YearViewController.h; path = Classes/YearViewController.h; sourceTree = "<group>"; };
 		EFC7502B13787BEB00CBF71B /* YearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YearViewController.m; path = Classes/YearViewController.m; sourceTree = "<group>"; };
 		EFC7502C13787BEB00CBF71B /* YearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YearViewController.xib; path = Classes/YearViewController.xib; sourceTree = "<group>"; };
@@ -162,6 +166,7 @@
 				EFE4B5ED132C56EF00FC1485 /* crest_london_114.png */,
 				EF84B25C1326F39C00B1BFAC /* Icon.png */,
 				28D3F201112F7DC200FD0661 /* The_Citizen.xcdatamodeld */,
+				EFAC3A26137C7A2C005C28F4 /* HomeController.xib */,
 				EF4CD0FE132D6FD5008ACB8C /* HomeViewController.xib */,
 				EFC7503113788FCB00CBF71B /* MonthViewController.xib */,
 				EF089B7D137894E70099CEEA /* DayViewController.xib */,
@@ -212,6 +217,8 @@
 				EFA790E51326E53A000177BA /* FileManager.m */,
 				EF4CD0FC132D6FD4008ACB8C /* HomeViewController.h */,
 				EF4CD0FD132D6FD4008ACB8C /* HomeViewController.m */,
+				EFAC3A24137C7A2C005C28F4 /* HomeController.h */,
+				EFAC3A25137C7A2C005C28F4 /* HomeController.m */,
 			);
 			name = "List View";
 			path = ..;
@@ -302,7 +309,7 @@
 				EFC7502E13787BEB00CBF71B /* YearViewController.xib in Resources */,
 				EFC7503313788FCB00CBF71B /* MonthViewController.xib in Resources */,
 				EF089B7F137894E70099CEEA /* DayViewController.xib in Resources */,
-				EF2BB7671379E40E00BF5188 /* notes.txt in Resources */,
+				EFAC3A28137C7A2C005C28F4 /* HomeController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +337,7 @@
 				EFC7502D13787BEB00CBF71B /* YearViewController.m in Sources */,
 				EFC7503213788FCB00CBF71B /* MonthViewController.m in Sources */,
 				EF089B7E137894E70099CEEA /* DayViewController.m in Sources */,
+				EFAC3A27137C7A2C005C28F4 /* HomeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

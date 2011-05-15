@@ -12,7 +12,6 @@
 
 @protocol FileManagerDelegate <NSObject>
 - (void)eventWasAdded:(NSIndexPath *)indexPath;
-@optional
 - (void)updateTableView;
 - (void)downloadAtIndex:(int)index hasProgressedBy:(NSNumber *)amount;
 @end

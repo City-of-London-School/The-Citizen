@@ -331,7 +331,7 @@
 }
 
 - (Event *)mostRecentEvent {
-	NSArray * events = [self eventsArray];
+	NSArray * events = self.eventsArray;
 	Event * anEvent = [events objectAtIndex:0];
 	NSLog(@"%@", anEvent.date);
 	return anEvent;
