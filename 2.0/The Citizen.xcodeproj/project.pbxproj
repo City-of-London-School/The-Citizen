@@ -17,6 +17,7 @@
 		28D3F202112F7DC200FD0661 /* The_Citizen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28D3F201112F7DC200FD0661 /* The_Citizen.xcdatamodeld */; };
 		EF089B7E137894E70099CEEA /* DayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF089B7C137894E70099CEEA /* DayViewController.m */; };
 		EF089B7F137894E70099CEEA /* DayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF089B7D137894E70099CEEA /* DayViewController.xib */; };
+		EF74120513803AFF00B0EA7B /* iTunesArtwork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF74120413803AFF00B0EA7B /* iTunesArtwork.jpg */; };
 		EF821F301326EB6C00F4BF85 /* ProgressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF821F2E1326EB6C00F4BF85 /* ProgressCell.m */; };
 		EF821F331326EB9A00F4BF85 /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790E51326E53A000177BA /* FileManager.m */; };
 		EF821F341326EB9D00F4BF85 /* DownloadPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790EA1326E53A000177BA /* DownloadPDF.m */; };
@@ -56,6 +57,7 @@
 		EF089B7C137894E70099CEEA /* DayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DayViewController.m; path = Classes/DayViewController.m; sourceTree = "<group>"; };
 		EF089B7D137894E70099CEEA /* DayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DayViewController.xib; path = Classes/DayViewController.xib; sourceTree = "<group>"; };
 		EF2BB7661379E40E00BF5188 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
+		EF74120413803AFF00B0EA7B /* iTunesArtwork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iTunesArtwork.jpg; sourceTree = "<group>"; };
 		EF821F2D1326EB6C00F4BF85 /* ProgressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressCell.h; sourceTree = "<group>"; };
 		EF821F2E1326EB6C00F4BF85 /* ProgressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressCell.m; sourceTree = "<group>"; };
 		EF84B25C1326F39C00B1BFAC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EF74120413803AFF00B0EA7B /* iTunesArtwork.jpg */,
 				EFE4B5F1132C58D900FC1485 /* Default@2x.png */,
 				EFE4B5EF132C571C00FC1485 /* Default.png */,
 				EFE4B5ED132C56EF00FC1485 /* crest_london_114.png */,
@@ -292,6 +295,7 @@
 				EFC7503313788FCB00CBF71B /* MonthViewController.xib in Resources */,
 				EF089B7F137894E70099CEEA /* DayViewController.xib in Resources */,
 				EFAC3A28137C7A2C005C28F4 /* HomeController.xib in Resources */,
+				EF74120513803AFF00B0EA7B /* iTunesArtwork.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,11 +351,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Harry Maclean";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = The_Citizen_Prefix.pch;
 				INFOPLIST_FILE = "The_Citizen-Info.plist";
 				PRODUCT_NAME = "The Citizen";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1718F7BE-016B-434D-B505-A45F1A35F601";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
