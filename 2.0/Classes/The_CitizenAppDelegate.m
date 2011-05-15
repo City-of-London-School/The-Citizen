@@ -7,7 +7,6 @@
 //
 
 #import "The_CitizenAppDelegate.h"
-#import "RootViewController.h"
 #import "HomeViewController.h"
 #import "HomeController.h"
 
