@@ -118,13 +118,21 @@
 - (void)cleanDB {
 	NSLog(@"cleaning DB...");
 	Event *prevEvent = nil;
+	NSMutableArray *eventsToAdd = [[NSMutableArray alloc] init];
 	for (Event *event in self.eventsArray) {
 		NSLog(@"%@", event.pdfPath);
 		if (prevEvent && [prevEvent.pdfPath isEqualToString:event.pdfPath] || event.pdfPath == nil || [event.pdfPath isEqualToString:@""] || event.date == nil) {
+			if ([event.existsLocally boolValue]) {
+				[eventsToAdd addObject:event.pdfPath];
+			}
 			NSLog(@"deleting %@", event.pdfPath);
 			[managedObjectContext deleteObject:event];
 		}
 		prevEvent = event;
+	}
+	for (NSString *path in eventsToAdd) {
+		NSLog(@"Re-adding %@", path);
+		[self addEvent:path exists:YES];
 	}
 	self.eventsArray = [self fetchAllEvents];
 }
@@ -227,12 +235,12 @@
 #pragma mark -
 #pragma mark Event
 
-- (void)addEvent:(NSString *)filename {
+- (void)addEvent:(NSString *)filename exists:(BOOL)exists{
 	
 	Event * event = (Event *)[NSEntityDescription insertNewObjectForEntityForName:@"Event" inManagedObjectContext:managedObjectContext];
 	
 	[event setPdfPath:filename];
-	[event setExistsLocally:[NSNumber numberWithBool:NO]];
+	[event setExistsLocally:[NSNumber numberWithBool:exists]];
 	
 	NSString * dateString = [filename stringByReplacingOccurrencesOfString:@"citizen" withString:@""];
 	NSDateFormatter * dateFormatter = [[NSDateFormatter alloc] init];
@@ -286,7 +294,7 @@
 
 - (void)addNewEvents:(NSArray *)newEvents {
 	for (NSString * filename in newEvents) {
-		[self addEvent:filename];
+		[self addEvent:filename exists:NO];
 	}
 }
 

@@ -30,7 +30,7 @@
 - (void)deleteEventAtIndexPath:(NSIndexPath *)indexPath;
 - (void)downloadEvent:(Event *)event;
 - (void)downloadEvent:(Event *)event withIndex:(int)index;
-- (void)addEvent:(NSString *)filename;
+- (void)addEvent:(NSString *)filename exists:(BOOL)exists;
 - (void)fileWasDownloaded:(NSString *)filename;
 - (void)updateTable;
 - (NSArray *)localFileList;
