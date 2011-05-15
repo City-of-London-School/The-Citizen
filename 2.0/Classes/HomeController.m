@@ -9,6 +9,7 @@
 #import "HomeController.h"
 #import "ContentViewController.h"
 #import "YearViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 
 @implementation HomeController
@@ -18,7 +19,6 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
 		
     }
     return self;
@@ -44,9 +44,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-	self.title = @"The Citizen";
 	
+	mostRecentButton.layer.borderWidth = 1.0f;
+	mostRecentButton.layer.cornerRadius = 8.0f;
+//	mostRecentButton.layer.borderColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.02].CGColor;
+	previousButton.layer.borderWidth = 1.0f;
+	previousButton.layer.cornerRadius = 8.0f;
+//	previousButton.layer.borderColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.02].CGColor;
+	mostRecentButton.layer.masksToBounds = YES;
+	
+	self.title = @"The Citizen";
 	fileManager = [[FileManager alloc] init];
 	fileManager.managedObjectContext = self.managedObjectContext;
 	[fileManager setDelegate:self];

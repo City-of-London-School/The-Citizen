@@ -1,4 +1,4 @@
 The 1sts of the month get placed in the wrong month FIXED
 Still errors with the indexPath stuff FIXED
 Home View with button for most recent article and button for archive DONE
-Months and Days tables are reversed
+Months and Days tables are reversed FIXED
