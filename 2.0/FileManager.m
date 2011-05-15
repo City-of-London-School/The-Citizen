@@ -177,10 +177,10 @@
 			NSDate *endDate = [[NSCalendar currentCalendar] dateByAddingComponents:components toDate:startDate options:0];
 			[components release];
 			NSArray *events = [self fetchEventsFromDate:startDate toDate:endDate];
-			NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:month, @"month", events, @"array", nil];
+			NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:month, @"month", [self reverseArray:events], @"array", nil];
 			[monthResult addObject:dict];
 		}
-		[result addObject:[NSDictionary dictionaryWithObjectsAndKeys:year, @"year", monthResult, @"array", nil]];
+		[result addObject:[NSDictionary dictionaryWithObjectsAndKeys:year, @"year", [self reverseArray:monthResult], @"array", nil]];
 	}
 	return result;
 }
