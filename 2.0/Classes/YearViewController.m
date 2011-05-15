@@ -45,7 +45,7 @@
 	
 	fileManager = [[FileManager alloc] init];
 	fileManager.managedObjectContext = self.managedObjectContext;
-	[fileManager setDelegate:self];
+	[fileManager setDelegate:(id)self];
 	[fileManager setup:@""];
 }
 
@@ -96,30 +96,23 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
     return [nestedArray count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"YearCell";
-    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
-    
-    // Configure the cell...
+	
 	cell.textLabel.text = [[nestedArray objectAtIndex:indexPath.row] objectForKey:@"year"];
-    
     return cell;
 }
 
@@ -166,8 +159,6 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Navigation logic may go here. Create and push another view controller.
-    
 	MonthViewController *monthViewController = [[MonthViewController alloc] initWithNibName:@"MonthViewController" bundle:nil];
 	monthViewController.index = indexPath.row;
 	monthViewController.managedObjectContext = self.managedObjectContext;
