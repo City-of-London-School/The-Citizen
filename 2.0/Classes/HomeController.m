@@ -28,6 +28,7 @@
 {
 	[mostRecentButton release];
 	[previousButton release];
+	[progressIndicator release];
     [super dealloc];
 }
 
@@ -47,17 +48,17 @@
 	
 	mostRecentButton.layer.borderWidth = 1.0f;
 	mostRecentButton.layer.cornerRadius = 8.0f;
-//	mostRecentButton.layer.borderColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.02].CGColor;
 	previousButton.layer.borderWidth = 1.0f;
 	previousButton.layer.cornerRadius = 8.0f;
-//	previousButton.layer.borderColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.02].CGColor;
 	mostRecentButton.layer.masksToBounds = YES;
+	progressIndicator.hidden = YES;
+	progressIndicator.progress = 0.0f;
 	
 	self.title = @"The Citizen";
 	fileManager = [[FileManager alloc] init];
 	fileManager.managedObjectContext = self.managedObjectContext;
 	[fileManager setDelegate:self];
-	[fileManager setup:@""];
+	[fileManager setup:@"home"];
 }
 
 - (void)viewDidUnload
@@ -66,6 +67,8 @@
 	mostRecentButton = nil;
 	[previousButton release];
 	previousButton = nil;
+	[progressIndicator release];
+	progressIndicator = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -91,6 +94,8 @@
 		NSLog(@"file needs to be downloaded: %@", event.pdfPath);
 		if ([DownloadPDF connectedToInternet]) {
 			[fileManager downloadEvent:event];
+			[mostRecentButton setHidden:YES];
+			[progressIndicator setHidden:NO];
 		}
 	}
 }
@@ -119,6 +124,9 @@
 		contentViewController.pdf = pdf;
 		[self.navigationController pushViewController:contentViewController animated:YES];
 		[contentViewController release];
+		progressIndicator.hidden = YES;
+		progressIndicator.progress = 0.0f;
+		mostRecentButton.hidden = NO;
 	}
 	
 }
@@ -129,6 +137,7 @@
 
 - (void)downloadAtIndex:(int)index hasProgressedBy:(NSNumber *)amount {
 	
+	[progressIndicator setProgress:[amount floatValue]];
 }
 
 @end

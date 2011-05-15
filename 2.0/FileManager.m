@@ -14,29 +14,13 @@
 
 - (void)setup:(NSString *)context {
 	indexes = [[NSMutableArray alloc] init];
-	NSFetchRequest * request = [[NSFetchRequest alloc] init];
-	NSEntityDescription * entity = [NSEntityDescription entityForName:@"Event" inManagedObjectContext:managedObjectContext];
-	[request setEntity:entity];
-	NSSortDescriptor * sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"date" ascending:NO];
-	NSArray * sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptor, nil];
-	[request setSortDescriptors:sortDescriptors];
-	[sortDescriptors release];
-	[sortDescriptor release];
-	
-	NSError * error = nil;
-	NSMutableArray * mutableFetchResults = [[managedObjectContext executeFetchRequest:request error:&error] mutableCopy];
-	if (mutableFetchResults == nil) {
-		NSLog(@"fetch error: %@", [error description]);
-	}
-	[self setEventsArray:mutableFetchResults];
-	[mutableFetchResults release];
-	[request release];
-	if ([context isEqualToString:@"do_not_autodownload"]) {
+	self.eventsArray = [self fetchAllEvents];
+	if ([context isEqualToString:@"home"]) {
 		[self cleanDB];
 	}
 	downloadManager = [[DownloadPDF alloc] init];
 	[downloadManager setDownloadPDFDelegate:(id<DownloadPDFDelegate>)self];
-	if ([context isEqualToString:@"do_not_autodownload"]) {
+	if (![context isEqualToString:@"do_not_autodownload"]) {
 		if ([DownloadPDF connectedToInternet]) {
 			[self downloadFileList];
 		}
@@ -78,17 +62,6 @@
 }
 
 - (void)fileDownload:(NSString *)filename hasProgressedBy:(NSNumber *)amount {
-//	if (![index length] == 0) {
-//		NSLog(@"index length: %i", [index length]);
-//		NSString * remoteFile = [[self eventAtIndexPath:index] pdfPath];
-////	if ([[remoteFile stringByAppendingString:@".pdf"] isEqualToString:filename]) {
-//		[delegate downloadAtIndex:indexOfCurrentlyDownloadingFile hasProgressedBy:amount];
-//	}
-//	else {
-//		index = [self indexPathForEventWithFilename:filename];
-//		[delegate downloadAtIndex:[index indexAtPosition:2] hasProgressedBy:amount];
-//	}
-	
 	filename = [[filename componentsSeparatedByString:@".pdf"] objectAtIndex:0];
 	NSIndexPath *indexPath = [self indexPathForEventWithFilename:filename];
 	if (!indexPath) {
@@ -143,14 +116,17 @@
 }
 
 - (void)cleanDB {
+	NSLog(@"cleaning DB...");
 	Event *prevEvent = nil;
 	for (Event *event in self.eventsArray) {
+		NSLog(@"%@", event.pdfPath);
 		if (prevEvent && [prevEvent.pdfPath isEqualToString:event.pdfPath] || event.pdfPath == nil || [event.pdfPath isEqualToString:@""] || event.date == nil) {
 			NSLog(@"deleting %@", event.pdfPath);
 			[managedObjectContext deleteObject:event];
 		}
 		prevEvent = event;
 	}
+	self.eventsArray = [self fetchAllEvents];
 }
 
 -(NSArray *)nestedArray {
@@ -196,15 +172,25 @@
 	NSError *error = nil;
 	return [managedObjectContext executeFetchRequest:request error:&error];
 }
-/*
- NSPredicate *predicate = [NSPredicate predicateWithFormat:@"(date >= %@) AND (date <= %@)", startDate, endDate];
- NSFetchRequest *request = [[[NSFetchRequest alloc] init] autorelease];
- [request setEntity:[NSEntityDescription entityForName:@"Event" inManagedObjectContext:managedObjectContext]];
- [request setPredicate:predicate];
- 
- NSError *error = nil;
- NSArray *results = [moc executeFetchRequest:request error:&error];
- */
+
+- (NSMutableArray *)fetchAllEvents {
+	NSFetchRequest * request = [[NSFetchRequest alloc] init];
+	NSEntityDescription * entity = [NSEntityDescription entityForName:@"Event" inManagedObjectContext:managedObjectContext];
+	[request setEntity:entity];
+	NSSortDescriptor * sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"date" ascending:NO];
+	NSArray * sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptor, nil];
+	[request setSortDescriptors:sortDescriptors];
+	[sortDescriptors release];
+	[sortDescriptor release];
+	NSError * error = nil;
+	NSMutableArray * mutableFetchResults = [[managedObjectContext executeFetchRequest:request error:&error] mutableCopy];
+	if (mutableFetchResults == nil) {
+		NSLog(@"fetch error: %@", [error description]);
+	}
+	[request release];
+	return mutableFetchResults;
+}
+
 - (NSArray *)years {
 	NSMutableArray * arr = [[NSMutableArray alloc] init];
 	NSString * str;
@@ -332,7 +318,7 @@
 
 - (Event *)mostRecentEvent {
 	NSArray * events = self.eventsArray;
-	Event * anEvent = [events objectAtIndex:0];
+	Event * anEvent = (Event *)[events objectAtIndex:0];
 	NSLog(@"%@", anEvent.date);
 	return anEvent;
 }
@@ -433,7 +419,7 @@
 
 - (NSIndexPath *)indexPathForEventWithFilename:(NSString *)filename {
 	for (NSDictionary *dict in indexes) {
-		NSLog(@"dict filename: %@ filename: %@", [dict objectForKey:@"filname"], filename);
+		NSLog(@"dict filename: %@ filename: %@", [dict objectForKey:@"filename"], filename);
 		if ([[dict objectForKey:@"filename"] isEqualToString:filename]) {
 			return [dict objectForKey:@"index"];
 		}

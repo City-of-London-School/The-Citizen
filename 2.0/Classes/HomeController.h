@@ -15,6 +15,7 @@
 	FileManager * fileManager;
 	IBOutlet UIButton *mostRecentButton;
 	IBOutlet UIButton *previousButton;
+	IBOutlet UIProgressView *progressIndicator;
 }
 
 - (IBAction)mostRecentButtonClicked:(id)sender;

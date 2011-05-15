@@ -57,6 +57,7 @@
 - (NSArray *)monthsForEvents:(NSArray *)events;
 - (BOOL)string:(NSString *)string existsInArray:(NSArray *)array;
 - (NSArray *)fetchEventsFromDate:(NSDate *)startDate toDate:(NSDate *)endDate;
+- (NSMutableArray *)fetchAllEvents;
 
 @property (nonatomic, retain) NSManagedObjectContext * managedObjectContext;
 @property (assign) id <FileManagerDelegate> delegate;
