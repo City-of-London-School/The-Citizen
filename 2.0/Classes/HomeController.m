@@ -81,6 +81,7 @@
 }
 
 - (IBAction)mostRecentButtonClicked:(id)sender {
+	[mostRecentButton setHighlighted:NO];
 	Event * event = [fileManager mostRecentEvent];
 	if ([event.existsLocally boolValue]) {
 		ContentViewController * contentViewController = [[ContentViewController alloc] initWithNibName:nil bundle:nil];
@@ -101,6 +102,7 @@
 }
 
 - (IBAction)previousButtonClicked:(id)sender {
+	[previousButton setHighlighted:NO];
 	YearViewController *yearViewController = [[YearViewController alloc] initWithNibName:@"YearViewController" bundle:nil];
 	yearViewController.managedObjectContext = self.managedObjectContext;
 	yearViewController.nestedArray = [fileManager nestedArray];
