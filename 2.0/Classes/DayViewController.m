@@ -40,7 +40,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	self.title = @"Articles";
+	NSDateFormatter * dateFormatter = [[NSDateFormatter alloc] init];
+	[dateFormatter setDateFormat:@"MM"];
+	NSString *dateNum = [[[[nestedArray objectAtIndex:yearIndex] objectForKey:@"array"] objectAtIndex:monthIndex] objectForKey:@"month"];
+	NSDate * monthDate = [dateFormatter dateFromString:dateNum];
+	[dateFormatter setDateFormat:@"MMMM"];
+	self.title = [dateFormatter stringFromDate:monthDate];
+	[dateFormatter release];
 	fileManager = [[FileManager alloc] init];
 	fileManager.managedObjectContext = self.managedObjectContext;
 	[fileManager setDelegate:self];
