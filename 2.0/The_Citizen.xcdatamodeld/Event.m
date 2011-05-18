@@ -13,5 +13,6 @@
 
 @dynamic pdfPath;
 @dynamic existsLocally;
+@dynamic date;
 
 @end

@@ -25,7 +25,7 @@
 	fileManager = [[FileManager alloc] init];
 	fileManager.managedObjectContext = self.managedObjectContext;
 	[fileManager setDelegate:self];
-	[fileManager setup];
+	[fileManager setup:@""];
 }
 
 - (void)refresh {
@@ -74,28 +74,18 @@
 	cell.textLabel.alpha = 1;
     Event * event = (Event *)[fileManager.eventsArray objectAtIndex:indexPath.row];
 	
-	NSMutableString * dateLabel = [NSMutableString stringWithString:[[event.pdfPath stringByDeletingPathExtension] stringByReplacingOccurrencesOfString:@"citizen" withString:@""]];
-	NSDateFormatter *df = [[NSDateFormatter alloc] init];
-	[df setDateFormat:@"yyyy-MM-dd"];
-	NSDate *myDate = [df dateFromString: dateLabel];
-	[df setFormatterBehavior:NSDateFormatterBehavior10_4];
+	NSDateFormatter * df = [[NSDateFormatter alloc] init];
 	[df setDateFormat:@"dd MMMM, yyyy"];
-	NSMutableString *stringLabel = [NSMutableString stringWithString:[df stringFromDate:myDate]];
-	[df release];
+	NSString * stringLabel = [df stringFromDate:event.date];
 	
 	cell.textLabel.text = stringLabel;
 	cell.textLabel.textColor = [UIColor lightGrayColor];
 	if ([event.existsLocally boolValue]) {
-		//cell.button.alpha = 0;
 		cell.textLabel.textColor = [UIColor blackColor];
 	}
 	if ([[downloadProgress objectForKey:@"index"] floatValue] == indexPath.row) {
 		[cell incrementProgressBarByAmount:[[downloadProgress objectForKey:@"amount"] floatValue]];
 	}
-	//if ([DownloadPDF connectedToInternet]) {
-//		cell.button.enabled = YES;
-//	}
-	
     return cell;
 }
 
@@ -105,9 +95,9 @@
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
     // Return NO if you do not want the specified item to be editable.
 	// Return NO for cells that have events that aren't downloaded
-		return NO;
-
-
+	return NO;
+	
+	
 }
 
 // Override to support editing the table view.
@@ -115,17 +105,17 @@
     
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         //NSManagedObject * eventToDelete = [eventsArray objectAtIndex:indexPath.row];
-//		[managedObjectContext deleteObject:eventToDelete];
-//		
-//		[eventsArray removeObjectAtIndex:indexPath.row];
-			//[fileManager deleteEventAtIndexPath:indexPath];
-			//[tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:YES];
+		//		[managedObjectContext deleteObject:eventToDelete];
+		//		
+		//		[eventsArray removeObjectAtIndex:indexPath.row];
+		//[fileManager deleteEventAtIndexPath:indexPath];
+		//[tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:YES];
 		
-//		NSError * error = nil;
-//		if (![managedObjectContext save:&error]) {
-//			// Handle the error
-//			NSLog(@"error: %@", [error description]);
-//		}
+		//		NSError * error = nil;
+		//		if (![managedObjectContext save:&error]) {
+		//			// Handle the error
+		//			NSLog(@"error: %@", [error description]);
+		//		}
     }   
     else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
@@ -144,8 +134,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
 	
-	 
-	 
+	
+	
 	Event * event = [fileManager.eventsArray objectAtIndex:indexPath.row];
 	if ([event.existsLocally boolValue]) {
 		ContentViewController *contentViewController = [[ContentViewController alloc] initWithNibName:nil bundle:nil];
@@ -173,9 +163,9 @@
 				[DownloadPDF showNetworkError];
 			}
 		}
-
+		
 	}
-
+	
 }
 
 #pragma mark -

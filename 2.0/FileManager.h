@@ -11,8 +11,8 @@
 #import "Event.h"
 
 @protocol FileManagerDelegate <NSObject>
-- (void)updateTableView;
 - (void)eventWasAdded:(NSIndexPath *)indexPath;
+- (void)updateTableView;
 - (void)downloadAtIndex:(int)index hasProgressedBy:(NSNumber *)amount;
 @end
 
@@ -24,11 +24,13 @@
 	DownloadPDF * downloadManager;
 	
 	int indexOfCurrentlyDownloadingFile;
+	NSMutableArray *indexes;
 }
 
 - (void)deleteEventAtIndexPath:(NSIndexPath *)indexPath;
 - (void)downloadEvent:(Event *)event;
-- (void)addEvent:(NSString *)filename;
+- (void)downloadEvent:(Event *)event withIndex:(int)index;
+- (void)addEvent:(NSString *)filename exists:(BOOL)exists;
 - (void)fileWasDownloaded:(NSString *)filename;
 - (void)updateTable;
 - (NSArray *)localFileList;
@@ -36,11 +38,26 @@
 - (NSArray *)findNewEvents;
 - (Event *)findEvent:(NSString *)pdfPath;
 - (void)addNewEvents:(NSArray *)newEvents;
-- (void)setup;
+- (void)setup:(NSString *)context; // 'year' for year controller, 'current' for most recent, 'all' for all (legacy)
 - (void)downloadFileList;
+- (Event *)mostRecentEvent;
 
 - (NSArray *)reverseArray:(NSArray *)arr;
 - (int)findIndexOfEventWithFilename:(NSString *)filename;
+- (NSIndexPath *)findIndexPathOfEvent:(Event *)event;
+- (Event *)eventAtIndexPath:(NSIndexPath *)indexPath;
+- (NSIndexPath *)indexPathForEventWithFilename:(NSString *)filename;
+
+// Clean up DB by removing duplicate and null entries.
+- (void)cleanDB;
+
+// sort arrays for year/month
+- (NSArray *)nestedArray;
+- (NSArray *)years;
+- (NSArray *)monthsForEvents:(NSArray *)events;
+- (BOOL)string:(NSString *)string existsInArray:(NSArray *)array;
+- (NSArray *)fetchEventsFromDate:(NSDate *)startDate toDate:(NSDate *)endDate;
+- (NSMutableArray *)fetchAllEvents;
 
 @property (nonatomic, retain) NSManagedObjectContext * managedObjectContext;
 @property (assign) id <FileManagerDelegate> delegate;

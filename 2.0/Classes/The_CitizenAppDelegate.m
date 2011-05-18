@@ -7,7 +7,7 @@
 //
 
 #import "The_CitizenAppDelegate.h"
-#import "RootViewController.h"
+#import "HomeController.h"
 
 
 @implementation The_CitizenAppDelegate
@@ -19,10 +19,9 @@
 #pragma mark -
 #pragma mark Application lifecycle
 
-- (void)awakeFromNib {    
-    
-    RootViewController *rootViewController = (RootViewController *)[navigationController topViewController];
-    rootViewController.managedObjectContext = self.managedObjectContext;
+- (void)awakeFromNib {    	
+	HomeController *homeController = (HomeController *)[navigationController topViewController];
+	homeController.managedObjectContext = self.managedObjectContext;
 }
 
 
@@ -150,8 +149,9 @@
 	NSURL *storeURL = [NSURL fileURLWithPath:myPathDocs];
     
     NSError *error = nil;
+	NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:YES],NSMigratePersistentStoresAutomaticallyOption, [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
     persistentStoreCoordinator_ = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-    if (![persistentStoreCoordinator_ addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {
+    if (![persistentStoreCoordinator_ addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:options error:&error]) {
         /*
          Replace this implementation with code to handle the error appropriately.
          
