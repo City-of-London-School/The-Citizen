@@ -176,7 +176,10 @@
          
          */
         NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
-        abort();
+//        abort();
+		UIAlertView * alertView = [[UIAlertView alloc] initWithTitle: @"Database Problem" message: @"A fatal database error has ocurred. Quit the application by pressing the home button. If the problem persists, reinstall the app." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+		[alertView  show];
+		[alertView  release];
     }    
     
     return persistentStoreCoordinator_;

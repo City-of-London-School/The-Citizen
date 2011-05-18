@@ -39,7 +39,6 @@
 #pragma mark DownloadPDF Delegate 
 
 - (void)fileWasDownloaded:(NSString *)filename{
-	NSLog(@"fileWasDownloaded");
 	if (filename == @"files.txt") {
 		[self updateTable];
 	}
@@ -116,22 +115,18 @@
 }
 
 - (void)cleanDB {
-	NSLog(@"cleaning DB...");
 	Event *prevEvent = nil;
 	NSMutableArray *eventsToAdd = [[NSMutableArray alloc] init];
 	for (Event *event in self.eventsArray) {
-		NSLog(@"%@", event.pdfPath);
 		if (prevEvent && [prevEvent.pdfPath isEqualToString:event.pdfPath] || event.pdfPath == nil || [event.pdfPath isEqualToString:@""] || event.date == nil) {
 			if ([event.existsLocally boolValue]) {
 				[eventsToAdd addObject:event.pdfPath];
 			}
-			NSLog(@"deleting %@", event.pdfPath);
 			[managedObjectContext deleteObject:event];
 		}
 		prevEvent = event;
 	}
 	for (NSString *path in eventsToAdd) {
-		NSLog(@"Re-adding %@", path);
 		[self addEvent:path exists:YES];
 	}
 	self.eventsArray = [self fetchAllEvents];
@@ -246,7 +241,6 @@
 	NSDateFormatter * dateFormatter = [[NSDateFormatter alloc] init];
 	[dateFormatter setDateFormat:@"yyyy-MM-dd"];
 	NSDate * date = [dateFormatter dateFromString:dateString];
-	NSLog(@"%@", date);
 	if (!date) {
 		NSLog(@"invalid date: %@", dateString);
 		return;
@@ -327,7 +321,6 @@
 - (Event *)mostRecentEvent {
 	NSArray * events = self.eventsArray;
 	Event * anEvent = (Event *)[events objectAtIndex:0];
-	NSLog(@"%@", anEvent.date);
 	return anEvent;
 }
 
@@ -360,7 +353,6 @@
 	NSUInteger node1 = [indexPath indexAtPosition:0];
 	NSUInteger node2 = [indexPath indexAtPosition:1];
 	NSUInteger node3 = [indexPath indexAtPosition:2];
-	NSLog(@"node1: %i node2: %i node3: %i", node1, node2, node3);
 	if (node1 && node2 && node3) {
 		return [[[[[eventsArray objectAtIndex:node1] objectForKey:@"array"] objectAtIndex:node2] objectForKey:@"array"] objectAtIndex:node3];
 	}
@@ -427,7 +419,6 @@
 
 - (NSIndexPath *)indexPathForEventWithFilename:(NSString *)filename {
 	for (NSDictionary *dict in indexes) {
-		NSLog(@"dict filename: %@ filename: %@", [dict objectForKey:@"filename"], filename);
 		if ([[dict objectForKey:@"filename"] isEqualToString:filename]) {
 			return [dict objectForKey:@"index"];
 		}

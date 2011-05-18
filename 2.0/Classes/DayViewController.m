@@ -227,7 +227,6 @@
 #pragma mark FileManager Delegate
 
 - (void)updateTableView {
-	NSLog(@"updateTable");
 	[self.tableView reloadData];
 	downloadInProgress = NO;
 }

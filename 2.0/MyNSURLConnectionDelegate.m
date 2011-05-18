@@ -99,7 +99,7 @@
 
 - (void)connection:(NSURLConnection*)connection didReceiveResponse:(NSURLResponse*)aResponse
 {
-	NSLog(@"didReceiveResponse: %i", (int)[aResponse expectedContentLength]);
+//	NSLog(@"didReceiveResponse: %i", (int)[aResponse expectedContentLength]);
 	self.response = aResponse;
 	self.responseData = [NSMutableData data];
 }
@@ -113,21 +113,21 @@
 
 - (NSCachedURLResponse*)connection:(NSURLConnection*)connection willCacheResponse:(NSCachedURLResponse*)cachedResponse
 {
-	NSLog(@"willCacheResponse");
+//	NSLog(@"willCacheResponse");
 	return cachedResponse;
 }
 
 
 - (NSURLRequest*)connection:(NSURLConnection*)connection willSendRequest:(NSURLRequest*)request redirectResponse:(NSURLResponse*)redirectResponse
 {
-	NSLog(@"willSendRequest (from %@ to %@)", redirectResponse.URL, request.URL);
+//	NSLog(@"willSendRequest (from %@ to %@)", redirectResponse.URL, request.URL);
 	return request;
 }
 
 
 - (void)connectionDidFinishLoading:(NSURLConnection*)connection
 {
-	NSLog(@"connectionDidFinishLoading");
+//	NSLog(@"connectionDidFinishLoading");
 	[target performSelector:action
 				 withObject:[NSDictionary dictionaryWithObjectsAndKeys:response,@"response",responseData,@"data",nil]
 				 withObject:context];
@@ -136,7 +136,7 @@
 
 - (BOOL)connectionShouldUseCredentialStorage:(NSURLConnection*)connection
 {
-	NSLog(@"connectionShouldUseCredentialStorage");
+//	NSLog(@"connectionShouldUseCredentialStorage");
 	return YES;
 }
 

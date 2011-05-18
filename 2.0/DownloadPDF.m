@@ -51,12 +51,10 @@
 	NSData* data = [resultOrError objectForKey:@"data"];
 	
 	// Handle response and data
-	NSLog(@"Response: %@", response);
 	saveFilename = context;
 	filePath = [DownloadPDF getLocalDocPath:saveFilename];
 	[data writeToFile:filePath atomically:YES];
 	if (self.downloadPDFDelegate != NULL && [self.downloadPDFDelegate respondsToSelector:@selector(fileWasDownloaded:)]) {
-		NSLog(@"Saving file %@", saveFilename);
 		[downloadPDFDelegate fileWasDownloaded:saveFilename];
 	}
 }
