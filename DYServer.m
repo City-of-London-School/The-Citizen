@@ -7,7 +7,6 @@
 //
 
 #import "DYServer.h"
-//#import "DYDate.h"
 #import "DownloadDelegate.h"
 #import "NSDate+Conveniences.h"
 
@@ -89,26 +88,10 @@ NSString *const clsb = @"http://www.clsb.org.uk/downloads/citizen/";
     NSString *path = [clsb stringByAppendingString:filename];
     NSURL *url = [NSURL URLWithString:path];
     NSURLRequest *req = [NSURLRequest requestWithURL:url];
-//    NSDictionary *dict = [NSDictionary dictionaryWithObject:issue forKey:@"issue"];
     NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:issue, @"issue", sender, @"sender", nil];
     DownloadDelegate *downloadDelegate = [[DownloadDelegate alloc] initWithRequest:req sender:self userData:dict];
     [delegates setObject:downloadDelegate forKey:filename];
 }
-
-//- (void)fileWasDownloaded:(NSString *)filename {
-//    if (filename == @"files.txt") {
-//        [self updateFileList];
-//	}
-//	else {
-//		filename = [[filename componentsSeparatedByString:@".pdf"] objectAtIndex:0];
-//		Issue *issue = [self findIssue:filename];
-//		issue.existsLocally = [NSNumber numberWithBool:YES];
-//		NSError *error = nil;
-//		if (![managedObjectContext save:&error])
-//            NSLog(@"error saving context: %@", [error description]);
-//    }
-//    [delegates removeObjectForKey:filename];
-//}
 
 - (void)downloadFinished:(NSDictionary *)response {
     NSString *filename = [response objectForKey:@"filename"];
@@ -136,7 +119,6 @@ NSString *const clsb = @"http://www.clsb.org.uk/downloads/citizen/";
 - (void)updateFileList {
     NSArray * remoteFileList = [self remoteFileList];
 	NSArray * localFileList = [self localFileList];
-//	localFileList = [self reverseArray:localFileList];
 	if ([remoteFileList isEqualToArray:localFileList]) {
 		NSLog(@"no new issues");
 	}
