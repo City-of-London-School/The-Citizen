@@ -211,6 +211,8 @@
     NSURL *path = [[[[[UIApplication sharedApplication] delegate] performSelector:@selector(applicationDocumentsDirectory)] URLByAppendingPathComponent:issue.pdfPath] URLByAppendingPathExtension:@"pdf"];
     CGPDFDocumentRef pdf = CGPDFDocumentCreateWithURL((__bridge CFURLRef)path);
     self.detailViewController.pdf = pdf;
+    self.detailViewController.navBar = YES;
+    [self.detailViewController renderIssue];
     [self.navigationController pushViewController:self.detailViewController animated:YES];
     return;
 }

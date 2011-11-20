@@ -2,6 +2,7 @@ The 1sts of the month get placed in the wrong month FIXED
 Still errors with the indexPath stuff FIXED
 Home View with button for most recent article and button for archive DONE
 Months and Days tables are reversed FIXED
-
-
-FileManager has been replaced with DYServer
+Replace FileManager with DYServer DONE
+Clean up code and make it nice and shiny
+Cache some stuff in GroupedViewController so it loads faster
+Make GroupedViewController scroll faster

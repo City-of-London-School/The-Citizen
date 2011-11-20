@@ -64,10 +64,15 @@
 	int numberOfPages = CGPDFDocumentGetNumberOfPages(pdf);
     
 	CGRect frame = [[UIScreen mainScreen] applicationFrame];
-    int tabBarHeight = self.tabBarController.tabBar.frame.size.height;
+//    int tabBarHeight = self.tabBarController.tabBar.frame.size.height;
+//    frame.size.height -= tabBarHeight;
+    // The tab bar can't always be accessed, so here we just use the pixel height and hope it doesn't change between iOS versions...
+    int tabBarHeight = 49;
     frame.size.height -= tabBarHeight;
     if (self.navBar) {
-        int navBarHeight = self.navigationController.navigationBar.frame.size.height;
+//        int navBarHeight = self.navigationController.navigationBar.frame.size.height;
+        // The nav bar can't be accessed either, so we'll use a known value for it instead.
+        int navBarHeight = 44;
         frame.size.height -= navBarHeight;
     }
     scrollView = [[UIScrollView alloc] initWithFrame:frame];
