@@ -7,7 +7,8 @@
 //
 
 #import "The_CitizenAppDelegate.h"
-#import "HomeController.h"
+#import "ContentViewController.h"
+#import "YearViewController.h"
 
 
 @implementation The_CitizenAppDelegate
@@ -19,23 +20,55 @@
 #pragma mark -
 #pragma mark Application lifecycle
 
-- (void)awakeFromNib {    	
-	HomeController *homeController = (HomeController *)[navigationController topViewController];
-	homeController.managedObjectContext = self.managedObjectContext;
-}
-
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
 
     // Add the navigation controller's view to the window and display.
-    [self.window addSubview:navigationController.view];
+    ContentViewController *currentIssueViewController = [[ContentViewController alloc] initWithNibName:@"ContentViewController" bundle:nil];
+    server = [[DYServer alloc] initWithManagedObjectContext:self.managedObjectContext];
+    Issue *issue = [server mostRecentIssue];
+    if (issue) {
+        NSURL * path = [[[self applicationDocumentsDirectory] URLByAppendingPathComponent:issue.pdfPath] URLByAppendingPathExtension:@"pdf"];
+        CGPDFDocumentRef pdf = CGPDFDocumentCreateWithURL((__bridge CFURLRef)path);
+        currentIssueViewController.pdf = pdf;
+    }
+        
+    YearViewController *yearViewController = [[YearViewController alloc] initWithNibName:@"YearViewController" bundle:nil];
+    yearViewController.managedObjectContext = self.managedObjectContext;
+    yearViewController.server = server;
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:yearViewController];
+    currentIssueViewController.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemMostRecent tag:0];
+    nav.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemHistory tag:0];
+    tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = [NSArray arrayWithObjects:currentIssueViewController, nav, nil];
+    self.window.rootViewController = tabBarController;
+    
     [self.window makeKeyAndVisible];
 
     return YES;
 }
 
+- (NSURL *)mostRecentIssuePDFPath {
+    Issue *issue = [server mostRecentIssue];
+    if (!issue) {
+        return nil;
+    }
+    if (issue && issue.existsLocally) {
+        NSURL *appDoc = [self applicationDocumentsDirectory];
+        NSURL *pdfPath = [appDoc URLByAppendingPathComponent:issue.pdfPath];
+        return [pdfPath URLByAppendingPathExtension:@"pdf"];
+    }
+    [self downloadMostRecentIssue];
+    return nil;
+}
+
+- (void)downloadMostRecentIssue {
+    Issue *issue = [server mostRecentIssue];
+    if (issue) {
+        [server downloadIssue:issue];
+    }
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     /*
@@ -143,10 +176,8 @@
     }
     
 //    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"The_Citizen.sqlite"];
-	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-	NSString *documentsDirectory = [paths objectAtIndex:0];
-	NSString *myPathDocs =  [documentsDirectory stringByAppendingPathComponent:@"iRcon.sqlite"];
-	NSURL *storeURL = [NSURL fileURLWithPath:myPathDocs];
+    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"The_Citizen.sqlite"];
+//	NSString *myPathDocs =  [documentsDirectory stringByAppendingPathComponent:@"iRcon.sqlite"];
     
     NSError *error = nil;
 	NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:YES],NSMigratePersistentStoresAutomaticallyOption, [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
@@ -179,7 +210,6 @@
 //        abort();
 		UIAlertView * alertView = [[UIAlertView alloc] initWithTitle: @"Database Problem" message: @"A fatal database error has ocurred. Quit the application by pressing the home button. If the problem persists, reinstall the app." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
 		[alertView  show];
-		[alertView  release];
     }    
     
     return persistentStoreCoordinator_;
@@ -207,16 +237,16 @@
 }
 
 
-- (void)dealloc {
-    
-    [managedObjectContext_ release];
-    [managedObjectModel_ release];
-    [persistentStoreCoordinator_ release];
-    
-    [navigationController release];
-    [window release];
-    [super dealloc];
-}
+//- (void)dealloc {
+//    
+//    [managedObjectContext_ release];
+//    [managedObjectModel_ release];
+//    [persistentStoreCoordinator_ release];
+//    
+//    [navigationController release];
+//    [window release];
+//    [super dealloc];
+//}
 
 
 @end
