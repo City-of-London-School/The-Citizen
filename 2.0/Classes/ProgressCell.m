@@ -10,16 +10,31 @@
 
 
 @implementation ProgressCell
-@synthesize textLabel, button, progressView;
+@synthesize textLabel, progressView;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if ((self = [super initWithStyle:style reuseIdentifier:reuseIdentifier])) {
         // Initialization code
+        self.progressView.hidden = YES;
+        self.textLabel.hidden = NO;
     }
     return self;
 }
 
+- (void)startProgressBar {
+    self.progressView.hidden = NO;
+    self.textLabel.hidden = YES;
+    [self.progressView setProgress:0];
+}
+
+- (void)stopProgressBar {
+    self.progressView.hidden = YES;
+    self.textLabel.hidden = NO;
+    self.textLabel.textColor = [UIColor blackColor];
+}
+
 - (void)incrementProgressBarByAmount:(float)amount {
+    
 	[self.progressView setProgress:amount];
 }
 
@@ -31,9 +46,7 @@
 }
 
 
-- (void)dealloc {
-    [super dealloc];
-}
+
 
 
 @end

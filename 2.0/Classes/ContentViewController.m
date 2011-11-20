@@ -10,7 +10,7 @@
 #import "HMTiledView.h"
 
 @implementation ContentViewController
-@synthesize pdf;
+@synthesize pdf, navBar;
 
 
 
@@ -26,13 +26,50 @@
 
 #define PADDING 20
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
-	currentPage = 1;
-	int numberOfPages = CGPDFDocumentGetNumberOfPages(pdf);
 
+//- (void)loadView {
+//
+//}
+
+- (void)viewDidLoad {
+    [self checkForPDF];
+}
+
+- (void)checkForPDF {
+    NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
+	if (self.pdf) {
+        [nc removeObserver:self name:@"DYServerIssueDownloadedNotification" object:nil];
+        [nc removeObserver:self name:@"DYServerIssuesUpdatedNotification" object:nil];
+        [self renderIssue];
+    }
+    else {
+        [[[UIApplication sharedApplication] delegate] performSelector:@selector(downloadMostRecentIssue)];
+        [nc addObserver:self selector:@selector(getIssuePDFPath) name:@"DYServerIssueDownloadedNotification" object:nil];
+        [nc addObserver:self selector:@selector(getIssuePDFPath) name:@"DYServerIssuesUpdatedNotification" object:nil];
+//        [nc addObserver:self selector:@selector(checkForPDF) name:@"DYServerIssuesUpdatedNotification" object:nil];
+    }
+}
+
+- (void)getIssuePDFPath {
+    NSURL * path = [[[UIApplication sharedApplication] delegate] performSelector:@selector(mostRecentIssuePDFPath)];
+    if (!path)
+        return;
+    CGPDFDocumentRef pdfRef = CGPDFDocumentCreateWithURL((__bridge CFURLRef)path);
+    self.pdf = pdfRef;
+    [self renderIssue];
+}
+
+- (void)renderIssue {
+    currentPage = 1;
+	int numberOfPages = CGPDFDocumentGetNumberOfPages(pdf);
+    
 	CGRect frame = [[UIScreen mainScreen] applicationFrame];
-	int navBarHeight = self.navigationController.navigationBar.frame.size.height;
-	frame.size.height -= navBarHeight;
+    int tabBarHeight = self.tabBarController.tabBar.frame.size.height;
+    frame.size.height -= tabBarHeight;
+    if (self.navBar) {
+        int navBarHeight = self.navigationController.navigationBar.frame.size.height;
+        frame.size.height -= navBarHeight;
+    }
     scrollView = [[UIScrollView alloc] initWithFrame:frame];
     scrollView.contentSize = CGSizeMake((frame.size.width+PADDING) * numberOfPages, frame.size.height);
 	scrollView.pagingEnabled = YES;
@@ -45,7 +82,6 @@
 		aView.page = CGPDFDocumentGetPage(pdf, i+1);
 		CGPDFPageRetain(aView.page);	
 		[self.view addSubview:aView];
-		[aView release];
 	}
 }
 
@@ -68,8 +104,8 @@
 }
 
 
-- (void)dealloc {
-    [super dealloc];
-}
+//- (void)dealloc {
+//    [super dealloc];
+//}
 
 @end

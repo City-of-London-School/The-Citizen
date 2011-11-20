@@ -7,23 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DownloadPDF.h"
-#import "Event.h"
-#import "FileManager.h"
+#import "Issue.h"
+#import "DYServer.h"
 
 
-@interface YearViewController : UITableViewController {
+@interface YearViewController : UITableViewController <NSFetchedResultsControllerDelegate> {
     NSManagedObjectContext * managedObjectContext;
-	FileManager * fileManager;
+    DYServer *server;
 	NSArray *nestedArray;
 	BOOL showError;
+    NSFetchedResultsController *__fetchedResultsController;
 }
 
 - (void)updateTable:(NSArray *)array;
 
 @property (nonatomic, retain) NSManagedObjectContext * managedObjectContext;
-@property (nonatomic, retain) FileManager * fileManager;
+@property (nonatomic, retain) DYServer *server;
 @property (nonatomic, retain) NSArray *nestedArray;
+@property (nonatomic, retain) NSFetchedResultsController *fetchedResultsController;
 
 - (void)refresh;
 

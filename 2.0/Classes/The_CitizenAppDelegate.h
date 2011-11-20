@@ -8,11 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "ContentViewController.h"
+#import "Issue.h"
+#import "DYServer.h"
 
 @interface The_CitizenAppDelegate : NSObject <UIApplicationDelegate> {
     
     UIWindow *window;
     UINavigationController *navigationController;
+    UITabBarController *tabBarController;
+    DYServer *server;
 
 @private
     NSManagedObjectContext *managedObjectContext_;
@@ -29,6 +34,10 @@
 
 - (NSURL *)applicationDocumentsDirectory;
 - (void)saveContext;
+
+// Delegate methods for ContentViewController
+- (NSURL *)mostRecentIssuePDFPath;
+- (void)downloadMostRecentIssue;
 
 @end
 

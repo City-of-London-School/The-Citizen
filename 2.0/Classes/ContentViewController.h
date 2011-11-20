@@ -12,13 +12,18 @@
 	UIScrollView * scrollView;
 	CGPDFDocumentRef pdf;
 	int currentPage;
+    BOOL navBar;
 }
 
+- (void)renderIssue;
+- (void)getIssuePDFPath;
+- (void)checkForPDF;
 //- (void)handleSwipeFrom:(UISwipeGestureRecognizer *)recognizer;
 //- (void)swipeLeft;
 //- (void)swipeRight;
 
 @property (nonatomic, assign) CGPDFDocumentRef pdf;
+@property (nonatomic, assign) BOOL navBar;
 
 @end
 
