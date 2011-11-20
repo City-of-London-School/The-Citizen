@@ -34,8 +34,8 @@
 - (void)populateIssuesArray;
    
 // Delegate Methods
-- (void)fileWasDownloaded:(NSString *)filename;
-- (void)fileDownload:(NSString *)filename hasProgressedBy:(NSNumber *)amount;
+- (void)downloadFinished:(NSDictionary *)response;
+- (void)download:(NSDictionary *)response progressed:(float)progress;
 
 // TableView Data Source Methods
 - (NSArray *)yearsOfIssues;
