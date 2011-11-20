@@ -51,15 +51,15 @@
 		8D1107310486CEB800E47090 /* The_Citizen-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "The_Citizen-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		EF10F24714770C9500C4FE8A /* NSDate+Conveniences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Conveniences.h"; sourceTree = "<group>"; };
 		EF10F24814770C9500C4FE8A /* NSDate+Conveniences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Conveniences.m"; sourceTree = "<group>"; };
-		EF136ECC14541E1400A597EA /* DYServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYServer.h; sourceTree = "<group>"; };
-		EF136ECD14541E1400A597EA /* DYServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYServer.m; sourceTree = "<group>"; };
-		EF24EA1314539BA0000A3E80 /* DYGroupedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYGroupedViewController.h; sourceTree = "<group>"; };
-		EF24EA1414539BA0000A3E80 /* DYGroupedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYGroupedViewController.m; sourceTree = "<group>"; };
+		EF136ECC14541E1400A597EA /* DYServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYServer.h; path = ../DYServer.h; sourceTree = "<group>"; };
+		EF136ECD14541E1400A597EA /* DYServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYServer.m; path = ../DYServer.m; sourceTree = "<group>"; };
+		EF24EA1314539BA0000A3E80 /* DYGroupedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYGroupedViewController.h; path = ../DYGroupedViewController.h; sourceTree = "<group>"; };
+		EF24EA1414539BA0000A3E80 /* DYGroupedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYGroupedViewController.m; path = ../DYGroupedViewController.m; sourceTree = "<group>"; };
 		EF2BB7661379E40E00BF5188 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
 		EF35FF7314795B3F00997473 /* The_CitizenAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = The_CitizenAppDelegate.m; sourceTree = "<group>"; };
 		EF407222145D682F001035FA /* DYGroupedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DYGroupedViewController.xib; sourceTree = "<group>"; };
-		EF4216B114717C1400368693 /* DownloadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadDelegate.h; sourceTree = "<group>"; };
-		EF4216B214717C1400368693 /* DownloadDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadDelegate.m; sourceTree = "<group>"; };
+		EF4216B114717C1400368693 /* DownloadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadDelegate.h; path = ../DownloadDelegate.h; sourceTree = "<group>"; };
+		EF4216B214717C1400368693 /* DownloadDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadDelegate.m; path = ../DownloadDelegate.m; sourceTree = "<group>"; };
 		EF74120413803AFF00B0EA7B /* iTunesArtwork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iTunesArtwork.jpg; sourceTree = "<group>"; };
 		EF821F2D1326EB6C00F4BF85 /* ProgressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressCell.h; sourceTree = "<group>"; };
 		EF821F2E1326EB6C00F4BF85 /* ProgressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressCell.m; sourceTree = "<group>"; };
@@ -76,9 +76,9 @@
 		EFA7910F1326E64B000177BA /* Issue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Issue.h; sourceTree = "<group>"; };
 		EFA791101326E64B000177BA /* Issue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Issue.m; sourceTree = "<group>"; };
 		EFA791121326E669000177BA /* The_Citizen_old.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = The_Citizen_old.xcdatamodel; sourceTree = "<group>"; };
-		EFA944BE1472F1000022BE8B /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
-		EFC7502A13787BEB00CBF71B /* YearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YearViewController.h; path = Classes/YearViewController.h; sourceTree = "<group>"; };
-		EFC7502B13787BEB00CBF71B /* YearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YearViewController.m; path = Classes/YearViewController.m; sourceTree = "<group>"; };
+		EFA944BE1472F1000022BE8B /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ContentViewController.xib; path = Classes/ContentViewController.xib; sourceTree = "<group>"; };
+		EFC7502A13787BEB00CBF71B /* YearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YearViewController.h; sourceTree = "<group>"; };
+		EFC7502B13787BEB00CBF71B /* YearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YearViewController.m; sourceTree = "<group>"; };
 		EFC7502C13787BEB00CBF71B /* YearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YearViewController.xib; path = Classes/YearViewController.xib; sourceTree = "<group>"; };
 		EFE4B5ED132C56EF00FC1485 /* crest_london_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crest_london_114.png; sourceTree = "<group>"; };
 		EFE4B5EF132C571C00FC1485 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -105,10 +105,23 @@
 			isa = PBXGroup;
 			children = (
 				EF821F2A1326EB6C00F4BF85 /* Subclasses */,
+				EF4216B114717C1400368693 /* DownloadDelegate.h */,
+				EF4216B214717C1400368693 /* DownloadDelegate.m */,
+				EF24EA1314539BA0000A3E80 /* DYGroupedViewController.h */,
+				EF24EA1414539BA0000A3E80 /* DYGroupedViewController.m */,
+				EFC7502A13787BEB00CBF71B /* YearViewController.h */,
+				EFC7502B13787BEB00CBF71B /* YearViewController.m */,
+				EF136ECC14541E1400A597EA /* DYServer.h */,
+				EF136ECD14541E1400A597EA /* DYServer.m */,
+				EFA790EC1326E55A000177BA /* ContentViewController.h */,
+				EFA790ED1326E55A000177BA /* ContentViewController.m */,
+				EFA790EE1326E55A000177BA /* HMTiledView.h */,
+				EFA790EF1326E55A000177BA /* HMTiledView.m */,
+				EFA790F01326E55A000177BA /* HMViewDelegate.h */,
+				EFA790F11326E55A000177BA /* HMViewDelegate.m */,
 				1D3623240D0F684500981E51 /* The_CitizenAppDelegate.h */,
 				EF35FF7314795B3F00997473 /* The_CitizenAppDelegate.m */,
 				EFA790EB1326E55A000177BA /* Content View */,
-				EFA790E11326E53A000177BA /* List View */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -125,8 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				080E96DDFE201D6D7F000001 /* Classes */,
-				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -151,6 +164,7 @@
 				EFE4B5ED132C56EF00FC1485 /* crest_london_114.png */,
 				EF84B25C1326F39C00B1BFAC /* Icon.png */,
 				28D3F201112F7DC200FD0661 /* The_Citizen.xcdatamodeld */,
+				EFA944BE1472F1000022BE8B /* ContentViewController.xib */,
 				EF407222145D682F001035FA /* DYGroupedViewController.xib */,
 				EFC7502C13787BEB00CBF71B /* YearViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
@@ -184,40 +198,9 @@
 			name = Subclasses;
 			sourceTree = "<group>";
 		};
-		EFA790E11326E53A000177BA /* List View */ = {
-			isa = PBXGroup;
-			children = (
-				EFA790E61326E53A000177BA /* Downloading */,
-				EF24EA1314539BA0000A3E80 /* DYGroupedViewController.h */,
-				EF24EA1414539BA0000A3E80 /* DYGroupedViewController.m */,
-				EFC7502A13787BEB00CBF71B /* YearViewController.h */,
-				EFC7502B13787BEB00CBF71B /* YearViewController.m */,
-				EF136ECC14541E1400A597EA /* DYServer.h */,
-				EF136ECD14541E1400A597EA /* DYServer.m */,
-			);
-			name = "List View";
-			path = ..;
-			sourceTree = "<group>";
-		};
-		EFA790E61326E53A000177BA /* Downloading */ = {
-			isa = PBXGroup;
-			children = (
-				EF4216B114717C1400368693 /* DownloadDelegate.h */,
-				EF4216B214717C1400368693 /* DownloadDelegate.m */,
-			);
-			name = Downloading;
-			sourceTree = "<group>";
-		};
 		EFA790EB1326E55A000177BA /* Content View */ = {
 			isa = PBXGroup;
 			children = (
-				EFA790EC1326E55A000177BA /* ContentViewController.h */,
-				EFA790ED1326E55A000177BA /* ContentViewController.m */,
-				EFA944BE1472F1000022BE8B /* ContentViewController.xib */,
-				EFA790EE1326E55A000177BA /* HMTiledView.h */,
-				EFA790EF1326E55A000177BA /* HMTiledView.m */,
-				EFA790F01326E55A000177BA /* HMViewDelegate.h */,
-				EFA790F11326E55A000177BA /* HMViewDelegate.m */,
 			);
 			name = "Content View";
 			sourceTree = "<group>";
