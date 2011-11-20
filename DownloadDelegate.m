@@ -46,7 +46,6 @@
     float dataLength = (float)[receivedData length];
     float expectedLength = (float)[_response expectedContentLength];
     float progress = dataLength/expectedLength;
-//    float progress = (float)[data length]/(float)[_response expectedContentLength];
     NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:filename, @"filename", self.userData, @"userData", nil];
     [self.delegate download:dict progressed:progress];
 }
