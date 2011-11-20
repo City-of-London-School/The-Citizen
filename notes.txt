@@ -6,3 +6,4 @@ Replace FileManager with DYServer DONE
 Clean up code and make it nice and shiny
 Cache some stuff in GroupedViewController so it loads faster
 Make GroupedViewController scroll faster
+There may be a bug that causes a crash when going back to YearViewController after viewing some Issues.

@@ -236,7 +236,7 @@
 }
 
 #pragma mark - Issue sorting
-
+/*
 - (NSArray *)issuesForYear:(int)year month:(int)month {
     NSMutableArray *arr = [[NSMutableArray alloc] init];
     for (NSDictionary *dict in [self allIssueDates]) {
@@ -323,7 +323,7 @@
     [f setDateFormat:format];
     return [f stringFromDate:date];
 }
-
+*/
 #pragma mark Fetched Results Controller
 
 - (NSFetchedResultsController *)fetchedResultsController

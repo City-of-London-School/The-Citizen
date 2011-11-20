@@ -121,7 +121,6 @@
 				EFA790F11326E55A000177BA /* HMViewDelegate.m */,
 				1D3623240D0F684500981E51 /* The_CitizenAppDelegate.h */,
 				EF35FF7314795B3F00997473 /* The_CitizenAppDelegate.m */,
-				EFA790EB1326E55A000177BA /* Content View */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -196,13 +195,6 @@
 				EF10F24814770C9500C4FE8A /* NSDate+Conveniences.m */,
 			);
 			name = Subclasses;
-			sourceTree = "<group>";
-		};
-		EFA790EB1326E55A000177BA /* Content View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Content View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
