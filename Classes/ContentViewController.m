@@ -79,6 +79,8 @@
     scrollView.contentSize = CGSizeMake((frame.size.width+PADDING) * numberOfPages, frame.size.height);
 	scrollView.pagingEnabled = YES;
 	scrollView.backgroundColor = [UIColor grayColor];
+    scrollView.showsHorizontalScrollIndicator = YES;
+    scrollView.indicatorStyle = UIScrollViewIndicatorStyleDefault;
 	self.view = scrollView;
 	
 	for (int i = 0; i < numberOfPages; i++) {
