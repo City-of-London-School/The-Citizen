@@ -63,7 +63,8 @@
     currentPage = 1;
 	int numberOfPages = CGPDFDocumentGetNumberOfPages(pdf);
     
-	CGRect frame = [[UIScreen mainScreen] applicationFrame];
+    CGRect frame = self.view.bounds;
+
 //    int tabBarHeight = self.tabBarController.tabBar.frame.size.height;
 //    frame.size.height -= tabBarHeight;
     // The tab bar can't always be accessed, so here we just use the pixel height and hope it doesn't change between iOS versions...
@@ -81,21 +82,28 @@
 	scrollView.backgroundColor = [UIColor grayColor];
     scrollView.showsHorizontalScrollIndicator = YES;
     scrollView.indicatorStyle = UIScrollViewIndicatorStyleDefault;
-	self.view = scrollView;
+    
+    CGRect f = scrollView.frame;
+    f.size.width += PADDING;
+    scrollView.frame = f;
+    [self.view addSubview:scrollView];
 	
 	for (int i = 0; i < numberOfPages; i++) {
 		int width = frame.size.width;
 		HMTiledView * aView = [[HMTiledView alloc] initWithFrame:CGRectMake(i*(width+PADDING), 0.0, 320.0, frame.size.height)];
 		aView.page = CGPDFDocumentGetPage(pdf, i+1);
 		CGPDFPageRetain(aView.page);	
-		[self.view addSubview:aView];
+        [scrollView addSubview:aView];
 	}
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-	CGRect frame = self.view.frame;
-	frame.size.width += PADDING;
-	self.view.frame = frame;
+    // This is no longer necessary now that scrollView is a subclass of the ViewController's view
+    
+    // The DYScrollView subclass will ensure it has the correct width so we don't need to change it.
+//	CGRect frame = self.view.frame;
+//	frame.size.width += PADDING;
+//	self.view.frame = frame;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -109,10 +117,5 @@
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
 }
-
-
-//- (void)dealloc {
-//    [super dealloc];
-//}
 
 @end
