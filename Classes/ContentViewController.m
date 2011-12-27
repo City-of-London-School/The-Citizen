@@ -63,7 +63,11 @@
     currentPage = 1;
 	int numberOfPages = CGPDFDocumentGetNumberOfPages(pdf);
     
-    CGRect frame = self.view.bounds;
+    // This is to reset the view frame because it tends to get changed by something when switching from one Issue to another
+    CGRect a = CGRectMake(0, 0, 320, 460);
+    self.view.frame = a;
+    
+    CGRect frame = self.view.frame;
 
 //    int tabBarHeight = self.tabBarController.tabBar.frame.size.height;
 //    frame.size.height -= tabBarHeight;
@@ -86,6 +90,10 @@
     CGRect f = scrollView.frame;
     f.size.width += PADDING;
     scrollView.frame = f;
+    for (UIView *v in [self.view subviews]) {
+        [v removeFromSuperview];
+    }
+    [self.view setAutoresizingMask:UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth];
     [self.view addSubview:scrollView];
 	
 	for (int i = 0; i < numberOfPages; i++) {
