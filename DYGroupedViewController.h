@@ -20,14 +20,10 @@
     NSMutableArray *downloading; // Table View cells that are downloading
 }
 
-- (NSArray *)issuesForYear:(int)year month:(int)month;
-- (NSArray *)monthsForYear:(int)year;
-- (NSArray *)allIssueDates;
-- (NSIndexPath *)indexPathForIssue:(Issue *)issue;
-- (NSArray *)months;
+
 
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
-- (NSString *)formatDate:(NSDate *)date;
+
 
 // Server delegate
 - (void)download:(NSDictionary *)response progressed:(float)progress;

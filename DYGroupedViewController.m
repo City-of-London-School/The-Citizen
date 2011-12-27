@@ -235,95 +235,6 @@
     }
 }
 
-#pragma mark - Issue sorting
-/*
-- (NSArray *)issuesForYear:(int)year month:(int)month {
-    NSMutableArray *arr = [[NSMutableArray alloc] init];
-    for (NSDictionary *dict in [self allIssueDates]) {
-        if (year == [[dict objectForKey:@"year"] intValue] && month == [[dict objectForKey:@"month"] intValue]) {
-            [arr addObject:dict];
-        }
-    }
-    return (NSArray *)arr;
-}
-
-- (NSArray *)monthsForYear:(int)year {
-    NSMutableArray *arr = [[NSMutableArray alloc] init];
-    for (NSDictionary *dict in [self allIssueDates]) {
-        if ([[dict objectForKey:@"year"] intValue] != year) {
-            continue;
-        }
-        BOOL isThere = NO;
-        for (NSNumber *n in arr) {
-            if ([n intValue] == [[dict objectForKey:@"month"] intValue]) {
-                isThere = YES;
-            }
-        }
-        if (!isThere) {
-            [arr addObject:[dict objectForKey:@"month"]];
-        }
-    }
-    return (NSArray *)arr;
-}
-
-// Todo: Optimise this by fetching only issues of the right year from Core Data
-- (NSArray *)allIssueDates {
-    if (_dates) {
-        return _dates;
-    }
-    NSMutableArray *arr = [[NSMutableArray alloc] init];
-    for (Issue *issue in [self.fetchedResultsController fetchedObjects]) {
-        NSDateComponents *components = [[NSCalendar currentCalendar] components:NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit fromDate:issue.date];
-        NSInteger theYear = [components year];
-        NSInteger theMonth = [components month];
-        NSInteger theDay = [components day];
-        NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithInteger:theYear], @"year", [NSNumber numberWithInteger:theMonth], @"month", [NSNumber numberWithInteger:theDay], @"day", issue, @"issue", nil];
-        [arr addObject:dict];
-    }
-    _dates = (NSArray *)arr;
-    return _dates;
-}
-
-- (NSArray *)months {
-    return [NSArray arrayWithObjects:@"January", @"February", @"March", @"April", @"May", @"June", @"July", @"August", @"September", @"October", @"November", @"December", nil];
-}
-
-- (NSIndexPath *)indexPathForIssue:(Issue *)issue {
-    NSDateComponents *components = [[NSCalendar currentCalendar] components:NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit fromDate:issue.date];
-    NSInteger theMonth = [components month];
-    NSInteger theDay = [components day];
-    NSArray *issues = [self issuesForYear:self.year month:theMonth];
-    int index = 0;
-    for (NSDictionary *dict in issues) {
-        if ([[dict objectForKey:@"day"] intValue] == theDay) {
-            break;
-        }
-        index++;
-    }
-    Issue *i = [[issues objectAtIndex:index] objectForKey:@"issue"];
-    NSDate *date = i.date;
-    if (![date isEqualToDate:issue.date]) {
-        NSLog(@"Issue not found.");
-        return nil;
-    }
-    NSArray *months = [self monthsForYear:self.year];
-    int j = 0;
-    for (NSNumber *n in months) {
-        if ([n intValue] == theMonth) {
-            break;
-        }
-        j++;
-    }
-    return [NSIndexPath indexPathForRow:index inSection:j];
-}
-
-- (NSString *)formatDate:(NSDate *)date {
-    NSDateFormatter *f = [[NSDateFormatter alloc] init];
-    NSString *format = [NSDateFormatter dateFormatFromTemplate:@"MMMMEEEEd" options:0 locale:[NSLocale currentLocale]];
-    [f setDateFormat:format];
-    return [f stringFromDate:date];
-}
-*/
 #pragma mark Fetched Results Controller
 
 - (NSFetchedResultsController *)fetchedResultsController
@@ -379,7 +290,7 @@
             break;
             
         case NSFetchedResultsChangeUpdate:
-            indexPath = [self indexPathForIssue:(Issue *)anObject];
+            indexPath = [self.server indexPathForIssue:(Issue *)anObject];
             [self configureCell:[tableView cellForRowAtIndexPath:indexPath] atIndexPath:indexPath];
             break;
             
