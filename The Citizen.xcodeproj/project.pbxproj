@@ -33,6 +33,7 @@
 		EFC65208146D996600DF417C /* DYGroupedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF24EA1414539BA0000A3E80 /* DYGroupedViewController.m */; };
 		EFC7502D13787BEB00CBF71B /* YearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7502B13787BEB00CBF71B /* YearViewController.m */; };
 		EFC7502E13787BEB00CBF71B /* YearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFC7502C13787BEB00CBF71B /* YearViewController.xib */; };
+		EFDC54CB14ABAE4A00F82AC1 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = EFDC54CA14ABAE4A00F82AC1 /* README.markdown */; };
 		EFE4B5EE132C56EF00FC1485 /* crest_london_114.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE4B5ED132C56EF00FC1485 /* crest_london_114.png */; };
 		EFE4B5F0132C571C00FC1485 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE4B5EF132C571C00FC1485 /* Default.png */; };
 		EFE4B5F2132C58D900FC1485 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE4B5F1132C58D900FC1485 /* Default@2x.png */; };
@@ -80,6 +81,7 @@
 		EFC7502A13787BEB00CBF71B /* YearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YearViewController.h; sourceTree = "<group>"; };
 		EFC7502B13787BEB00CBF71B /* YearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YearViewController.m; sourceTree = "<group>"; };
 		EFC7502C13787BEB00CBF71B /* YearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YearViewController.xib; path = Classes/YearViewController.xib; sourceTree = "<group>"; };
+		EFDC54CA14ABAE4A00F82AC1 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		EFE4B5ED132C56EF00FC1485 /* crest_london_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crest_london_114.png; sourceTree = "<group>"; };
 		EFE4B5EF132C571C00FC1485 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		EFE4B5F1132C58D900FC1485 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				EFDC54CA14ABAE4A00F82AC1 /* README.markdown */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -260,6 +263,7 @@
 				EF74120513803AFF00B0EA7B /* iTunesArtwork.jpg in Resources */,
 				EF407223145D682F001035FA /* DYGroupedViewController.xib in Resources */,
 				EFA944BF1472F1000022BE8B /* ContentViewController.xib in Resources */,
+				EFDC54CB14ABAE4A00F82AC1 /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
