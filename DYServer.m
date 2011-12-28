@@ -18,6 +18,7 @@ NSString *const clsb = @"http://www.clsb.org.uk/downloads/citizen/";
 - (id)init {
     self = [super init];
     delegates = [[NSMutableDictionary alloc] init];
+    monthsForYears = [[NSMutableDictionary alloc] init];
     return self;
 }
 
@@ -256,6 +257,7 @@ NSString *const clsb = @"http://www.clsb.org.uk/downloads/citizen/";
     return [NSArray arrayWithObjects:@"January", @"February", @"March", @"April", @"May", @"June", @"July", @"August", @"September", @"October", @"November", @"December", nil];
 }
 
+# warning TODO: Consider caching the result of this method
 - (NSArray *)issuesForYear:(int)year month:(int)month {
     NSMutableArray *arr = [[NSMutableArray alloc] init];
     for (Issue *issue in issues) {
@@ -267,6 +269,10 @@ NSString *const clsb = @"http://www.clsb.org.uk/downloads/citizen/";
 }
 
 - (NSArray *)monthsForYear:(int)year {
+    NSArray *months = [monthsForYears objectForKey:[NSNumber numberWithInt:year]];
+    if (months != nil) {
+        return months;
+    }
     NSMutableArray *arr = [[NSMutableArray alloc] init];
     for (NSDictionary *dict in [self allIssueDates]) {
         if ([[dict objectForKey:@"year"] intValue] != year) {
@@ -282,6 +288,7 @@ NSString *const clsb = @"http://www.clsb.org.uk/downloads/citizen/";
             [arr addObject:[dict objectForKey:@"month"]];
         }
     }
+    [monthsForYears setObject:arr forKey:[NSNumber numberWithInt:year]];
     return (NSArray *)arr;
 }
 

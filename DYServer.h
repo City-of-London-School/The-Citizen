@@ -17,6 +17,7 @@
     NSMutableDictionary *delegates;
     BOOL needsFileList;
     NSArray *_allIssueDates;
+    NSMutableDictionary *monthsForYears;
 }
 
 - (id)initWithManagedObjectContext:(NSManagedObjectContext *)context;
