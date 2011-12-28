@@ -18,6 +18,7 @@
     UINavigationController *navigationController;
     UITabBarController *tabBarController;
     DYServer *server;
+    NSCalendar *currentCalendar;
 
 @private
     NSManagedObjectContext *managedObjectContext_;
@@ -38,6 +39,9 @@
 // Delegate methods for ContentViewController
 - (NSURL *)mostRecentIssuePDFPath;
 - (void)downloadMostRecentIssue;
+
+// Global Calendar Instance
+- (NSCalendar *)gCurrentCalendar;
 
 @end
 

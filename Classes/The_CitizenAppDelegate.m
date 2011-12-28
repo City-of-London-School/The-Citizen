@@ -17,13 +17,26 @@
 @synthesize navigationController;
 
 
+#pragma mark Global Calendar Instance
+
+- (NSCalendar *)gCurrentCalendar {
+    if (currentCalendar != nil) {
+        return currentCalendar;
+    }
+    currentCalendar = (NSCalendar *)[NSCalendar currentCalendar];
+    return currentCalendar;
+}
+
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-
+    
+    // Initialize global calendar instance
+    currentCalendar = (NSCalendar *)[NSCalendar currentCalendar];
+    
     // Add the navigation controller's view to the window and display.
     ContentViewController *currentIssueViewController = [[ContentViewController alloc] initWithNibName:@"ContentViewController" bundle:nil];
     server = [[DYServer alloc] initWithManagedObjectContext:self.managedObjectContext];

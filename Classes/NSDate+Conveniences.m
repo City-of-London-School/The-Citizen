@@ -16,16 +16,20 @@
     return [dateFormatter dateFromString:string];
 }
 
+- (NSCalendar *)currentCalendar {
+    return [[[UIApplication sharedApplication] delegate] performSelector:@selector(gCurrentCalendar)];
+}
+
 - (int)year {
-    return [[[NSCalendar currentCalendar] components:NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit fromDate:self] year];
+    return [[[self currentCalendar] components:NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit fromDate:self] year];
 }
 
 - (int)month {
-    return [[[NSCalendar currentCalendar] components:NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit fromDate:self] month];
+    return [[[self currentCalendar] components:NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit fromDate:self] month];
 }
 
 - (int)day {
-    return [[[NSCalendar currentCalendar] components:NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit fromDate:self] day];
+    return [[[self currentCalendar] components:NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit fromDate:self] day];
 }
 
 - (NSString *)stringValueWithFormat:(NSString *)format {
