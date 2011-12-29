@@ -56,7 +56,7 @@
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)viewDidUnload
@@ -144,28 +144,48 @@
     }
 }
 
-/*
+
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Return NO if you do not want the specified item to be editable.
-    return YES;
+    int month = [[[self.server monthsForYear:self.year] objectAtIndex:indexPath.section] intValue];
+    NSArray *arr = [self.server issuesForYear:self.year month:month];
+    Issue * issue = [arr objectAtIndex:indexPath.row];
+    if ([issue.existsLocally boolValue]) {
+        return YES;
+    }
+    return NO;
 }
-*/
 
-/*
+
+
 // Override to support editing the table view.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        int month = [[[self.server monthsForYear:self.year] objectAtIndex:indexPath.section] intValue];
+        NSArray *arr = [self.server issuesForYear:self.year month:month];
+        Issue * issue = [arr objectAtIndex:indexPath.row];
+        if ([issue.existsLocally boolValue]) {
+            issue.existsLocally = [NSNumber numberWithBool:NO];
+            NSURL *path = [[[[[UIApplication sharedApplication] delegate] performSelector:@selector(applicationDocumentsDirectory)] URLByAppendingPathComponent:issue.pdfPath] URLByAppendingPathExtension:@"pdf"];
+            NSFileManager *f = [NSFileManager defaultManager];
+            NSError *error;
+            [f removeItemAtURL:path error:&error];
+            if (error) {
+                NSLog(@"Error deleting issue: %@", error);
+            }
+        }
+        // Mark the row as not downloaded
+        UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+        [self configureCell:cell atIndexPath:indexPath];
     }   
     else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
     }   
 }
-*/
+
 
 /*
 // Override to support rearranging the table view.
