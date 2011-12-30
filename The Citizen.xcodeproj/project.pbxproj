@@ -315,6 +315,7 @@
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A8B51769-935A-4D20-AF1F-B7F88CE97C22";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -336,6 +337,7 @@
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A8B51769-935A-4D20-AF1F-B7F88CE97C22";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
