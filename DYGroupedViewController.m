@@ -126,7 +126,7 @@
         NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"ProgressCell" owner:self options:nil];
         cell = (ProgressCell *)[nib objectAtIndex:0];
     }
-    
+    [cell stopProgressBar];
     [self configureCell:cell atIndexPath:indexPath];
     return cell;
 }
