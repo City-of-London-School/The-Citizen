@@ -210,13 +210,15 @@
     int month = [[[self.server monthsForYear:self.year] objectAtIndex:indexPath.section] intValue];
     Issue *issue = [[self.server issuesForYear:self.year month:month] objectAtIndex:indexPath.row];
     if (![issue.existsLocally boolValue]) {
-        [self.server downloadIssue:issue sender:self];
         // Get the currently selected cell
         for (ProgressCell *c in [self.tableView visibleCells]) {
             if (c.isSelected) {
-                [c startProgressBar];
-                NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:issue, @"issue", c, @"cell", nil];
-                [downloading addObject:dict];
+                if (c.progressView.hidden) {
+                    [c startProgressBar];
+                    [self.server downloadIssue:issue sender:self];
+                    NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:issue, @"issue", c, @"cell", nil];
+                    [downloading addObject:dict];
+                }
                 break;
             }
         }
