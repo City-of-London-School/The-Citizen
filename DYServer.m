@@ -133,11 +133,11 @@ NSString *const clsb = @"http://www.clsb.org.uk/downloads/citizen/";
     }
 }
 
-# warning Fix the always saying "new issues available" bug.
+
 - (void)updateFileList {
     NSArray * remoteFileList = [self remoteFileList];
 	NSArray * localFileList = [self localFileList];
-	if ([remoteFileList isEqualToArray:localFileList]) {
+	if ([remoteFileList isEqualToArray:localFileList] || [remoteFileList isEqualToArray:[[localFileList reverseObjectEnumerator] allObjects]]) {
 		NSLog(@"no new issues");
 	}
 	else {
