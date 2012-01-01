@@ -16,6 +16,7 @@
 		28D3F202112F7DC200FD0661 /* The_Citizen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28D3F201112F7DC200FD0661 /* The_Citizen.xcdatamodeld */; };
 		EF10F24914770C9500C4FE8A /* NSDate+Conveniences.m in Sources */ = {isa = PBXBuildFile; fileRef = EF10F24814770C9500C4FE8A /* NSDate+Conveniences.m */; };
 		EF136ECE14541E1400A597EA /* DYServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF136ECD14541E1400A597EA /* DYServer.m */; };
+		EF18C41F14B0C4C3004C678C /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18C41E14B0C4C2004C678C /* Default-Portrait.png */; };
 		EF35FF7414795B3F00997473 /* The_CitizenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF35FF7314795B3F00997473 /* The_CitizenAppDelegate.m */; };
 		EF407223145D682F001035FA /* DYGroupedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF407222145D682F001035FA /* DYGroupedViewController.xib */; };
 		EF4216B314717C1400368693 /* DownloadDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4216B214717C1400368693 /* DownloadDelegate.m */; };
@@ -54,6 +55,7 @@
 		EF10F24814770C9500C4FE8A /* NSDate+Conveniences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Conveniences.m"; sourceTree = "<group>"; };
 		EF136ECC14541E1400A597EA /* DYServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYServer.h; path = ../DYServer.h; sourceTree = "<group>"; };
 		EF136ECD14541E1400A597EA /* DYServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYServer.m; path = ../DYServer.m; sourceTree = "<group>"; };
+		EF18C41E14B0C4C2004C678C /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
 		EF24EA1314539BA0000A3E80 /* DYGroupedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYGroupedViewController.h; path = ../DYGroupedViewController.h; sourceTree = "<group>"; };
 		EF24EA1414539BA0000A3E80 /* DYGroupedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYGroupedViewController.m; path = ../DYGroupedViewController.m; sourceTree = "<group>"; };
 		EF2BB7661379E40E00BF5188 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			children = (
 				EF74120413803AFF00B0EA7B /* iTunesArtwork.jpg */,
 				EFE4B5F1132C58D900FC1485 /* Default@2x.png */,
+				EF18C41E14B0C4C2004C678C /* Default-Portrait.png */,
 				EFE4B5EF132C571C00FC1485 /* Default.png */,
 				EFE4B5ED132C56EF00FC1485 /* crest_london_114.png */,
 				EF84B25C1326F39C00B1BFAC /* Icon.png */,
@@ -264,6 +267,7 @@
 				EF407223145D682F001035FA /* DYGroupedViewController.xib in Resources */,
 				EFA944BF1472F1000022BE8B /* ContentViewController.xib in Resources */,
 				EFDC54CB14ABAE4A00F82AC1 /* README.markdown in Resources */,
+				EF18C41F14B0C4C3004C678C /* Default-Portrait.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
