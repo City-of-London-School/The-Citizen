@@ -19,6 +19,7 @@
     NSArray *_allIssueDates;
     NSMutableDictionary *monthsForYears;
     NSMutableDictionary *downloading; // A cache of download progress so we don't cause the table to update constantly.
+    NSMutableDictionary *issuesForYears; // Cache of the results of -issuesForYear
 }
 
 - (id)initWithManagedObjectContext:(NSManagedObjectContext *)context;

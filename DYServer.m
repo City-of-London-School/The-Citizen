@@ -20,6 +20,7 @@ NSString *const clsb = @"http://www.clsb.org.uk/downloads/citizen/";
     delegates = [[NSMutableDictionary alloc] init];
     monthsForYears = [[NSMutableDictionary alloc] init];
     downloading = [[NSMutableDictionary alloc] init];
+    issuesForYears = [[NSMutableDictionary alloc] init];
     return self;
 }
 
@@ -170,6 +171,8 @@ NSString *const clsb = @"http://www.clsb.org.uk/downloads/citizen/";
         NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
         [nc postNotification:[NSNotification notificationWithName:@"DYServerIssuesUpdatedNotification" object:nil]];
     }
+    // Clear cache
+    issuesForYears = [[NSMutableDictionary alloc] init];
 }
 
 - (void)addIssue:(NSString *)filename exists:(BOOL)exists {
@@ -275,12 +278,17 @@ NSString *const clsb = @"http://www.clsb.org.uk/downloads/citizen/";
 
 # pragma TODO: Consider caching the result of this method
 - (NSArray *)issuesForYear:(int)year month:(int)month {
+    NSMutableArray *array = [issuesForYears objectForKey:[NSString stringWithFormat:@"%i-%i", year, month]];
+    if (array) {
+        return (NSArray *)array;
+    }
     NSMutableArray *arr = [[NSMutableArray alloc] init];
     for (Issue *issue in issues) {
         if (year == issue.date.year && month == issue.date.month) {
             [arr addObject:issue];
         }
     }
+    [issuesForYears setObject:arr forKey:[NSString stringWithFormat:@"%i-%i", year, month]];
     return (NSArray *)arr;
 }
 
