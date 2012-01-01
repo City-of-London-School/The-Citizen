@@ -18,6 +18,7 @@
     BOOL needsFileList;
     NSArray *_allIssueDates;
     NSMutableDictionary *monthsForYears;
+    NSMutableDictionary *downloading; // A cache of download progress so we don't cause the table to update constantly.
 }
 
 - (id)initWithManagedObjectContext:(NSManagedObjectContext *)context;

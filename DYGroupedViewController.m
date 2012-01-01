@@ -56,7 +56,7 @@
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)viewDidUnload
@@ -142,6 +142,11 @@
     else {
         cell.textLabel.textColor = [UIColor blackColor];
     }
+    for (NSMutableDictionary *dict in downloading) {
+        if ([issue.pdfPath isEqualToString:[(Issue *)[dict objectForKey:@"issue"] pdfPath]]) {
+            [(ProgressCell *)cell incrementProgressBarByAmount:[(NSNumber *)[dict objectForKey:@"progress"] floatValue]];
+        }
+    }
 }
 
 
@@ -158,7 +163,9 @@
     return NO;
 }
 
-
+- (void)tableView:(UITableView *)tableView didEndEditingRowAtIndexPath:(NSIndexPath *)indexPath {
+//    [tableView setEditing:NO];
+}
 
 // Override to support editing the table view.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
@@ -216,7 +223,7 @@
                 if (c.progressView.hidden) {
                     [c startProgressBar];
                     [self.server downloadIssue:issue sender:self];
-                    NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:issue, @"issue", c, @"cell", nil];
+                    NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithFloat:0.0f], @"progress", issue, @"issue", indexPath, @"index", nil];
                     [downloading addObject:dict];
                 }
                 break;
@@ -244,17 +251,12 @@
 - (void)download:(NSDictionary *)response progressed:(float)progress {
     NSDictionary *data = [response objectForKey:@"userData"];
     Issue *issue = [data objectForKey:@"issue"];
-    for (NSDictionary *dict in downloading) {
-        if ([[[dict objectForKey:@"issue"] date] isEqualToDate:issue.date]) {
-            if (progress == 1) {
-                [(ProgressCell *)[dict objectForKey:@"cell"] stopProgressBar];
-            }
-            else {
-                [(ProgressCell *)[dict objectForKey:@"cell"] incrementProgressBarByAmount:progress];
-            }
-            return;
+    for (NSMutableDictionary *dict in downloading) {
+        if ([issue.pdfPath isEqualToString:[(Issue *)[dict objectForKey:@"issue"] pdfPath]]) {
+            [dict setObject:[NSNumber numberWithFloat:progress] forKey:@"progress"];
         }
     }
+    [self.tableView reloadData];
 }
 
 #pragma mark Fetched Results Controller

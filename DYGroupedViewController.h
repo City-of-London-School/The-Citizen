@@ -17,7 +17,7 @@
 
 @interface DYGroupedViewController : UITableViewController <NSFetchedResultsControllerDelegate> {
     NSArray *_dates; // Cache of dictionaries for each issue date
-    NSMutableArray *downloading; // Table View cells that are downloading
+    NSMutableArray *downloading; // Progress of issues at index paths that are downloading
 }
 
 

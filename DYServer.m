@@ -19,6 +19,7 @@ NSString *const clsb = @"http://www.clsb.org.uk/downloads/citizen/";
     self = [super init];
     delegates = [[NSMutableDictionary alloc] init];
     monthsForYears = [[NSMutableDictionary alloc] init];
+    downloading = [[NSMutableDictionary alloc] init];
     return self;
 }
 
@@ -113,10 +114,25 @@ NSString *const clsb = @"http://www.clsb.org.uk/downloads/citizen/";
 
 - (void)download:(NSDictionary *)response progressed:(float)progress {
     NSDictionary *dict = [response objectForKey:@"userData"];
-    id sender = [dict objectForKey:@"sender"];
-    [sender download:response progressed:progress];
+    NSString *filename = [response objectForKey:@"filename"];
+    float rounded = lroundf(progress*500.0f)/500.0f;
+    if ([downloading objectForKey:filename]) {
+        if (progress == 1) {
+            [downloading removeObjectForKey:filename];
+        }
+        float oldProgress = [[downloading objectForKey:filename] floatValue];
+        if (rounded != oldProgress) {
+            [downloading setObject:[NSNumber numberWithFloat:rounded] forKey:filename];
+            id sender = [dict objectForKey:@"sender"];
+            [sender download:response progressed:progress];
+        }
+    }
+    else {
+        [downloading setObject:[NSNumber numberWithFloat:rounded] forKey:filename];
+    }
 }
 
+# warning Fix the always saying "new issues available" bug.
 - (void)updateFileList {
     NSArray * remoteFileList = [self remoteFileList];
 	NSArray * localFileList = [self localFileList];
@@ -257,7 +273,7 @@ NSString *const clsb = @"http://www.clsb.org.uk/downloads/citizen/";
     return [NSArray arrayWithObjects:@"January", @"February", @"March", @"April", @"May", @"June", @"July", @"August", @"September", @"October", @"November", @"December", nil];
 }
 
-# warning TODO: Consider caching the result of this method
+# pragma TODO: Consider caching the result of this method
 - (NSArray *)issuesForYear:(int)year month:(int)month {
     NSMutableArray *arr = [[NSMutableArray alloc] init];
     for (Issue *issue in issues) {

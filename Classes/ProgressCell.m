@@ -34,8 +34,15 @@
 }
 
 - (void)incrementProgressBarByAmount:(float)amount {
-    
-	[self.progressView setProgress:amount];
+    if (self.progressView.hidden) {
+        [self startProgressBar];
+    }
+    if (amount == 1) {
+        [self stopProgressBar];
+    }
+    else {
+        [self.progressView setProgress:amount];
+    }
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
