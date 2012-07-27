@@ -43,11 +43,11 @@
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
 	[receivedData appendData:data];
-    float dataLength = (float)[receivedData length];
-    float expectedLength = (float)[_response expectedContentLength];
-    float progress = dataLength/expectedLength;
-    NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:filename, @"filename", self.userData, @"userData", nil];
-    [self.delegate download:dict progressed:progress];
+//    float dataLength = (float)[receivedData length];
+//    float expectedLength = (float)[_response expectedContentLength];
+//    float progress = dataLength/expectedLength;
+//    NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:filename, @"filename", self.userData, @"userData", nil];
+//    [self.delegate download:dict progressed:progress];
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {

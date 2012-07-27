@@ -13,12 +13,11 @@
 		28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
-		28D3F202112F7DC200FD0661 /* The_Citizen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28D3F201112F7DC200FD0661 /* The_Citizen.xcdatamodeld */; };
+		4ACDAD8015C1BD6800C75933 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACDAD7F15C1BD6800C75933 /* ContentViewController.xib */; };
 		EF10F24914770C9500C4FE8A /* NSDate+Conveniences.m in Sources */ = {isa = PBXBuildFile; fileRef = EF10F24814770C9500C4FE8A /* NSDate+Conveniences.m */; };
 		EF136ECE14541E1400A597EA /* DYServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF136ECD14541E1400A597EA /* DYServer.m */; };
 		EF18C41F14B0C4C3004C678C /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = EF18C41E14B0C4C2004C678C /* Default-Portrait.png */; };
 		EF35FF7414795B3F00997473 /* The_CitizenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF35FF7314795B3F00997473 /* The_CitizenAppDelegate.m */; };
-		EF407223145D682F001035FA /* DYGroupedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF407222145D682F001035FA /* DYGroupedViewController.xib */; };
 		EF4216B314717C1400368693 /* DownloadDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4216B214717C1400368693 /* DownloadDelegate.m */; };
 		EF74120513803AFF00B0EA7B /* iTunesArtwork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF74120413803AFF00B0EA7B /* iTunesArtwork.jpg */; };
 		EF821F301326EB6C00F4BF85 /* ProgressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF821F2E1326EB6C00F4BF85 /* ProgressCell.m */; };
@@ -27,13 +26,7 @@
 		EFA790F21326E55A000177BA /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790ED1326E55A000177BA /* ContentViewController.m */; };
 		EFA790F31326E55A000177BA /* HMTiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790EF1326E55A000177BA /* HMTiledView.m */; };
 		EFA790F41326E55A000177BA /* HMViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790F11326E55A000177BA /* HMViewDelegate.m */; };
-		EFA790F61326E589000177BA /* ProgressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA790F51326E589000177BA /* ProgressCell.xib */; };
-		EFA791111326E64B000177BA /* Issue.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA791101326E64B000177BA /* Issue.m */; };
-		EFA791131326E669000177BA /* The_Citizen_old.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = EFA791121326E669000177BA /* The_Citizen_old.xcdatamodel */; };
-		EFA944BF1472F1000022BE8B /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA944BE1472F1000022BE8B /* ContentViewController.xib */; };
-		EFC65208146D996600DF417C /* DYGroupedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF24EA1414539BA0000A3E80 /* DYGroupedViewController.m */; };
-		EFC7502D13787BEB00CBF71B /* YearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7502B13787BEB00CBF71B /* YearViewController.m */; };
-		EFC7502E13787BEB00CBF71B /* YearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFC7502C13787BEB00CBF71B /* YearViewController.xib */; };
+		EFA944BF1472F1000022BE8B /* ContentViewController_.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA944BE1472F1000022BE8B /* ContentViewController_.xib */; };
 		EFDC54CB14ABAE4A00F82AC1 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = EFDC54CA14ABAE4A00F82AC1 /* README.markdown */; };
 		EFE4B5EE132C56EF00FC1485 /* crest_london_114.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE4B5ED132C56EF00FC1485 /* crest_london_114.png */; };
 		EFE4B5F0132C571C00FC1485 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE4B5EF132C571C00FC1485 /* Default.png */; };
@@ -50,24 +43,21 @@
 		28A0AAE50D9B0CCF005BE974 /* The_Citizen_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = The_Citizen_Prefix.pch; sourceTree = "<group>"; };
 		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4ACDAD7F15C1BD6800C75933 /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* The_Citizen-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "The_Citizen-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		EF10F24714770C9500C4FE8A /* NSDate+Conveniences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Conveniences.h"; sourceTree = "<group>"; };
 		EF10F24814770C9500C4FE8A /* NSDate+Conveniences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Conveniences.m"; sourceTree = "<group>"; };
 		EF136ECC14541E1400A597EA /* DYServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYServer.h; path = ../DYServer.h; sourceTree = "<group>"; };
 		EF136ECD14541E1400A597EA /* DYServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYServer.m; path = ../DYServer.m; sourceTree = "<group>"; };
 		EF18C41E14B0C4C2004C678C /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
-		EF24EA1314539BA0000A3E80 /* DYGroupedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYGroupedViewController.h; path = ../DYGroupedViewController.h; sourceTree = "<group>"; };
-		EF24EA1414539BA0000A3E80 /* DYGroupedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYGroupedViewController.m; path = ../DYGroupedViewController.m; sourceTree = "<group>"; };
 		EF2BB7661379E40E00BF5188 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
 		EF35FF7314795B3F00997473 /* The_CitizenAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = The_CitizenAppDelegate.m; sourceTree = "<group>"; };
-		EF407222145D682F001035FA /* DYGroupedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DYGroupedViewController.xib; sourceTree = "<group>"; };
 		EF4216B114717C1400368693 /* DownloadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadDelegate.h; path = ../DownloadDelegate.h; sourceTree = "<group>"; };
 		EF4216B214717C1400368693 /* DownloadDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadDelegate.m; path = ../DownloadDelegate.m; sourceTree = "<group>"; };
 		EF74120413803AFF00B0EA7B /* iTunesArtwork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iTunesArtwork.jpg; sourceTree = "<group>"; };
 		EF821F2D1326EB6C00F4BF85 /* ProgressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressCell.h; sourceTree = "<group>"; };
 		EF821F2E1326EB6C00F4BF85 /* ProgressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressCell.m; sourceTree = "<group>"; };
 		EF84B25C1326F39C00B1BFAC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		EF873E6B13773CC000217DF8 /* The_Citizen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = The_Citizen.xcdatamodel; sourceTree = "<group>"; };
 		EFA790DD1326E4CA000177BA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EFA790EC1326E55A000177BA /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
 		EFA790ED1326E55A000177BA /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
@@ -75,14 +65,7 @@
 		EFA790EF1326E55A000177BA /* HMTiledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTiledView.m; sourceTree = "<group>"; };
 		EFA790F01326E55A000177BA /* HMViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMViewDelegate.h; sourceTree = "<group>"; };
 		EFA790F11326E55A000177BA /* HMViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMViewDelegate.m; sourceTree = "<group>"; };
-		EFA790F51326E589000177BA /* ProgressCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgressCell.xib; sourceTree = "<group>"; };
-		EFA7910F1326E64B000177BA /* Issue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Issue.h; sourceTree = "<group>"; };
-		EFA791101326E64B000177BA /* Issue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Issue.m; sourceTree = "<group>"; };
-		EFA791121326E669000177BA /* The_Citizen_old.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = The_Citizen_old.xcdatamodel; sourceTree = "<group>"; };
-		EFA944BE1472F1000022BE8B /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ContentViewController.xib; path = Classes/ContentViewController.xib; sourceTree = "<group>"; };
-		EFC7502A13787BEB00CBF71B /* YearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YearViewController.h; sourceTree = "<group>"; };
-		EFC7502B13787BEB00CBF71B /* YearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YearViewController.m; sourceTree = "<group>"; };
-		EFC7502C13787BEB00CBF71B /* YearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YearViewController.xib; path = Classes/YearViewController.xib; sourceTree = "<group>"; };
+		EFA944BE1472F1000022BE8B /* ContentViewController_.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ContentViewController_.xib; path = Classes/ContentViewController_.xib; sourceTree = "<group>"; };
 		EFDC54CA14ABAE4A00F82AC1 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		EFE4B5ED132C56EF00FC1485 /* crest_london_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crest_london_114.png; sourceTree = "<group>"; };
 		EFE4B5EF132C571C00FC1485 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -111,10 +94,6 @@
 				EF821F2A1326EB6C00F4BF85 /* Subclasses */,
 				EF4216B114717C1400368693 /* DownloadDelegate.h */,
 				EF4216B214717C1400368693 /* DownloadDelegate.m */,
-				EF24EA1314539BA0000A3E80 /* DYGroupedViewController.h */,
-				EF24EA1414539BA0000A3E80 /* DYGroupedViewController.m */,
-				EFC7502A13787BEB00CBF71B /* YearViewController.h */,
-				EFC7502B13787BEB00CBF71B /* YearViewController.m */,
 				EF136ECC14541E1400A597EA /* DYServer.h */,
 				EF136ECD14541E1400A597EA /* DYServer.m */,
 				EFA790EC1326E55A000177BA /* ContentViewController.h */,
@@ -168,14 +147,11 @@
 				EFE4B5EF132C571C00FC1485 /* Default.png */,
 				EFE4B5ED132C56EF00FC1485 /* crest_london_114.png */,
 				EF84B25C1326F39C00B1BFAC /* Icon.png */,
-				28D3F201112F7DC200FD0661 /* The_Citizen.xcdatamodeld */,
-				EFA944BE1472F1000022BE8B /* ContentViewController.xib */,
-				EF407222145D682F001035FA /* DYGroupedViewController.xib */,
-				EFC7502C13787BEB00CBF71B /* YearViewController.xib */,
+				EFA944BE1472F1000022BE8B /* ContentViewController_.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
-				EFA790F51326E589000177BA /* ProgressCell.xib */,
 				8D1107310486CEB800E47090 /* The_Citizen-Info.plist */,
 				EF2BB7661379E40E00BF5188 /* notes.txt */,
+				4ACDAD7F15C1BD6800C75933 /* ContentViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -257,17 +233,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
-				EFA790F61326E589000177BA /* ProgressCell.xib in Resources */,
 				EF84B25D1326F39C00B1BFAC /* Icon.png in Resources */,
 				EFE4B5EE132C56EF00FC1485 /* crest_london_114.png in Resources */,
 				EFE4B5F0132C571C00FC1485 /* Default.png in Resources */,
 				EFE4B5F2132C58D900FC1485 /* Default@2x.png in Resources */,
-				EFC7502E13787BEB00CBF71B /* YearViewController.xib in Resources */,
 				EF74120513803AFF00B0EA7B /* iTunesArtwork.jpg in Resources */,
-				EF407223145D682F001035FA /* DYGroupedViewController.xib in Resources */,
-				EFA944BF1472F1000022BE8B /* ContentViewController.xib in Resources */,
+				EFA944BF1472F1000022BE8B /* ContentViewController_.xib in Resources */,
 				EFDC54CB14ABAE4A00F82AC1 /* README.markdown in Resources */,
 				EF18C41F14B0C4C3004C678C /* Default-Portrait.png in Resources */,
+				4ACDAD8015C1BD6800C75933 /* ContentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,16 +252,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC65208146D996600DF417C /* DYGroupedViewController.m in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				28D3F202112F7DC200FD0661 /* The_Citizen.xcdatamodeld in Sources */,
 				EFA790F21326E55A000177BA /* ContentViewController.m in Sources */,
 				EFA790F31326E55A000177BA /* HMTiledView.m in Sources */,
 				EFA790F41326E55A000177BA /* HMViewDelegate.m in Sources */,
-				EFA791111326E64B000177BA /* Issue.m in Sources */,
-				EFA791131326E669000177BA /* The_Citizen_old.xcdatamodel in Sources */,
 				EF821F301326EB6C00F4BF85 /* ProgressCell.m in Sources */,
-				EFC7502D13787BEB00CBF71B /* YearViewController.m in Sources */,
 				EF136ECE14541E1400A597EA /* DYServer.m in Sources */,
 				EF4216B314717C1400368693 /* DownloadDelegate.m in Sources */,
 				EF10F24914770C9500C4FE8A /* NSDate+Conveniences.m in Sources */,
@@ -402,22 +371,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		28D3F201112F7DC200FD0661 /* The_Citizen.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				EFA7910F1326E64B000177BA /* Issue.h */,
-				EFA791101326E64B000177BA /* Issue.m */,
-				EFA791121326E669000177BA /* The_Citizen_old.xcdatamodel */,
-				EF873E6B13773CC000217DF8 /* The_Citizen.xcdatamodel */,
-			);
-			currentVersion = EF873E6B13773CC000217DF8 /* The_Citizen.xcdatamodel */;
-			path = The_Citizen.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
 }

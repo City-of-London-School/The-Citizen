@@ -11,6 +11,8 @@
 @protocol DownloadDelegateDelegate <NSObject>
 
 - (void)downloadFinished:(NSDictionary *)response;
+
+@optional
 - (void)download:(NSDictionary *)response progressed:(float)progress;
 
 @end

@@ -7,54 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Issue.h"
 #import "DownloadDelegate.h"
 
 @interface DYServer : NSObject <DownloadDelegateDelegate> {
-    NSManagedObjectContext *managedObjectContext;
-    NSMutableArray *issues;
-    BOOL online;
     NSMutableDictionary *delegates;
-    BOOL needsFileList;
-    NSArray *_allIssueDates;
-    NSMutableDictionary *monthsForYears;
-    NSMutableDictionary *downloading; // A cache of download progress so we don't cause the table to update constantly.
-    NSMutableDictionary *issuesForYears; // Cache of the results of -issuesForYear
+    NSString *latestIssueFilename;
 }
 
-- (id)initWithManagedObjectContext:(NSManagedObjectContext *)context;
+@property(nonatomic, assign)BOOL online;
 
-- (Issue *)mostRecentIssue;
-- (NSArray *)issuesThatExistLocally;
+- (NSURL *)issue;
 - (void)dowloadFileList;
-//- (void)handleDownload;
-- (void)updateFileList;
-- (void)downloadIssue:(Issue *)issue;
-- (void)downloadIssue:(Issue *)issue sender:(id)sender;
-- (NSArray *)localFileList;
-- (NSArray *)remoteFileList;
-- (void)addIssue:(NSString *)filename exists:(BOOL)exists;
-- (void)populateIssuesArray;
-   
-// Delegate Methods
+- (void)downloadIssueWithFilename:(NSString *)filename;
 - (void)downloadFinished:(NSDictionary *)response;
-- (void)download:(NSDictionary *)response progressed:(float)progress;
-
-// TableView Data Source Methods
-- (NSArray *)yearsOfIssues;
-
-// GroupedViewController Methods
-- (NSArray *)allIssueDates;
-- (NSArray *)months;
-- (NSIndexPath *)indexPathForIssue:(Issue *)issue;
-- (NSArray *)issuesForYear:(int)year month:(int)month;
-- (NSArray *)monthsForYear:(int)year;
-
-// Connection Test
+//- (void)download:(NSDictionary *)response progressed:(float)progress;
+- (NSArray *)remoteFileList;
+- (void)updateIssue;
 - (void)testOnline;
-
-@property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
-@property (nonatomic, retain) id delegate;
-@property (assign) BOOL online;
 
 @end

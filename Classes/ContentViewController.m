@@ -35,38 +35,10 @@
     return UIInterfaceOrientationIsPortrait(toInterfaceOrientation);
 }
 
-- (void)viewDidLoad {
-    [self checkForPDF];
-}
-
-- (void)checkForPDF {
-    NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
-	if (self.pdf) {
-        [nc removeObserver:self name:@"DYServerIssueDownloadedNotification" object:nil];
-        [nc removeObserver:self name:@"DYServerIssuesUpdatedNotification" object:nil];
-        [self renderIssue];
-    }
-    else {
-        [[[UIApplication sharedApplication] delegate] performSelector:@selector(downloadMostRecentIssue)];
-        [nc addObserver:self selector:@selector(getIssuePDFPath) name:@"DYServerIssueDownloadedNotification" object:nil];
-        [nc addObserver:self selector:@selector(getIssuePDFPath) name:@"DYServerIssuesUpdatedNotification" object:nil];
-//        [nc addObserver:self selector:@selector(checkForPDF) name:@"DYServerIssuesUpdatedNotification" object:nil];
-    }
-}
-
-- (void)getIssuePDFPath {
-    NSURL * path = [[[UIApplication sharedApplication] delegate] performSelector:@selector(mostRecentIssuePDFPath)];
-    if (!path)
-        return;
-    CGPDFDocumentRef pdfRef = CGPDFDocumentCreateWithURL((__bridge CFURLRef)path);
-    self.pdf = pdfRef;
-    [self renderIssue];
-}
-
 - (void)renderIssue {
     CGRect deviceFrame = [[UIScreen mainScreen] bounds];
     int deviceWidth = deviceFrame.size.width;
-    int deviceHeight = deviceFrame.size.height -20; // Minus 20px for the status bar
+    int deviceHeight = deviceFrame.size.height; // Minus 20px for the status bar
     
     currentPage = 1;
 	int numberOfPages = CGPDFDocumentGetNumberOfPages(pdf);
@@ -77,17 +49,6 @@
     
     CGRect frame = self.view.frame;
 
-//    int tabBarHeight = self.tabBarController.tabBar.frame.size.height;
-//    frame.size.height -= tabBarHeight;
-    // The tab bar can't always be accessed, so here we just use the pixel height and hope it doesn't change between iOS versions...
-    int tabBarHeight = 49;
-    frame.size.height -= tabBarHeight;
-    if (self.navBar) {
-//        int navBarHeight = self.navigationController.navigationBar.frame.size.height;
-        // The nav bar can't be accessed either, so we'll use a known value for it instead.
-        int navBarHeight = 44;
-        frame.size.height -= navBarHeight;
-    }
     scrollView = [[UIScrollView alloc] initWithFrame:frame];
     scrollView.contentSize = CGSizeMake((frame.size.width+PADDING) * numberOfPages, frame.size.height);
 	scrollView.pagingEnabled = YES;
@@ -111,15 +72,6 @@
 		CGPDFPageRetain(aView.page);	
         [scrollView addSubview:aView];
 	}
-}
-
-- (void)viewDidAppear:(BOOL)animated {
-    // This is no longer necessary now that scrollView is a subclass of the ViewController's view
-    
-    // The DYScrollView subclass will ensure it has the correct width so we don't need to change it.
-//	CGRect frame = self.view.frame;
-//	frame.size.width += PADDING;
-//	self.view.frame = frame;
 }
 
 - (void)didReceiveMemoryWarning {
