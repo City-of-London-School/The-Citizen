@@ -26,7 +26,6 @@
 		EFA790F21326E55A000177BA /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790ED1326E55A000177BA /* ContentViewController.m */; };
 		EFA790F31326E55A000177BA /* HMTiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790EF1326E55A000177BA /* HMTiledView.m */; };
 		EFA790F41326E55A000177BA /* HMViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790F11326E55A000177BA /* HMViewDelegate.m */; };
-		EFA944BF1472F1000022BE8B /* ContentViewController_.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA944BE1472F1000022BE8B /* ContentViewController_.xib */; };
 		EFDC54CB14ABAE4A00F82AC1 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = EFDC54CA14ABAE4A00F82AC1 /* README.markdown */; };
 		EFE4B5EE132C56EF00FC1485 /* crest_london_114.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE4B5ED132C56EF00FC1485 /* crest_london_114.png */; };
 		EFE4B5F0132C571C00FC1485 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE4B5EF132C571C00FC1485 /* Default.png */; };
@@ -65,7 +64,6 @@
 		EFA790EF1326E55A000177BA /* HMTiledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTiledView.m; sourceTree = "<group>"; };
 		EFA790F01326E55A000177BA /* HMViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMViewDelegate.h; sourceTree = "<group>"; };
 		EFA790F11326E55A000177BA /* HMViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMViewDelegate.m; sourceTree = "<group>"; };
-		EFA944BE1472F1000022BE8B /* ContentViewController_.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ContentViewController_.xib; path = Classes/ContentViewController_.xib; sourceTree = "<group>"; };
 		EFDC54CA14ABAE4A00F82AC1 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		EFE4B5ED132C56EF00FC1485 /* crest_london_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crest_london_114.png; sourceTree = "<group>"; };
 		EFE4B5EF132C571C00FC1485 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -147,7 +145,6 @@
 				EFE4B5EF132C571C00FC1485 /* Default.png */,
 				EFE4B5ED132C56EF00FC1485 /* crest_london_114.png */,
 				EF84B25C1326F39C00B1BFAC /* Icon.png */,
-				EFA944BE1472F1000022BE8B /* ContentViewController_.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* The_Citizen-Info.plist */,
 				EF2BB7661379E40E00BF5188 /* notes.txt */,
@@ -238,7 +235,6 @@
 				EFE4B5F0132C571C00FC1485 /* Default.png in Resources */,
 				EFE4B5F2132C58D900FC1485 /* Default@2x.png in Resources */,
 				EF74120513803AFF00B0EA7B /* iTunesArtwork.jpg in Resources */,
-				EFA944BF1472F1000022BE8B /* ContentViewController_.xib in Resources */,
 				EFDC54CB14ABAE4A00F82AC1 /* README.markdown in Resources */,
 				EF18C41F14B0C4C3004C678C /* Default-Portrait.png in Resources */,
 				4ACDAD8015C1BD6800C75933 /* ContentViewController.xib in Resources */,
