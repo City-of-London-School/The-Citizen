@@ -140,7 +140,7 @@ NSString *const clsb = @"file:///Users/harry/Desktop/";
 
 - (void)testOnline {
 //    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com"]];
-    NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com"] cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:5];
+    NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com"] cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:5];
     NSURLResponse *response;
     NSError *error = nil;
     [NSURLConnection sendSynchronousRequest:req returningResponse:&response error:&error];
