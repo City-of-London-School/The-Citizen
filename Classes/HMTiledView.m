@@ -33,7 +33,7 @@
 	int h = (int)self.bounds.size.height;
 	subLayer.tileSize = CGSizeMake(w*2, h*2);
 	subLayer.levelsOfDetail = 3;
-	subLayer.levelsOfDetailBias = 3;
+	subLayer.levelsOfDetailBias = 1;
 	int width = self.bounds.size.width;
 	int height = self.bounds.size.height;
 	subLayer.frame = CGRectMake(0, 0, width, height);
