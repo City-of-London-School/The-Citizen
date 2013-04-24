@@ -20,9 +20,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-    
-
-    currentIssueViewController = [[ContentViewController alloc] initWithNibName:@"ContentViewController" bundle:nil];
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        currentIssueViewController = [[ContentViewController alloc] initWithNibName:@"ContentViewController" bundle:nil];
+    }
+    else {
+        currentIssueViewController = [[ContentViewController alloc] initWithNibName:@"ContentViewController-iPhone" bundle:nil];
+    }
     NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
     [nc addObserver:self selector:@selector(setIssue) name:@"DYServerIssueDownloadedNotification" object:nil];
     server = [[DYServer alloc] init];
