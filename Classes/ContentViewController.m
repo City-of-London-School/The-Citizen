@@ -38,7 +38,7 @@
 - (void)renderIssue {
     CGRect deviceFrame = [[UIScreen mainScreen] bounds];
     int deviceWidth = deviceFrame.size.width;
-    int deviceHeight = deviceFrame.size.height; // Minus 20px for the status bar
+    int deviceHeight = deviceFrame.size.height +20; // Minus 20px for the status bar
     
     currentPage = 1;
 	int numberOfPages = CGPDFDocumentGetNumberOfPages(pdf);
@@ -67,7 +67,7 @@
 	
 	for (int i = 0; i < numberOfPages; i++) {
 		int width = frame.size.width;
-		HMTiledView * aView = [[HMTiledView alloc] initWithFrame:CGRectMake(i*(width+PADDING), 0.0, deviceWidth, frame.size.height)];
+		HMTiledView * aView = [[HMTiledView alloc] initWithFrame:CGRectMake(i*(width+PADDING), 0.0, frame.size.width, frame.size.height)];
 		aView.page = CGPDFDocumentGetPage(pdf, i+1);
 		CGPDFPageRetain(aView.page);	
         [scrollView addSubview:aView];
