@@ -14,6 +14,8 @@
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		4AB53AA317281431000EC2F9 /* ContentViewController-iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB53AA217281431000EC2F9 /* ContentViewController-iPhone.xib */; };
+		4AB53AA51728187B000EC2F9 /* Icon_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AB53AA41728187B000EC2F9 /* Icon_iPhone.png */; };
+		4AB53AA717281975000EC2F9 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AB53AA617281975000EC2F9 /* Default-Portrait@2x~ipad.png */; };
 		4ABC62A81727054F00D66F87 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC62A71727054F00D66F87 /* Default-568h@2x.png */; };
 		4ACDAD8015C1BD6800C75933 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACDAD7F15C1BD6800C75933 /* ContentViewController.xib */; };
 		EF10F24914770C9500C4FE8A /* NSDate+Conveniences.m in Sources */ = {isa = PBXBuildFile; fileRef = EF10F24814770C9500C4FE8A /* NSDate+Conveniences.m */; };
@@ -30,8 +32,6 @@
 		EFA790F41326E55A000177BA /* HMViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA790F11326E55A000177BA /* HMViewDelegate.m */; };
 		EFDC54CB14ABAE4A00F82AC1 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = EFDC54CA14ABAE4A00F82AC1 /* README.markdown */; };
 		EFE4B5EE132C56EF00FC1485 /* crest_london_114.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE4B5ED132C56EF00FC1485 /* crest_london_114.png */; };
-		EFE4B5F0132C571C00FC1485 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE4B5EF132C571C00FC1485 /* Default.png */; };
-		EFE4B5F2132C58D900FC1485 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE4B5F1132C58D900FC1485 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +45,8 @@
 		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4AB53AA217281431000EC2F9 /* ContentViewController-iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ContentViewController-iPhone.xib"; sourceTree = "<group>"; };
+		4AB53AA41728187B000EC2F9 /* Icon_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_iPhone.png; sourceTree = "<group>"; };
+		4AB53AA617281975000EC2F9 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 		4ABC62A71727054F00D66F87 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4ACDAD7F15C1BD6800C75933 /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* The_Citizen-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "The_Citizen-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				4AB53AA617281975000EC2F9 /* Default-Portrait@2x~ipad.png */,
 				EFDC54CA14ABAE4A00F82AC1 /* README.markdown */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -143,6 +146,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4AB53AA41728187B000EC2F9 /* Icon_iPhone.png */,
 				4ABC62A71727054F00D66F87 /* Default-568h@2x.png */,
 				EF74120413803AFF00B0EA7B /* iTunesArtwork.jpg */,
 				EFE4B5F1132C58D900FC1485 /* Default@2x.png */,
@@ -238,14 +242,14 @@
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				EF84B25D1326F39C00B1BFAC /* Icon.png in Resources */,
 				EFE4B5EE132C56EF00FC1485 /* crest_london_114.png in Resources */,
-				EFE4B5F0132C571C00FC1485 /* Default.png in Resources */,
-				EFE4B5F2132C58D900FC1485 /* Default@2x.png in Resources */,
 				EF74120513803AFF00B0EA7B /* iTunesArtwork.jpg in Resources */,
 				EFDC54CB14ABAE4A00F82AC1 /* README.markdown in Resources */,
 				EF18C41F14B0C4C3004C678C /* Default-Portrait.png in Resources */,
 				4ACDAD8015C1BD6800C75933 /* ContentViewController.xib in Resources */,
 				4ABC62A81727054F00D66F87 /* Default-568h@2x.png in Resources */,
 				4AB53AA317281431000EC2F9 /* ContentViewController-iPhone.xib in Resources */,
+				4AB53AA51728187B000EC2F9 /* Icon_iPhone.png in Resources */,
+				4AB53AA717281975000EC2F9 /* Default-Portrait@2x~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,8 +305,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Harry Maclean";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Harry Maclean";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Harry Maclean (DY4D7A6K73)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harry Maclean (DY4D7A6K73)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = The_Citizen_Prefix.pch;
@@ -310,8 +314,8 @@
 				INFOPLIST_FILE = "The_Citizen-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "The Citizen";
-				PROVISIONING_PROFILE = "A8B51769-935A-4D20-AF1F-B7F88CE97C22";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A8B51769-935A-4D20-AF1F-B7F88CE97C22";
+				PROVISIONING_PROFILE = "19AFC5C2-F47C-4A65-80E7-61EB8EAAB019";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "19AFC5C2-F47C-4A65-80E7-61EB8EAAB019";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

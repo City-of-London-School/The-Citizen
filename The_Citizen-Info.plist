@@ -14,7 +14,20 @@
 	<array>
 		<string>Icon.png</string>
 		<string>crest_london_114.png</string>
+		<string>Icon_iPhone.png</string>
 	</array>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>Icon.png</string>
+				<string>crest_london_114.png</string>
+				<string>Icon_iPhone.png</string>
+			</array>
+		</dict>
+	</dict>
 	<key>CFBundleIdentifier</key>
 	<string>com.dysania.thecitizen</string>
 	<key>CFBundleInfoDictionaryVersion</key>
