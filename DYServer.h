@@ -12,6 +12,8 @@
 @interface DYServer : NSObject <DownloadDelegateDelegate> {
     NSMutableDictionary *delegates;
     NSString *latestIssueFilename;
+    NSURL *docdir;
+    NSNotificationCenter *nc;
 }
 
 @property(nonatomic, assign)BOOL online;
@@ -24,5 +26,6 @@
 - (NSArray *)remoteFileList;
 - (void)updateIssue;
 - (void)testOnline;
+- (NSMutableArray *)parseFileList:(NSString *)fileList;
 
 @end
