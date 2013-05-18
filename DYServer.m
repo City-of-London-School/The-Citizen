@@ -126,7 +126,7 @@ NSString *const clsb = @"http://cityoflondonboys.fluencycms.co.uk/Mainfolder/New
 //        [self dowloadFileList];
         return;
     }
-    NSDictionary *issuedict = [files objectAtIndex:0];
+    NSDictionary *issuedict = [files lastObject];
     NSString *issue = [issuedict objectForKey:@"filename"];
     
     NSURL * path = [docdir URLByAppendingPathComponent:issue];
@@ -139,7 +139,7 @@ NSString *const clsb = @"http://cityoflondonboys.fluencycms.co.uk/Mainfolder/New
     [self downloadIssueWithFilename:issue];
 }
 
-#pragma Test Internet Connection
+#pragma mark Test Internet Connection
 
 - (void)testOnline {
     NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com"]
