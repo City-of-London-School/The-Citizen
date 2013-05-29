@@ -126,7 +126,7 @@ NSString *const clsb = @"http://cityoflondonboys.fluencycms.co.uk/Mainfolder/New
 //        [self dowloadFileList];
         return;
     }
-    NSDictionary *issuedict = [files lastObject];
+    NSDictionary *issuedict = [files objectAtIndex:0];
     NSString *issue = [issuedict objectForKey:@"filename"];
     
     NSURL * path = [docdir URLByAppendingPathComponent:issue];
