@@ -93,7 +93,7 @@ NSString *const clsb = @"http://cityoflondonboys.fluencycms.co.uk/Mainfolder/New
 //    Create regexes
     NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"<br>([^>]*?)<A HREF=\"(.*?)\">(.*?)</A>" options:nil error:&err];
     if (err) NSLog(@"%@", [err description]);
-    NSRegularExpression *dateregex = [NSRegularExpression regularExpressionWithPattern:@"\\A\\s([\\S]*?)\\s" options:nil error:&err];
+    NSRegularExpression *dateregex = [NSRegularExpression regularExpressionWithPattern:@"\\A\\s*([\\S])*\\s" options:NSRegularExpressionAllowCommentsAndWhitespace error:&err];
     if (err) NSLog(@"%@", [err description]);
 //    Iterate through matches
     NSArray *matches = [regex matchesInString:fileList options:nil range:NSMakeRange(0, [fileList length])];
