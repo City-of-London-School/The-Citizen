@@ -107,6 +107,12 @@ NSString *const clsb = @"http://cityoflondonboys.fluencycms.co.uk/Mainfolder/New
         NSTextCheckingResult *datematch = [dateregex firstMatchInString:metadata options:nil range:NSMakeRange(0, [metadata length])];
         NSString *datestring = [metadata substringWithRange:[datematch range]];
         NSDate *date = [NSDate dateFromString:datestring withFormat:@" MM/dd/yyyy"];
+        if (!date) {
+            date = [NSDate dateFromString:datestring withFormat:@"MM/dd/yyyy"];
+        }
+        if (!date) {
+            NSLog(@"Failed to create date object for string %@", datestring);
+        }
 //        Store in dict
         NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:filename, @"filename", date, @"date", nil];
         [files addObject:dict];

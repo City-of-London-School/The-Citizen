@@ -212,7 +212,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0510;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "The Citizen" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -289,7 +289,7 @@
 				GCC_PREFIX_HEADER = The_Citizen_Prefix.pch;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "The_Citizen-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "The Citizen";
 				PROVISIONING_PROFILE = "19AFC5C2-F47C-4A65-80E7-61EB8EAAB019";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "19AFC5C2-F47C-4A65-80E7-61EB8EAAB019";
@@ -311,7 +311,7 @@
 				GCC_PREFIX_HEADER = The_Citizen_Prefix.pch;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "The_Citizen-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "The Citizen";
 				PROVISIONING_PROFILE = "19AFC5C2-F47C-4A65-80E7-61EB8EAAB019";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "19AFC5C2-F47C-4A65-80E7-61EB8EAAB019";
@@ -325,7 +325,6 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
@@ -333,6 +332,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -342,7 +342,6 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Harry Maclean";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Harry Maclean";
 				GCC_C_LANGUAGE_STANDARD = c99;

@@ -21,15 +21,15 @@
 }
 
 - (int)year {
-    return [[[self currentCalendar] components:NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit fromDate:self] year];
+    return (int)[[[self currentCalendar] components:NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit fromDate:self] year];
 }
 
 - (int)month {
-    return [[[self currentCalendar] components:NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit fromDate:self] month];
+    return (int)[[[self currentCalendar] components:NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit fromDate:self] month];
 }
 
 - (int)day {
-    return [[[self currentCalendar] components:NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit fromDate:self] day];
+    return (int)[[[self currentCalendar] components:NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit fromDate:self] day];
 }
 
 - (NSString *)stringValueWithFormat:(NSString *)format {

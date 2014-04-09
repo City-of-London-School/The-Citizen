@@ -41,7 +41,7 @@
     int deviceHeight = deviceFrame.size.height +20; // Minus 20px for the status bar
     
     currentPage = 1;
-	int numberOfPages = CGPDFDocumentGetNumberOfPages(pdf);
+	int numberOfPages = (int)CGPDFDocumentGetNumberOfPages(pdf);
     
     // This is to reset the view frame because it tends to get changed by something when switching from one Issue to another
     CGRect a = CGRectMake(0, 0, deviceWidth, deviceHeight);
